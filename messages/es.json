@@ -3,6 +3,17 @@
       "title": "Titulo en Español, seccion a modificar"
     },
 
+    "Navbar":{
+      "Home": "Inicio",      
+      "About": "Quienes somos",
+      "Partners": "Socios",
+      "News": "Noticias",
+      "Calendar": "Calendario",
+      "Services": "Servicios",
+      "Reports": "Informes"
+    },
+
+
     "SponsorSection":{
       "title": "Seccion de Sponsors",
       "description": "Confian en nosotros los equipos mas importantes de la region"
