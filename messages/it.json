@@ -3,6 +3,16 @@
       "title": "Titolo in italiano, sezione da modificare"
     },
 
+    "Navbar":{
+      "Home": "Inizio",
+      "About": "Chi siamo",
+      "Partners": "Partner",
+      "News": "Notizia",
+      "Calendar": "Calendario",
+      "Services": "Servizi",
+      "Reports": "Informazioni"
+    },
+
     "SponsorSection":{
       "title": "Sezione sponsor",
       "description": "Le squadre più importanti della regione si affidano a noi"
