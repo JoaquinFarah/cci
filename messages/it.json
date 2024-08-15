@@ -1,5 +1,23 @@
 {
     "HomePage": {
-      "title": "Titulini en Italiani, seccione modificare"
+      "title": "Titolo in italiano, sezione da modificare"
+    },
+
+    "SponsorSection":{
+      "title": "Sezione sponsor",
+      "description": "Le squadre più importanti della regione si affidano a noi"
+
+    },
+
+    "HeroSection":{
+
+    },
+
+    "CarouselSection":{
+
+    },
+
+    "NewsSection":{
+      
     }
   }
