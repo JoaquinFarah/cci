@@ -151,7 +151,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Línea roja debajo del navbar */}
-      <div className="h-1 bg-red-500"></div>
+      <div className="h-2 bg-gradient-to-r from-green-500 via-white to-red-500"></div>
     </nav>
   );
 };
