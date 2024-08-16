@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {unstable_setRequestLocale} from 'next-intl/server'; 
 import Navbar from '../components/Navbar';
+import SwipeableTextMobileStepper from '../components/sections/Carousel';
 
 
 const locales = ['es', 'it'];
@@ -25,6 +26,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
+          
           {children}
         </NextIntlClientProvider>
       </body>
