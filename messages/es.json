@@ -1,6 +1,6 @@
 {
     "HomePage": {
-      "title": "Titulo en Español, seccion a modificar"
+      "title": "Titulo INDEX en Español, seccion a modificar. Se pueden agregar textos o imagenes que encajan antes del carrousel"
     },
 
     "Navbar":{
@@ -25,10 +25,16 @@
     },
 
     "CarouselSection":{
+      "title": "Titulo Carousel en Español. Seccion a modificar"
 
     },
 
     "NewsSection":{
+      
+    },
+
+    "AboutPage":{
+     "title": "Pagina Quienes somos" 
       
     }
 

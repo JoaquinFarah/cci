@@ -1,69 +1,11 @@
 "use client"
 
-
-// import React from 'react';
-// import Link from 'next/link'; 
-// import Image from 'next/image'; 
-
-// const Navbar: React.FC = () => {
-//   return (
-//     <nav className="bg-white shadow-md">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//         <div className="flex justify-between items-center h-16">          
-          
-//           <div className="flex items-center">
-//             <Link href="/">
-//               <Image                    
-//                 src="/LogoCCI.jpg"
-//                 alt="CCI"
-//                 width={100}
-//                 height={100}
-//                 className="object-contain max-h-16"
-//                 priority
-//               />
-//             </Link>
-//           </div>
-          
-//           {/* Enlaces de navegación a la derecha */}
-//           <div className="flex space-x-4">
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               Calendario
-//             </Link>
-
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               Noticias
-//             </Link>
-
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               Quienes somos
-//             </Link>
-
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               Socios
-//             </Link>
-
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               LogIn
-//             </Link>
-
-//             <Link href="/" className="no-underline underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400">
-//               LogOut
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-      
-//       <div className="h-1 bg-red-500"></div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import LocalSwitcher from './local-switcher';
+import { useTranslations } from 'next-intl';
 
 const Navbar: React.FC = () => {
   // Estado para controlar la visibilidad del dropdown
@@ -73,6 +15,8 @@ const Navbar: React.FC = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+
+  const t = useTranslations('Navbar');
 
   return (
     <nav className="bg-white shadow-md">
@@ -95,24 +39,24 @@ const Navbar: React.FC = () => {
           
           {/* Enlaces de navegación a la derecha */}
           <div className="flex items-center space-x-4">
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-              Quienes Somos
+            <Link href="/about" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
+            {t('About')}
             </Link>
 
             <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-              Calendario
+            {t('Partners')}
             </Link>
 
             <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-              Noticias
+            {t('News')}
             </Link>
 
             <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-              Socios
+            {t('Calendar')}
             </Link>
 
             <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-              Servicios
+            {t('Services')}
             </Link>
 
             <Link href="/login" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
@@ -122,36 +66,35 @@ const Navbar: React.FC = () => {
             
             {/* Dropdown de idioma */}
             <div className="relative">
-              <button onClick={toggleDropdown} className="flex items-center space-x-2 focus:outline-none">
+              <div  className="flex items-center space-x-2 focus:outline-none">
                 <Image
                   src="/language-icon.png" // Aquí deberías poner la ruta de la imagen que representa el cambio de idioma
                   alt="Change Language"
                   width={24}
                   height={24}
                 />
-                <span className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
-                  
-                </span>
-              </button>
+                <LocalSwitcher/>
+                
+              </div>
               
               {/* Opciones del Dropdown */}
-              {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-40 bg-white shadow-lg rounded-md overflow-hidden">
-                  <Link href="/" locale="es" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+              {/* {dropdownOpen && (
+                <div className="absolute right-0 mt-0 w-40 bg-white shadow-xl rounded-md overflow-hidden">
+                  <Link href="/" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
                     Español
                   </Link>
-                  <Link href="/" locale="en" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                  <Link href="/" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
                     Italiano
                   </Link>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
       </div>
 
       {/* Línea roja debajo del navbar */}
-      <div className="h-2 bg-gradient-to-r from-green-500 via-white to-red-500"></div>
+      <div className="h-2 bg-gradient-to-r from-green-800 via-white to-red-800"></div>
     </nav>
   );
 };

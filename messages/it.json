@@ -1,6 +1,6 @@
 {
     "HomePage": {
-      "title": "Titolo in italiano, sezione da modificare"
+      "title": "Titolo in italiano, sezione da modificare.  Se pueden agregar textos o imagenes que encajan antes del carrousel"
     },
 
     "Navbar":{
@@ -24,10 +24,16 @@
     },
 
     "CarouselSection":{
+      "title":"Titolo carousel in italiano, sezione da modificare"
 
     },
 
     "NewsSection":{
+      
+    },
+
+    "AboutPage":{
+     "title": "Quienes sonnes nostro" 
       
     }
   }
