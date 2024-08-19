@@ -1,7 +1,11 @@
 import {useTranslations} from 'next-intl';
 import Sponsor from '../components/sections/Sponsor';
 import MyCarousel from '../components/sections/Carousel';
- 
+
+
+
+
+
 export default function HomePage() {
   const t = useTranslations('HomePage');
   return (
