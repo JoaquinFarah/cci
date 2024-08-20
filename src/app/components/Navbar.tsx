@@ -177,24 +177,10 @@ const Navbar: React.FC = () => {
                 />
                 <LocalSwitcher />
               </div>
-
-              {/* Opciones del Dropdown */}
-              {/* {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-40 bg-white shadow-xl rounded-md overflow-hidden">
-                  <Link href="/" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                    Español
-                  </Link>
-                  <Link href="/" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                    Italiano
-                  </Link>
-                </div>
-              )} */}
             </div>
           </div>
         </div>
       </div>
-
-      {/* Línea roja debajo del navbar */}
       <div className="h-2 bg-gradient-to-r from-green-800 via-white to-red-800"></div>
     </nav>
   );
