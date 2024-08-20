@@ -30,11 +30,11 @@
 
     "NewsSection":{
       "title": "Notizias",
-      "news1": "Notizia 1",
+      "name1": "Notizia 1",
       "description1": "Breve dezcrpzione notizia 1",
-      "news2": "Notizia 2",
+      "name2": "Notizia 2",
       "description2": "Breve dezcrpzione notizia 2",
-      "news3": "Notizia 3", 
+      "name3": "Notizia 3", 
       "description3": "Breve dezcrpzione notizia 3"
       
     },
