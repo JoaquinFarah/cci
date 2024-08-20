@@ -1,6 +1,5 @@
 import {useTranslations} from 'next-intl';
 import Sponsor from '../components/sections/Sponsor';
-import MyCarousel from '../components/sections/Carousel';
 import {unstable_setRequestLocale} from 'next-intl/server';
 import Carousel from '../components/sections/Carousel';
 
