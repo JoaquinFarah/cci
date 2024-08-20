@@ -72,15 +72,15 @@ const Carousel = () => {
 
   return (    
     <section className="">
-      <h1>{t('title')} </h1>
-      <div className="h-auto w-full mt-11 relative">     
+      
+      <div className="h-auto w-full relative">     
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index} className="h-auto">
+          <SwiperSlide key={index} className="h-auto mt-2">
             <Image
               src={image.src}
               alt={image.alt}

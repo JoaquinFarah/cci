@@ -34,7 +34,14 @@
     },
 
     "AboutPage":{
-     "title": "Pagina Quienes somos" 
+     "title": "Pagina Quienes somos" ,
+     "description": "Como parte integral de la Cámara de Comercio Italiana, me complace presentarnos como su puente hacia el próspero mundo empresarial italiano. Nuestra institución se dedica a fortalecer los lazos comerciales y culturales entre Italia y Argentina, ofreciendo una plataforma sólida para empresas de ambos lados del Atlántico.",
+     "description1": "Somos más que una simple cámara de comercio. Somos un ecosistema empresarial dinámico que brinda una amplia gama de servicios diseñados para impulsar su éxito. Ofrecemos asesoramiento empresarial personalizado, ayudando a las empresas a navegar por las complejidades del mercado italiano y a identificar oportunidades de negocio únicas. Organizamos ferias comerciales, seminarios especializados y misiones comerciales que conectan a empresarios de diversos sectores, fomentando la creación de redes de contactos valiosas y colaborativas.",
+     "description2":"Nuestra pasión por la excelencia del 'Made in Italy' nos impulsa a promover los productos y servicios italianos de alta calidad en Argentina, ayudando a las empresas italianas a consolidar su presencia en este mercado. Además, representamos los intereses de la comunidad empresarial italo-argenta ante las instituciones gubernamentales, trabajando incansablemente para crear un entorno empresarial favorable.",
+     "description3":"Creemos firmemente en el poder de la educación y la formación continua. Por ello, ofrecemos una amplia variedad de cursos y talleres diseñados para mejorar la competitividad de las empresas y fomentar la innovación. Desde estrategias de marketing digital hasta gestión de la cadena de suministro, nuestros programas de capacitación están diseñados para equipar a los empresarios con las herramientas necesarias para triunfar en el mercado global.",
+     "description4":"Si eres una empresa italiana que busca expandir sus horizontes o una empresa local que desea establecer relaciones comerciales con Italia, te invitamos a unirte a nuestra comunidad. Nuestra puerta está siempre abierta para ayudarte a alcanzar tus objetivos.",
+     "description5":"Visita nuestra seccion de noticias para conocer más sobre nuestros servicios y eventos. También puedes contactarnos directamente a ccimendoza@gmail.com para recibir asesoramiento personalizado.",
+     "description6":"¡Te esperamos!"
       
     }
 

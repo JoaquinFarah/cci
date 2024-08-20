@@ -12,11 +12,11 @@ export default function HomePage({params: {locale}}) {
   return (
     <main className="bg-gradient-to-r from-green-500 via-white to-red-500">
       
-      <h1>{t('title')}</h1>
-      {/* <MyCarousel /> */}
-      <Carousel />
-      <Sponsor />
+      <div className="">
       
+        <Carousel />
+        <Sponsor />
+      </div>
     </main>
     
 
