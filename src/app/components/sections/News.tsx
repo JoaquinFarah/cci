@@ -18,7 +18,7 @@ const callouts = [
       description: 'Work from home accessories',
       imageSrc: 'https://about.fb.com/wp-content/uploads/2024/02/Facebook-News-Update_US_AU_Header.jpg?w=1920',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '/',
+      href: '/es/news',
     },
     {
       name: 'Self-Improvement',
@@ -36,7 +36,7 @@ const callouts = [
     },
   ]
   
-  export default function Example() {
+  export default function NewsSection() {
     return (
       <div className="bg-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

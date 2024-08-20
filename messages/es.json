@@ -30,6 +30,13 @@
     },
 
     "NewsSection":{
+      "title": "Noticias",
+      "news1": "Titulo de la primera noticia",
+      "description1": "Esta es una breve descripcion de la 1ra noticia",
+      "news2": "Titulo de la segunda noticia",
+      "description2": "Esta es una breve descripcion de la 2da noticia",
+      "news3": "Titulo de la tercera noticia",
+      "description3": "Esta es una breve descripcion de la 3ra noticia"
       
     },
 

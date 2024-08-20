@@ -2,6 +2,7 @@ import {useTranslations} from 'next-intl';
 import Sponsor from '../components/sections/Sponsor';
 import {unstable_setRequestLocale} from 'next-intl/server';
 import Carousel from '../components/sections/Carousel';
+import NewsSection from '../components/sections/News';
 
 
 
@@ -14,6 +15,7 @@ export default function HomePage({params: {locale}}) {
       <div className="">
       
         <Carousel />
+        <NewsSection/>
         <Sponsor />
       </div>
     </main>
