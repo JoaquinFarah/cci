@@ -30,14 +30,30 @@
     },
 
     "NewsSection":{
-      "title": "Noticias",
-      "name1": "Titulo de la primera noticia",
-      "description1": "Esta es una breve descripcion de la 1ra noticia",
-      "name2": "Titulo de la segunda noticia",
-      "description2": "Esta es una breve descripcion de la 2da noticia",
-      "name3": "Titulo de la tercera noticia",
-      "description3": "Esta es una breve descripcion de la 3ra noticia"
+      "header": "Noticias",
+      "header1": "Mantengase al dia con lo mas importante",
       
+      "date1": "20/08/2024",
+      "title1": "Como mejorar las ventas con la propuesta ideal de Marketing",
+      "description1": "Esta es una breve descripcion de la 1ra noticia en la que se habla de Marketing y como aplicarlo a pequeñas empresas",
+      "author1": "Juan Perez",
+      "media1": "ej: Diario UNO",
+      "category1": "categoria ej: Marketing",
+      
+      "date2": "Fecha de la noticia 2",
+      "title2": "Ministro de economia se pronuncia sobre el dolar",
+      "description2": "Esta es una breve descripcion de la 2da noticia en la que el Ministro de Economia habla sobre la libreacion de la restriccion a la compra de dolares ",
+      "author2": "Autor de la noticia 2",
+      "media2": "Origen de la noticia 2",
+      "category2": "categoria ej: Economia",
+
+      "date3": "Fecha de la noticia 3",
+      "title3": "El Futuro de los empleados de comercio",
+      "description3": "Esta es una breve descripcion de la 3ra noticia en la que el jefe de gabinete en Mendoza hablo sobre el futuro del centro de empleados de comercio",
+      "author3": "Autor de la noticia 3",
+      "media3": "Origen de la noticia 3",
+      "category3": "Categoria ej: Comercio"
+
     },
 
     "AboutPage":{
