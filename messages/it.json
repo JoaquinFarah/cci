@@ -29,14 +29,31 @@
     },
 
     "NewsSection":{
-      "title": "Notizias",
-      "name1": "Notizia 1",
-      "description1": "Breve dezcrpzione notizia 1",
-      "name2": "Notizia 2",
-      "description2": "Breve dezcrpzione notizia 2",
-      "name3": "Notizia 3", 
-      "description3": "Breve dezcrpzione notizia 3"
+      "header": "Notizia",
+      "header1": "Rimani aggiornato su ciò che conta di più",
       
+      "date1": "20/08/2024",
+      "title1": "Come migliorare le vendite con la proposta Marketing ideale",
+      "description1": "Questa è una breve descrizione della prima notizia che parla di Marketing e di come applicarlo alle piccole imprese",
+      "author1": "Juan Perez",
+      "media1": "Diario UNO",
+      "category1": " ej: Marketing",
+      
+      "date2": "12/04/2024",
+      "title2": "Il ministro dell'Economia parla del dollaro",
+      "description2": "Questa è una breve descrizione della 2a notizia in cui il Ministro dell'Economia parla della revoca della restrizione sull'acquisto di dollari ",
+      "author2": "Esteban Balmaceda",
+      "media2": "Diario Los Andes",
+      "category2": " ej: Economia",
+
+      "date3": "10/02/2024",
+      "title3": "Il futuro dei dipendenti del commercio",
+      "description3": "Questa è una breve descrizione della 3a notizia in cui il capo dello staff di Mendoza ha parlato del futuro del centro per gli impiegati del commercio",
+      "author3": "Jorge Cremade",
+      "media3": "Boletin oficial",
+      "category3": " ej: Comercio"
+
+    
     },
 
     "AboutPage":{
