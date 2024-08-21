@@ -22,18 +22,7 @@ const posts = [
         imageUrl:
             'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
     },
-    {
-        id: 3,      
-        href: '#',
-        imageUrl:
-            'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
-    },
-    {
-        id: 3,      
-        href: '#',
-        imageUrl:
-            'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
-    },
+    
     // More posts...
   ]
   

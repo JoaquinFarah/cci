@@ -1,47 +1,40 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+
 const callouts = [
     {
-      name: 'Desk and Office',
-      description: 'Work from home accessories',
+      name: 'Economic news',
+      description: 'Milei y el cepo al dolar',
       imageSrc: 'https://about.fb.com/wp-content/uploads/2024/02/Facebook-News-Update_US_AU_Header.jpg?w=1920',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      imageAlt: 'Economic news',
       href: '/',
     },
     {
-      name: 'Self-Improvement',
-      description: 'Journals and note-taking',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-      imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+      name: 'Global news',
+      description: 'El las relaciones internacionales en Europa',
+      imageSrc: 'https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/media-assets/image/20240224_DE_US.jpg',
+      imageAlt: 'World news',
       href: '#',
     },
     {
-      name: 'Travel',
-      description: 'Daily commute essentials',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+      name: 'Mendoza',
+      description: 'Cambios para los comercios de Mendoza',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQWAy4Tmruo_iSKJpZ2ctHgj7vLFSsx4a8w&s',
+      imageAlt: 'Mendoza news',
       href: '#',
     },
+    
   ]
   
-  export default function Example() {
+  export default function NewsPage() {
+    const t = useTranslations('NewsPage');
     return (
       <div className="bg-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="text-2xl font-bold text-gray-900">Collections</h2>
+            <h2 className="text-2xl font-bold text-gray-900">{t('title')} </h2>
   
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
               {callouts.map((callout) => (

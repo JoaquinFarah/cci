@@ -66,6 +66,10 @@
      "description5":"Visita nuestra seccion de noticias para conocer más sobre nuestros servicios y eventos. También puedes contactarnos directamente a ccimendoza@gmail.com para recibir asesoramiento personalizado.",
      "description6":"¡Te esperamos!"
       
+    },
+
+    "NewsPage":{
+      "title": "Noticias"
     }
 
 

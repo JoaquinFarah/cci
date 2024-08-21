@@ -142,7 +142,7 @@ const Navbar: React.FC = () => {
           
           {/* Enlaces de navegación a la derecha */}
           <div className="flex items-center space-x-4">
-            <Link href="/about" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
+            <Link href="/es/about" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
               {t('About')}
             </Link>
 
@@ -150,7 +150,7 @@ const Navbar: React.FC = () => {
               {t('Partners')}
             </Link>
 
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
+            <Link href="/es/news" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
               {t('News')}
             </Link>
 
@@ -160,6 +160,10 @@ const Navbar: React.FC = () => {
 
             <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
               {t('Services')}
+            </Link>
+
+            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">
+              {t('Reports')}
             </Link>
 
             <Link href="/login" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400">

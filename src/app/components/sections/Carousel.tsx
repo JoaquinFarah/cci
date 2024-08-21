@@ -62,6 +62,8 @@ const images: ImageData[] = [
   // { src: '/bolsa1.jpg', alt: 'bank' },
   // { src: '/bolsa.jpg', alt: 'bank' },
   // { src: '/hombresnegocio1.jpg', alt: 'coliseum' },
+  //{ src: '/coliseo1.png', alt: 'coliseum' },
+
   { src: '/hombresnegocio.jpg', alt: 'work' },
 ];
 
