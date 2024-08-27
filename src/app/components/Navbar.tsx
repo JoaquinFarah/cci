@@ -38,31 +38,31 @@ const Navbar: React.FC = () => {
           
           {/* Links righside */}
           <div className="flex items-center space-x-4">
-            <Link href="/es/about" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('About')}
             </Link>
 
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('Services')}
             </Link>
 
-            <Link href="/es/news" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/news" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('News')}
             </Link>
 
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('Reports')}
             </Link>
 
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('Calendar')}
             </Link>
 
-            <Link href="/" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('Partners')}
             </Link>
 
-            <Link href="/login" className="no-underline underline decoration-4 transition-all duration-300 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               LogIn/LogOut
             </Link>
 

@@ -70,5 +70,9 @@
 
     "NewsPage":{
       "title": "Notizias"
+    },
+
+    "FooterSection":{
+      "title": "Footer in italiano, sezione da modificare"
     }
   }

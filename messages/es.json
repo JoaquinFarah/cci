@@ -70,6 +70,10 @@
 
     "NewsPage":{
       "title": "Noticias"
+    },
+
+    "FooterSection":{
+      "title": "Footer en Español"
     }
 
 
