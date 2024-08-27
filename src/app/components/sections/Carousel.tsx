@@ -58,11 +58,10 @@ interface ImageData {
 
 const images: ImageData[] = [
   { src: '/banderaitalia.jpg', alt: 'bandera' },
-  { src: '/buque.jpg', alt: 'boat' },
-  // { src: '/bolsa1.jpg', alt: 'bank' },
-  // { src: '/bolsa.jpg', alt: 'bank' },
+  // { src: '/buque.jpg', alt: 'boat' },
+  //  { src: '/bolsa1.jpg', alt: 'bank' },
   // { src: '/hombresnegocio1.jpg', alt: 'coliseum' },
-  //{ src: '/coliseo1.png', alt: 'coliseum' },
+  // { src: '/coliseo1.png', alt: 'coliseum' },
 
   { src: '/hombresnegocio.jpg', alt: 'work' },
 ];

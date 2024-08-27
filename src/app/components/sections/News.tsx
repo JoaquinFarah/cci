@@ -22,7 +22,7 @@ const posts = [
         imageUrl:
             'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
     },
-    
+  
     // More posts...
   ]
   

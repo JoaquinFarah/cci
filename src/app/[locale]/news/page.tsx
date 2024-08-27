@@ -12,11 +12,11 @@ const callouts = [
       href: '/',
     },
     {
-      name: 'Global news',
-      description: 'El las relaciones internacionales en Europa',
-      imageSrc: 'https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/media-assets/image/20240224_DE_US.jpg',
+      name: 'Tension altamar',
+      description: 'Se ahogan',
+      imageSrc: 'https://estaticos-cdn.prensaiberica.es/clip/2a329234-77e4-46be-b947-7faed8a2ae08_16-9-discover-aspect-ratio_default_0.jpg',
       imageAlt: 'World news',
-      href: '#',
+      href: 'https://www.elperiodico.com/es/internacional/20240820/italia-busqueda-multimillonario-britanico-mike-lynch-naufragio-sicilia-107172497',
     },
     {
       name: 'Mendoza',
@@ -25,6 +25,14 @@ const callouts = [
       imageAlt: 'Mendoza news',
       href: '#',
     },
+    {
+      name: 'Global news',
+      description: 'El las relaciones internacionales en Europa',
+      imageSrc: 'https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/media-assets/image/20240224_DE_US.jpg',
+      imageAlt: 'World news',
+      href: '#',
+    },
+   
     
   ]
   
