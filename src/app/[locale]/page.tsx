@@ -4,6 +4,7 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 import Carousel from '../components/sections/Carousel';
 import NewsSection from '../components/sections/News';
 import Footer from '../components/Footer';
+import ServiceSection from '../components/sections/ServiceSection';
 
 
 
@@ -15,6 +16,7 @@ export default function HomePage({params: {locale}}) {
       
       <div>
         <Carousel />
+        <ServiceSection/>
         <NewsSection/>
         <Sponsor />
         <Footer/>
