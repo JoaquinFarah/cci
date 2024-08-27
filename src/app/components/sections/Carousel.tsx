@@ -58,7 +58,7 @@ interface ImageData {
 
 const images: ImageData[] = [
   { src: '/banderaitalia.jpg', alt: 'bandera' },
-  // { src: '/buque.jpg', alt: 'boat' },
+  { src: '/buque.jpg', alt: 'boat' },
   //  { src: '/bolsa1.jpg', alt: 'bank' },
   // { src: '/hombresnegocio1.jpg', alt: 'coliseum' },
   // { src: '/coliseo1.png', alt: 'coliseum' },
@@ -66,7 +66,7 @@ const images: ImageData[] = [
   { src: '/hombresnegocio.jpg', alt: 'work' },
 ];
 
-const Carousel = () => {
+const CarouselSection = () => {
   const [activeIndex, setActiveIndex] = useState<any>(null);
 
   const t = useTranslations('CarouselSection');
@@ -100,4 +100,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default CarouselSection;

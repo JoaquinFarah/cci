@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-export default function Sponsor() {
+export default function SponsorSection() {
 const t = useTranslations('SponsorSection')
     return (
       <section id= "sponsor-section" className="bg-transparent py-24 sm:py-32">

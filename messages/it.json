@@ -20,24 +20,26 @@
     },
 
     "ServiceSection":{
-      "title": "Titulo Servicios en Italiano. Setzione modificare",
+      "title": "Titulo Servicios en Italiano",
       "descripcion": "Descritzione de servizio en italiano que brindamos",
 
       "title1":"Primer servizio en italiano",
-      "texto1":"Texto primer servizio en italiano",
+      "text1":"Texto primer servizio en italiano",
 
       "title2":"Segundo servizio en italiano",
-      "texto2":"Texto del segundo servizio en italiano",
+      "text2":"Texto del segundo servizio en italiano",
 
       "title3":"Tercer servizio en italiano",
-      "texto3":"Texto del tercer servizio en italiano",
+      "text3":"Texto del tercer servizio en italiano",
 
       "title4":"Cuarto servizio en italiano",
-      "texto4":"Texto del cuarto servizio en italiano"
+      "text4":"Texto del cuarto servizio en italiano"
 
       
 
     },
+
+    
 
     "CarouselSection":{
       "title":"Titolo carousel in italiano, sezione da modificare"

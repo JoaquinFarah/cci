@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {unstable_setRequestLocale} from 'next-intl/server'; 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 const locales = ['es', 'it'];
@@ -24,9 +25,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-        <Navbar />
-          
-          {children}
+          <Navbar />          
+            {children}
+          <Footer/>
         </NextIntlClientProvider>
       </body>
     </html>

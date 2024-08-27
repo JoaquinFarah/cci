@@ -1,10 +1,10 @@
 import {useTranslations} from 'next-intl';
-import Sponsor from '../components/sections/Sponsor';
 import {unstable_setRequestLocale} from 'next-intl/server';
-import Carousel from '../components/sections/Carousel';
+import CarouselSection from '../components/sections/Carousel';
 import NewsSection from '../components/sections/News';
-import Footer from '../components/Footer';
-import ServiceSection from '../components/sections/ServiceSection';
+import ServiceSection from '../components/sections/Service';
+import SponsorSection from '../components/sections/Sponsor';
+import WhatWeDo from '../components/sections/Service';
 
 
 
@@ -15,11 +15,10 @@ export default function HomePage({params: {locale}}) {
     <main className="bg-gradient-to-r from-green-500 via-white to-red-500">
       
       <div>
-        <Carousel />
+        <CarouselSection />
         <ServiceSection/>
         <NewsSection/>
-        <Sponsor />
-        <Footer/>
+        <SponsorSection />
         
       </div>
     </main>
