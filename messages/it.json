@@ -93,5 +93,20 @@
     "FooterSection":{
       "title": "Footer in italiano, sezione da modificare",
       "address": "Indirizzo"
+    },
+
+    "ServicePage":{
+      "header": "Tituolo pagina de servizi italiano",
+      "description": "Pagina descrizione servizi italiano",
+      "title1": "Primo servizio",
+      "title2": "Secondo servizio",
+      "title3": "Terzo servizio"
+
     }
+
+
+
+
+
+
   }

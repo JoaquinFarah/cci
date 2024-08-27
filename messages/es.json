@@ -93,6 +93,14 @@
     "FooterSection":{
       "title": "Footer en Español",
       "address": "Direccion"
+    },
+
+    "ServicePage":{
+      "header": "Titulo pagina de servicios español",
+      "description": "Descripcion de la pagina de servicios en español",
+      "title1": "Primer servicio",
+      "title2": "Segundo servicio",
+      "title3": "Tercer servicio"
     }
 
 
