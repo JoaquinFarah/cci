@@ -12,7 +12,7 @@ const ServiceSection: React.FC = () => {
           {t('header')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">          
-            <div className="bg-gray-100 p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">
+            <div className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">
               {/* <div className="flex justify-center mb-4">
                 <Image
                   src={"/"}
@@ -29,7 +29,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </div>   
 
-            <div className="bg-white p-6 shadow-xl rounded-lg text-center hover:shadow-2xl">
+            <div className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">
               {/* <div className="flex justify-center mb-4">
                 <Image
                   src={"/"}
@@ -46,7 +46,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </div>  
 
-            <div className="bg-white p-6 shadow-xl rounded-lg text-center hover:shadow-2xl">
+            <div className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">
               {/* <div className="flex justify-center mb-4">
                 <Image
                   src={"/"}
@@ -63,7 +63,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </div>    
 
-            <div className="bg-white p-6 shadow-xl rounded-lg text-center hover:shadow-2xl">
+            <div className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">
               {/* <div className="flex justify-center mb-4">
                 <Image
                   src={"/"}

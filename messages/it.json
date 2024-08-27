@@ -9,8 +9,8 @@
       "partners": "Partner",
       "news": "Notizia",
       "calendar": "Calendario",
-      "cervices": "Servizi",
-      "ceports": "Informazioni"
+      "services": "Servizi",
+      "reports": "Informazioni"
     },
 
     "SponsorSection":{
@@ -20,20 +20,20 @@
     },
 
     "ServiceSection":{
-      "title": "Titulo Servicios en Italiano",
+      "header": "Titulo Servicios en Italiano",
       "descripcion": "Descritzione de servizio en italiano que brindamos",
 
       "title1":"Primer servizio en italiano",
-      "text1":"Texto primer servizio en italiano",
+      "text1":"*Il cliente è il visitatore più importante delle nostre strutture. Non dipende da noi. Dipendiamo da lui. Non è un’interruzione del nostro lavoro. Lui è lo scopo di questo. Non è estraneo ai nostri affari. Lui ne fa parte. Non ti stiamo facendo un favore servendoti. Ci stai facendo un favore dandoci l'opportunità di farlo.* - Mahatma Gandhi",
 
       "title2":"Segundo servizio en italiano",
-      "text2":"Texto del segundo servizio en italiano",
+      "text2":"Il nostro servizio e supporto clienti è guidato da queste stesse parole del Mahatma Gandhi che pronunciò nel suo discorso in Sud Africa nel 1890. Come organizzazione, siamo pienamente impegnati a fornire il miglior servizio possibile in ogni momento a tutti i nostri clienti. È nostro sincero impegno che vogliamo non solo soddisfare, ma superare di gran lunga le aspettative dei nostri clienti quando si tratta di servizio e supporto clienti.",
 
       "title3":"Tercer servizio en italiano",
-      "text3":"Texto del tercer servizio en italiano",
+      "text3":"I nostri collaboratori sono ben addestrati per gestire in modo efficiente tutte le situazioni in modo da poter risolvere rapidamente i problemi affrontati dai nostri clienti. Disponiamo inoltre di un sistema di tracciamento molto efficiente in modo che ogni richiesta venga registrata correttamente nel nostro sistema per garantire che tutte vengano risolte in modo appropriato per la massima soddisfazione dei nostri clienti.",
 
       "title4":"Cuarto servizio en italiano",
-      "text4":"Texto del cuarto servizio en italiano"
+      "text4":"Siamo incaricati di coordinare la proiezione internazionale del CAC e dei nostri partner nelle principali organizzazioni internazionali che influenzano il commercio e i servizi. Da questo punto di vista, promuoviamo l’implementazione degli standard internazionali e l’adozione di nuove tecnologie."
 
       
 
