@@ -4,13 +4,13 @@
     },
 
     "Navbar":{
-      "Home": "Inicio",      
-      "About": "Quienes somos",
-      "Partners": "Socios",
-      "News": "Noticias",
-      "Calendar": "Calendario",
-      "Services": "Servicios",
-      "Reports": "Informes"
+      "home": "Inicio",      
+      "about": "Quienes somos",
+      "partners": "Socios",
+      "news": "Noticias",
+      "calendar": "Calendario",
+      "services": "Servicios",
+      "reports": "Informes"
     },
 
 
@@ -20,7 +20,23 @@
 
     },
 
-    "HeroSection":{
+    "ServiceSection":{
+      "title": "Titulo Servicios en Español. Seccion a modificar",
+      "descripcion": "Descripcion de los servicios que brindamos",
+
+      "title1":"Primer servicio",
+      "texto1":"Texto del primer servicio",
+
+      "title2":"Segundo servicio",
+      "texto2":"Texto del segundo servicio",
+
+      "title3":"Tercer servicio",
+      "texto3":"Texto del tercer servicio",
+
+      "title4":"Cuarto servicio",
+      "texto4":"Texto del cuarto servicio"
+
+      
 
     },
 
@@ -73,7 +89,8 @@
     },
 
     "FooterSection":{
-      "title": "Footer en Español"
+      "title": "Footer en Español",
+      "address": "Direccion"
     }
 
 

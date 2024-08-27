@@ -13,7 +13,7 @@ export default function HomePage({params: {locale}}) {
   return (
     <main className="bg-gradient-to-r from-green-500 via-white to-red-500">
       
-      <div className="">
+      <div>
         <Carousel />
         <NewsSection/>
         <Sponsor />

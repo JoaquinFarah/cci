@@ -19,11 +19,11 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
-      <div className="max-w-7xl mx-auto px-1 sm:px-1 lg:px-1">
+      <div className="max-w-7xl mx-auto px-1 sm:px-1 lg:px-0">
         <div className="flex justify-between items-center h-16">
           
           {/* Logo leftside */}
-          <div className="flex items-center">
+          <div className="flex items-center flex-grow">
             <Link href="/">
               <Image                    
                 src="/Logo_CCI.jpeg"
@@ -36,30 +36,30 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           
-          {/* Links righside */}
-          <div className="flex items-center space-x-4">
+          {/* Links rightside */}
+          <div className="flex items-center justify-end space-x-4">
             <Link href="/es/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('About')}
+              {t('about')}
             </Link>
 
             <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('Services')}
+              {t('services')}
             </Link>
 
             <Link href="/es/news" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('News')}
+              {t('news')}
             </Link>
 
             <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('Reports')}
+              {t('reports')}
             </Link>
 
             <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('Calendar')}
+              {t('calendar')}
             </Link>
 
             <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('Partners')}
+              {t('partners')}
             </Link>
 
             <Link href="/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">

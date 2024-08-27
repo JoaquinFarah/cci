@@ -21,9 +21,13 @@ const t = useTranslations('FooterSection');
         />
       </Link>
       <div className="flex flex-col items-center justify-center gap-1 cursor-default select-none">
-        <p className="text-xs font-light"> {t('title')}</p>
-        <p className="text-xs font-light">
-          Created by <Link className="transition-all duration-300 hover:text-laurenBlue" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>
+        <p className="text-xs font-semibold"> 
+          {t('title')} <br/>        
+          Mail: info@ccimendoza.com <br/>
+          {t('address')}: Granaderos 30, Ciudad de Mendoza 
+        </p>
+        <p className="text-xs font-bold">
+          Created by <Link className="font-bold" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>
         </p>
       </div>
     </footer>
