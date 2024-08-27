@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
               {t('about')}
             </Link>
 
-            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('services')}
             </Link>
 

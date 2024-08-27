@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 
-export default function OurServices({params: {locale}}) {
+export default function ServicePage({params: {locale}}) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('ServicePage');
   return (
@@ -23,13 +23,13 @@ export default function OurServices({params: {locale}}) {
           {t('title3')}
           <br />
           <br />
-          {t('description4')}
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptatibus numquam iure ea delectus, impedit, blanditiis fugit quidem corporis vel beatae nam voluptatem illo cumque. Recusandae nulla enim animi architecto!
           <br />
           <br />
-          {t('description5')}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae enim inventore, iure earum accusantium ut magni consequatur, explicabo aliquid incidunt accusamus doloremque facilis laudantium consequuntur exercitationem modi dolorem? Assumenda!
           <br />
           <br />
-          {t('description6')}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facilis, pariatur delectus quasi voluptatum molestias et consequatur dicta aliquid totam nostrum, ipsa, repellat dolores modi consequuntur facere dolore eaque error?
           
         </p>
       </div>

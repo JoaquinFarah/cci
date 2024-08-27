@@ -75,7 +75,7 @@
     },
 
     "AboutPage":{
-     "title": "Quienes sonnes nostro",
+     "header": "Quienes sonnes nostro",
      "description":"In qualità di parte integrante della Camera di Commercio Italiana, sono lieto di presentarvi la nostra istituzione. Siamo il ponte tra l'Italia e Argentina, promuovendo gli scambi commerciali e culturali tra le nostre due nazioni. La nostra missione è facilitare il percorso delle imprese, sia italiane che desiderano espandersi verso nuovi mercati, sia locali che cercano opportunità in Italia.",
      "description1": "Offriamo una vasta gamma di servizi su misura per le esigenze delle imprese. Forniamo consulenza aziendale personalizzata, aiutando le aziende a navigare nelle complessità del mercato Italiano e a identificare opportunità di business uniche. Organizziamo fiere commerciali, seminari specializzati e missioni commerciali che mettono in contatto imprenditori di diversi settori, favorendo la creazione di preziose reti di contatti e collaborazioni.",
      "description2": "La nostra passione per l'eccellenza del 'Made in Italy' ci spinge a promuovere i prodotti e i servizi italiani di alta qualità in Argentina, aiutando le imprese italiane a consolidare la loro presenza in questo mercato. Inoltre, rappresentiamo gli interessi della comunità imprenditoriale italo-argento presso le istituzioni governative, lavorando instancabilmente per creare un ambiente imprenditoriale favorevole.",
@@ -96,8 +96,8 @@
     },
 
     "ServicePage":{
-      "header": "Tituolo pagina de servizi italiano",
-      "description": "Pagina descrizione servizi italiano",
+      "header": "Quini suomo",
+      "description": "Incontra coloro che stanno dietro alla realizzazione di progetti e iniziative. Innoviamo sempre e soddisfiamo le aspettative.",
       "title1": "Primo servizio",
       "title2": "Secondo servizio",
       "title3": "Terzo servizio"
