@@ -7,7 +7,7 @@ export default function ServicePage({params: {locale}}) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('ServicePage');
   return (
-    <div className="flex h-full bg-gray-100">
+    <div className="flex h-full bg-white">
       <div className="flex flex-col items-center justify-start w-1/2 p-10 mt-20">
         <h1 className="text-4xl font-bold mb-4">{t('header')} </h1>
         <p className="text-lg text-gray-700">

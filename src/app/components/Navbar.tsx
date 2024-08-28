@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
               {t('news')}
             </Link>
 
-            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/reports" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('reports')}
             </Link>
 

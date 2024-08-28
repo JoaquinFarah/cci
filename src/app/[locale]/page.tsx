@@ -5,6 +5,7 @@ import NewsSection from '../components/sections/News';
 import ServiceSection from '../components/sections/Service';
 import SponsorSection from '../components/sections/Sponsor';
 import WhatWeDo from '../components/sections/Service';
+import SocialMediaSection from '../components/sections/SocialNetwork';
 
 
 
@@ -18,6 +19,7 @@ export default function HomePage({params: {locale}}) {
         <CarouselSection />
         <ServiceSection/>
         <NewsSection/>
+        <SocialMediaSection/>
         <SponsorSection />
         
       </div>

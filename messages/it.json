@@ -96,16 +96,23 @@
     },
 
     "ServicePage":{
-      "header": "Quini suomo",
+      "header": "Pagina di Servizi ",
       "description": "Incontra coloro che stanno dietro alla realizzazione di progetti e iniziative. Innoviamo sempre e soddisfiamo le aspettative.",
       "title1": "Primo servizio",
       "title2": "Secondo servizio",
       "title3": "Terzo servizio"
 
+    },
+
+    "ReportsPage":{
+      "header": "Pagina dei rapporti",
+      "title1": "Rapporto 1",
+      "report1": "*Un cliente è il visitatore più importante delle nostre strutture. Non dipende da noi. Noi dipendiamo da lui. Non è un'interruzione del nostro lavoro. È lui lo scopo. Non è un estraneo ai nostri affari. Lui ne è parte. Non ti stiamo facendo un favore servendoti, ci stai facendo un favore dandoci l'opportunità di farlo.* - Mahatma Gandhi",
+      "title2": "Rapporto 2",
+      "report2": "Il nostro servizio clienti e il nostro supporto sono guidati da queste stesse parole del Mahatma Gandhi che pronunciò nel suo discorso in Sud Africa nel 1890. Come organizzazione, siamo completamente impegnati a fornire il miglior servizio possibile in ogni momento a tutti i nostri clienti.",
+      "title3": "Rapporto 3",
+      "report3": "I nostri collaboratori sono ben addestrati per gestire in modo efficiente tutte le situazioni, in modo che possano risolvere rapidamente i problemi incontrati dai nostri clienti. Disponiamo inoltre di un sistema di tracciamento molto efficiente in modo che ogni richiesta venga registrata correttamente nel nostro sistema per garantire che tutti vengono risolti in modo appropriato per la massima soddisfazione dei nostri clienti."
     }
-
-
-
 
 
 
