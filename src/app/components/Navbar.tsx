@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
               {t('reports')}
             </Link>
 
-            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/calendar" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('calendar')}
             </Link>
 
