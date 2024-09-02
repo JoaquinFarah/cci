@@ -7,7 +7,7 @@ import Logo from '../../public/LogoCCI.jpg';
 export default function NotFound() {
   return (
     
-    <html> 
+    <div> 
       <Link href="/" className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 ">  
         <Image
           src={Logo}
@@ -20,9 +20,9 @@ export default function NotFound() {
         />
       </Link>
            
-      <body className='text-center'>
+      <div className='text-center'>
         <h1 className='mt-10 font-semibold'>Ups... No hay nada aqui.<br/>Haga click en la imagen para regresar </h1>
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
