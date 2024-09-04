@@ -102,7 +102,7 @@ export default function PartnersPage() {
                       className="h-full w-full object-cover object-center"
                     />
                   </div> */}
-                  <h3 className="mt-8 text-base font-semibold text-gray-900 border-2 px-2 py-2 border-rose-500 rounded-md">
+                  <h3 className="mt-8 text-base font-semibold text-gray-900 border-2 px-2 py-2 border-rose-500 rounded-md hover:drop-shadow-lg transition-all">
                     <div>
                       <span className="absolute inset-0" />
                       <span className="text-blue-400">Nombre:</span> {data.name} <br/>
