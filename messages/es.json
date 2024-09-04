@@ -115,6 +115,11 @@
 
     "SocialNetworkSection":{
       "header": "Seguinos en nuestras redes"
+    },
+
+    "PartnersPage":{
+      "header": "Pagina de Socios",
+      "title": "Socios"
     }
 
 
