@@ -18,7 +18,7 @@ export default function LocalSwitcher() {
   };
   
   return (    
-    <label className='border-5 rounded items-center' > 
+    <label className='border-5 rounded items-center hover:cursor-pointer' > 
       <p className='sr-only items-center'></p>       
       <select
         defaultValue={localActive}

@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 export default function SocialNetworkSection() {
   const t = useTranslations('SocialNetworkSection');
     return (
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-24 sm:py-10">
         <Image
               src={"/socialnetworks1.jpg"}
               alt={"social"}

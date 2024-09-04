@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
               {t('calendar')}
             </Link>
 
-            <Link href="/" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/es/partners" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               {t('partners')}
             </Link>
 
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
 
             {/* Dropdown language */}
             <div className="relative">
-              <div onClick={toggleDropdown} className="flex items-center space-x-2 focus:outline-none cursor-pointer">
+              <div className="flex items-center space-x-2 focus:outline-none ">
                 <Image
                   src="/language-icon.png"
                   alt="Change Language"
