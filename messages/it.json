@@ -75,14 +75,13 @@
     },
 
     "AboutPage":{
-     "header": "Quienes sonnes nostro",
-     "description":"In qualità di parte integrante della Camera di Commercio Italiana, sono lieto di presentarvi la nostra istituzione. Siamo il ponte tra l'Italia e Argentina, promuovendo gli scambi commerciali e culturali tra le nostre due nazioni. La nostra missione è facilitare il percorso delle imprese, sia italiane che desiderano espandersi verso nuovi mercati, sia locali che cercano opportunità in Italia.",
-     "description1": "Offriamo una vasta gamma di servizi su misura per le esigenze delle imprese. Forniamo consulenza aziendale personalizzata, aiutando le aziende a navigare nelle complessità del mercato Italiano e a identificare opportunità di business uniche. Organizziamo fiere commerciali, seminari specializzati e missioni commerciali che mettono in contatto imprenditori di diversi settori, favorendo la creazione di preziose reti di contatti e collaborazioni.",
-     "description2": "La nostra passione per l'eccellenza del 'Made in Italy' ci spinge a promuovere i prodotti e i servizi italiani di alta qualità in Argentina, aiutando le imprese italiane a consolidare la loro presenza in questo mercato. Inoltre, rappresentiamo gli interessi della comunità imprenditoriale italo-argento presso le istituzioni governative, lavorando instancabilmente per creare un ambiente imprenditoriale favorevole.",
-     "description3": "Crediamo fermamente nel potere della formazione e dell'aggiornamento continuo. Per questo motivo, offriamo una vasta gamma di corsi e workshop progettati per migliorare la competitività delle imprese e promuovere l'innovazione. Dalle strategie di marketing digitale alla gestione della catena di approvvigionamento, i nostri programmi di formazione sono progettati per fornire agli imprenditori gli strumenti necessari per avere successo nel mercato globale.",
-     "description4": "Se la tua azienda è italiana e cerca di espandere i propri orizzonti o se sei un'azienda locale che desidera stabilire relazioni commerciali con l'Italia, ti invitiamo a unirti alla nostra comunità. Le nostre porte sono sempre aperte per aiutarti a raggiungere i tuoi obiettivi.",
-     "description5": "Visita il nostro sito web per scoprire di più sui nostri servizi ed eventi. Puoi anche contattarci direttamente a ccimendoza@gmail.com per ricevere una consulenza personalizzata.",
-     "description6": "Ti aspettiamo!"
+     "header": "¿Quienes sonnes nostro?",
+     "description":"La Camera di Commercio Italiana a Mendoza è un'associazione di diritto privato, a struttura elettiva e composta da imprenditori, dirigenti, commercianti e professionisti.",
+     "description1": "È stata fondata il 17 aprile 1989 e ufficialmente riconosciuta dal Governo Italiano con Decreto del Ministero del Commercio Estero del 17 maggio 1999.",
+     "description2": "Il suo obiettivo principale è lo sviluppo delle relazioni imprenditoriali, commerciali, industriali, tecnologiche, formative e culturali tra l'Argentina e l'Italia, nonché con tutti i Paesi in cui hanno sede le Camere di Commercio italiane nel mondo.",
+     "description3": "A tal fine, la CCI Mendoza fornisce assistenza, informazioni economiche, commerciali e tecnologiche, attiva contatti, organizza missioni, partecipa a fiere e altri eventi e promuove tutte le azioni a favore della crescita e dello sviluppo regionale.",
+     "description4": "È membro attivo di 'Assocamerestero' (Associazione delle Camere di Commercio Italiane nel Mondo), con sede a Roma."
+     
       
     },
 
