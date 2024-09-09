@@ -143,9 +143,23 @@ export default function AboutPage() {
             {t('description1')}<br/>
             {t('description2')}<br/>
             {t('description3')}<br/>
-            {t('description4')}<br/>
-
-
+            {t('description4')}<br/>            
+          </p>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title')}</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+            {t('descriptiontitle')}<br/>                       
+          </p>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title1')}</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+            {t('descriptiontitle1')}<br/>                       
+          </p>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title3')}</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+            {t('descriptiontitle3')}<br/>  
+            {t('descriptiontitle31')}<br/> 
+            {t('descriptiontitle32')}<br/> 
+            {t('descriptiontitle33')}<br/> 
+            {t('descriptiontitle34')}<br/>                      
           </p>
         </div>
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
@@ -155,7 +169,7 @@ export default function AboutPage() {
                 <img alt="" src={person.imageUrl} className="h-20 w-20 rounded-full" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.company}</h3>                  
+                  <h3 className="text-base leading-7 tracking-tight text-gray-900">{person.company}</h3>                  
                   <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
                 </div>
               </div>
