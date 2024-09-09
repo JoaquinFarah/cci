@@ -7,12 +7,10 @@ const ReportsPage: React.FC = () => {
   const t = useTranslations('ReportsPage');
   return (
     <section className="bg-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-start text-gray-800 mb-8 mt-16">
-          {t('header')}
-        </h2>
-        <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-4 gap-2">
-                    
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">        
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-16">{t('header')}</h2>
+        <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
+        <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-4 gap-2">                    
             <div className="bg-white p-6 rounded-lg text-start hover:shadow-2xl transition-all">             
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {t('title1')}

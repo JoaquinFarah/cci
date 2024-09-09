@@ -8,9 +8,10 @@ export default function ServicePage({params: {locale}}) {
   const t = useTranslations('ServicePage');
   return (
     <div className="flex h-full bg-white">
-      <div className="flex flex-col items-center justify-start w-1/2 p-10 mt-20">
-        <h1 className="text-4xl font-bold mb-4">{t('header')} </h1>
+      <div className="flex flex-col items-start justify-start w-1/2 p-10 mt-20">
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">{t('header')}</h1>                
         <p className="text-lg text-gray-700">
+        <div className="min-h-0.5 bg-gray-200 mb-4"></div>
 
           <span className="font-bold uppercase">{t('title1')}</span><br />          
           <span className="font-semibold">{t('subtitle1a')}</span><br />          
@@ -34,9 +35,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description31')}<br />
           {t('description32')}<br />
           {t('description33')}<br />
-          <br />
-          
-
+          <br /> 
 
           <span className="font-bold uppercase">{t('title4')}</span><br />
           {t('description41')}<br />
@@ -53,11 +52,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description412')}<br />
           {t('description413')}<br />
           {t('description414')}<br />
-          {t('description415')}<br />
-          
-          
-
-          
+          {t('description415')}<br />          
           
         </p>
       </div>

@@ -138,6 +138,7 @@ export default function AboutPage() {
       <div className="mx-auto grid max-w-7xl gap-x-32 gap-y-20 px-6 lg:px-1 xl:grid-cols-2">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('header')}</h2>
+          <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
             {t('description')}<br/>
             {t('description1')}<br/>
@@ -165,7 +166,7 @@ export default function AboutPage() {
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
           {people.map((person) => (
             <li key={person.name}>
-              <div className="flex items-center gap-x-2 bg-cyan-50 rounded-full">
+              <div className="flex items-center gap-x-2 bg-gradient-to-r from-white to-cyan-100 rounded-full shadow-lg ">
                 <img alt="" src={person.imageUrl} className="h-20 w-20 rounded-full" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
