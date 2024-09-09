@@ -165,7 +165,7 @@ export default function AboutPage() {
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
           {people.map((person) => (
             <li key={person.name}>
-              <div className="flex items-center gap-x-2">
+              <div className="flex items-center gap-x-2 bg-cyan-50 rounded-full">
                 <img alt="" src={person.imageUrl} className="h-20 w-20 rounded-full" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
