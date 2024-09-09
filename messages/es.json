@@ -110,11 +110,48 @@
     },
 
     "ServicePage":{
-      "header": "Estos son nuestros servicios",
-      "description": "Conozca a quienes estan detras de que los proyectos y emprendimientos se hagan realidad. Siempre estamos innovando y cumpliendo expectativas.",
-      "title1": "Primer servicio",
-      "title2": "Segundo servicio",
-      "title3": "Tercer servicio"
+      "header": "Servicios",   
+
+      "title1": "1. Servicio Informatico",
+      "subtitle1a": "1.a. Primera orientación al mercado",
+      "description1a1": "• Análisis de mercado por país/sector.",
+      "description1a2": "• Dossiers informativos sobre normativas (aduaneras, fiscales, incentivos).",
+      "description1a3": "• Información sobre ferias y eventos.",
+      "subtitle1b": "1.b. Seminario informativo/presentación de país",
+
+      "title2": "2. EVENTOS Y COMUNICACIÓN",
+      "subtitle2a": "2.a. Eventos",
+      "description2a1": "• Cenas de gala / eventos de networking.",
+      "description2a2": "• Eventos autónomos.", 
+      "subtitle2b": "2.b. Comunicación",
+      "description2b1": "• Inserciones publicitarias en revistas y medios electrónicos.",
+      "description2b2": "• Conferencias de prensa, relaciones con los medios.",
+      "description2b3": "• Campañas en medios (lanzamiento de empresas, productos).",
+
+      "title3": "3. CONTACTOS COMERCIALES",
+      "description31": "• Identificación y selección de socios/contrapartes (importadores, distribuidores, proveedores y socios estratégicos) con/sin agenda de citas.",
+      "description32": "• Organización de misiones entrantes y salientes: talleres con encuentros B2B.",
+      "description33": "• Participación en ferias.",
+
+      "title4": "4. SERVICIOS DE ASISTENCIA Y CONSULTORÍA ESPECIALIZADA",
+      "description41": "• Asistencia legal (contratos, registro de marcas y patentes, etc.).",
+      "description42": "• Asistencia administrativa, fiscal y tributaria.",
+      "description43": "• Asistencia aduanera.",
+      "description44": "• Interpretación/traducciones.",
+      "description45": "• Asistencia especializada para desarrollar estrategias de entrada (investigaciones específicas de sub-sectores, productos).",
+      "description46": "• Constitución de estructuras de establecimiento (oficinas de representación, oficinas de proyectos, sucursales y filiales de propiedad).",
+      "description47": "• Apoyo operativo en todas las fases del establecimiento (puesta en marcha, asistencia logística, selección de personal).",
+      "description48": "• Asistencia para transferencia de tecnología, joint ventures, adquisiciones y fusiones.",
+      "description49": "• Servicio de representación de empresas italianas.",
+      "description410": "• Promoción empresarial en los sistemas de comunicación de la Cámara de Comercio.",
+      "description411": "• Información comercial confidencial sobre personas físicas o jurídicas.",
+      "description412": "• Alquiler de oficina en la sede de la cámara.",
+      "description413": "• Recuperación de créditos e IVA.",
+      "description414": "• Arbitraje y conciliación.",
+      "description415": "• Otros servicios a solicitud."
+
+
+   
     },
 
     "ReportsPage":{

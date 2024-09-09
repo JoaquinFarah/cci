@@ -38,7 +38,7 @@ const people = [
     name: 'Clara FRANCIOSI',
     role: 'CONSEJERO TITULAR',
     company: '-Barmatic',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje.jpg",
   },
   {
     name: 'Eduardo DE BLASI',
@@ -50,7 +50,7 @@ const people = [
     name: 'Jesús SILVESTRINI',
     role: 'CONSEJERO TITULAR',
     company: '-Incotec S.A.',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje1.jpg",
   },
   {
     name: 'Silvia CENTELEGHE',
@@ -62,7 +62,7 @@ const people = [
     name: 'Victor TITTARELLI',
     role: 'CONSEJERO TITULAR',
     company: '-Endumel S.R.L.',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje.jpg",
   },
   {
     name: 'Carlos CROTTA',
@@ -80,7 +80,7 @@ const people = [
     name: 'Mario PALCHETTI',
     role: 'CONSEJERO SUPLENTE',
     company: '-Acys S.A.',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje1.jpg",
   },
   {
     name: 'Orlando DAL POZZO',
@@ -98,13 +98,13 @@ const people = [
     name: 'Vicente TROVATO',
     role: 'REVISOR de CUENTA SUPLENTE',
     company: '-Frigorífico Trovato S.R.L.',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje1.jpg",
   },
   {
     name: 'Estanislao Pedro BAZIUK',
     role: 'SECRETARIO GENERAL',
     company: '',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje.jpg",
   },
   {
     name: 'Jorge D’ODORICO',
@@ -116,13 +116,13 @@ const people = [
     name: 'Raul VARESE',
     role: 'VICEPRESIDENTE San Luis',
     company: '',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje1.jpg",
   },
   {
     name: 'Corrado COMASTRI',
     role: 'TESORERO San Luis',
     company: '',
-    imageUrl: "/traje2.jpg",
+    imageUrl: "/traje.jpg",
   },
   
 
@@ -138,7 +138,7 @@ export default function AboutPage() {
       <div className="mx-auto grid max-w-7xl gap-x-32 gap-y-20 px-6 lg:px-1 xl:grid-cols-2">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('header')}</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
             {t('description')}<br/>
             {t('description1')}<br/>
             {t('description2')}<br/>
@@ -146,15 +146,15 @@ export default function AboutPage() {
             {t('description4')}<br/>            
           </p>
           <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title')}</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
             {t('descriptiontitle')}<br/>                       
           </p>
           <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title1')}</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
             {t('descriptiontitle1')}<br/>                       
           </p>
           <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title3')}</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
             {t('descriptiontitle3')}<br/>  
             {t('descriptiontitle31')}<br/> 
             {t('descriptiontitle32')}<br/> 
