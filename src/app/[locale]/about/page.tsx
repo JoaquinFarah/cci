@@ -135,8 +135,8 @@ export default function AboutPage() {
   const t = useTranslations('AboutPage');
   return (
     <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl gap-x-32 gap-y-20 px-6 lg:px-1 xl:grid-cols-2">
-        <div className="max-w-2xl">
+      <div className="mx-auto grid max-w-7xl gap-x-32 gap-y-20 px-6 lg:px-1 xl:grid-cols-1">
+        <div className="max-w-7xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('header')}</h2>
           <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
@@ -163,7 +163,7 @@ export default function AboutPage() {
             {t('descriptiontitle34')}<br/>                      
           </p>
         </div>
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
+        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-8 xl:col-span-1">
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-2 bg-gradient-to-r from-white to-cyan-100 rounded-full shadow-lg ">

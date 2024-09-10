@@ -82,6 +82,45 @@ const data = [
         province: 'Mendoza',
         country: 'Argentina',        
     },
+    {
+      name: 'Gabriel Pereira',
+      company: 'DRTV',
+      category: 'Television',
+      phone: '261448877',
+      mail: 'gapereira@directv.com',
+      address: 'Calle Soleada 923',
+      city: 'Dorrego',
+      province: 'Mendoza',
+      country: 'Argentina',        
+  },
+  {
+    name: 'Gabriel Pereira',
+    company: 'DRTV',
+    category: 'Television',
+    phone: '261448877',
+    mail: 'gapereira@directv.com',
+    address: 'Calle Soleada 923',
+    city: 'Dorrego',
+    province: 'Mendoza',
+    country: 'Argentina',        
+},
+{
+  name: 'Gabriel Pereira',
+  company: 'DRTV',
+  category: 'Television',
+  phone: '261448877',
+  mail: 'gapereira@directv.com',
+  address: 'Calle Soleada 923',
+  city: 'Dorrego',
+  province: 'Mendoza',
+  country: 'Argentina',        
+},
+
+
+
+
+
+
 ]
 
 export default function PartnersPage() {

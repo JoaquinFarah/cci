@@ -18,8 +18,15 @@ export default function ServicePage({params: {locale}}) {
           {t('description1a1')}<br />
           {t('description1a2')}<br />
           {t('description1a3')}<br />
-          <span className="font-semibold">{t('subtitle1b')}</span><br />
+          <span className="font-semibold">{t('subtitle1b')}</span>          
           <br />
+          <div className="flex justify-center mt-12">
+            <button type="button" className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">            
+              Solicitar Servicio
+            </button>
+          </div>
+          <br />
+          
           
           <span className="font-bold uppercase">{t('title2')}</span><br />        
           <span className="font-semibold">{t('subtitle2a')}</span><br />          
@@ -29,12 +36,22 @@ export default function ServicePage({params: {locale}}) {
           {t('description2b1')}<br />
           {t('description2b2')}<br />
           {t('description2b3')}<br />
+          <div className="flex justify-center mt-12">
+            <button type="button" className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">            
+            Solicitar Servicio
+            </button>
+          </div>
           <br />          
 
           <span className="font-bold uppercase">{t('title3')}</span><br />
           {t('description31')}<br />
           {t('description32')}<br />
           {t('description33')}<br />
+          <div className="flex justify-center mt-12">
+            <button type="button" className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">            
+            Solicitar Servicio
+            </button>
+          </div>
           <br /> 
 
           <span className="font-bold uppercase">{t('title4')}</span><br />
@@ -52,7 +69,12 @@ export default function ServicePage({params: {locale}}) {
           {t('description412')}<br />
           {t('description413')}<br />
           {t('description414')}<br />
-          {t('description415')}<br />          
+          {t('description415')}<br />  
+          <div className="flex justify-center mt-12">
+            <button type="button" className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">            
+            Solicitar Servicio
+            </button>
+          </div>        
           
         </p>
       </div>

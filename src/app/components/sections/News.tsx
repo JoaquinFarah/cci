@@ -77,6 +77,6 @@ const posts = [
           </div>
         </div>
       </div>
-    )
+    ) 
   }
   

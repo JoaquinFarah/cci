@@ -18,7 +18,7 @@ function Calendar() {
         color: 'red',
         url: 'https://www.linkedin.com' },
 
-    { title: 'TEST Event 2', 
+    { title: 'FERIA AMERICANA', 
         start: dayjs('2024-9-12T12:00:00').toDate(),
         end: dayjs('2024-9-14T12:00:00').toDate(),
         color: 'green' },

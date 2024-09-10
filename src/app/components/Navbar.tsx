@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
-      <div className="max-w-7xl mx-auto px-1 sm:px-1 lg:px-0">
+      <div className="max-w-7xl mx-2 px-1 sm:px-1 lg:px-0">
         <div className="flex justify-between items-center h-16">
           
           {/* Logo leftside */}
