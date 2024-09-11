@@ -1,11 +1,40 @@
-import React from 'react'
+"use client"
+import React, {useEffect} from 'react'
 import { useTranslations } from 'next-intl';
 import {unstable_setRequestLocale} from 'next-intl/server';
+import Swal from 'sweetalert2';
 
 
-export default function ServicePage({params: {locale}}) {
-  unstable_setRequestLocale(locale);
+
+const askService = () => {
+  Swal.fire({
+    title: 'Solicitud de servicio',
+    html: '<p>Por favor complete el formulario para solicitar un servicio</p>',
+    icon: 'info',
+    confirmButtonText: 'Solicitar'
+  })
+}
+
+// const input = () => { 
+//   const { value: email } = Swal.fire({
+//   title: "Input email address",
+//   input: "email",
+//   inputLabel: "Your email address",
+//   inputPlaceholder: "Enter your email address"
+// });
+// if (email) {
+//   Swal.fire(`Entered email: ${email}`);
+// }};
+
+
+export default function ServicePage({ params: { locale } }) {
   const t = useTranslations('ServicePage');
+
+  useEffect(() => {
+    // Lógica para manejar el locale en el lado del cliente si es necesario
+    console.log(`Locale actual: ${locale}`);
+  }, [locale]);
+
   return (
     <div className="flex h-full bg-white">
       <div className="flex flex-col items-start justify-start w-1/2 p-10 mt-20">
@@ -21,7 +50,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description1a3')}<br />
           <span className="font-semibold">{t('subtitle1b')}</span>
           <span className="flex justify-center mt-7">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={askService} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </span>
           <br />
                     
@@ -34,7 +63,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description2b2')}<br />
           {t('description2b3')}<br />
           <span className="flex justify-center mt-7">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={askService} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </span>
           <br />          
 
@@ -43,7 +72,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description32')}<br />
           {t('description33')}<br />
           <span className="flex justify-center mt-7">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={askService} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </span>
           <br /> 
 
@@ -64,7 +93,7 @@ export default function ServicePage({params: {locale}}) {
           {t('description414')}<br />
           {t('description415')}<br />  
           <span className="flex justify-center mt-7">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={askService} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </span>      
           
         </p>
