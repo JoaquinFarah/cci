@@ -70,7 +70,9 @@
       "description3": "Esta es una breve descripcion de la 3ra noticia en la que el jefe de gabinete en Mendoza hablo sobre el futuro del centro de empleados de comercio",
       "author3": "Autor de la noticia 3",
       "media3": "Origen de la noticia 3",
-      "category3": "Categoria ej: Comercio"
+      "category3": "Categoria ej: Comercio",
+
+      "button": "Solicitar Servicio"
 
     },
 
@@ -148,7 +150,9 @@
       "description412": "• Alquiler de oficina en la sede de la cámara.",
       "description413": "• Recuperación de créditos e IVA.",
       "description414": "• Arbitraje y conciliación.",
-      "description415": "• Otros servicios a solicitud."
+      "description415": "• Otros servicios a solicitud.",
+
+      "button": "Solicitar Servicio"
 
     },
 
@@ -163,7 +167,8 @@
     },
 
     "SocialNetworkSection":{
-      "header": "Seguinos en nuestras redes"
+      "header": "Seguinos en nuestras redes",
+      "button": "Contactanos"
     },
 
     "PartnersPage":{

@@ -69,7 +69,9 @@
       "description3": "Questa è una breve descrizione della 3a notizia in cui il capo dello staff di Mendoza ha parlato del futuro del centro per gli impiegati del commercio",
       "author3": "Jorge Cremade",
       "media3": "Boletin oficial",
-      "category3": " ej: Comercio"
+      "category3": " ej: Comercio",
+
+      "button": "Richiedere il servizio"
 
     
     },
@@ -141,15 +143,17 @@
       "description44": "• Interpretazione/traduzioni.",
       "description45": "• Assistenza specialistica per lo sviluppo di strategie di ingresso (indagini specifiche su sottosettori, prodotti).",
       "description46": "• Costituzione di strutture organizzative (uffici di rappresentanza, uffici di progetto, filiali e filiali proprietarie).",
-      "description47": "• Apoyo operativo en todas las fases del establecimiento (puesta en marcha, asistencia logística, selección de personal).",
-      "description48": "• Asistencia para transferencia de tecnología, joint ventures, adquisiciones y fusiones.",
-      "description49": "• Servicio de representación de empresas italianas.",
-      "description410": "• Promoción empresarial en los sistemas de comunicación de la Cámara de Comercio.",
-      "description411": "• Información comercial confidencial sobre personas físicas o jurídicas.",
-      "description412": "• Alquiler de oficina en la sede de la cámara.",
-      "description413": "• Recuperación de créditos e IVA.",
-      "description414": "• Arbitraje y conciliación.",
-      "description415": "• Otros servicios a solicitud."
+      "description47": "• Supporto operativo in tutte le fasi dello stabilimento (avviamento, assistenza logistica, selezione del personale).",
+      "description48": "• Assistenza per trasferimenti tecnologici, joint venture, acquisizioni e fusioni.",
+      "description49": "• Servizio di rappresentanza per aziende italiane.",
+      "description410": "• Promozione d'impresa nei sistemi di comunicazione della Camera di Commercio.",
+      "description411": "• Informazioni commerciali riservate su persone fisiche o giuridiche.",
+      "description412": "• Affitto ufficio presso la sede della Camera.",
+      "description413": "• Recupero crediti e IVA.",
+      "description414": "• Arbitrato e conciliazione.",
+      "description415": "• Altri servizi su richiesta.",
+
+      "button": "Richiedere il servizio"
 
     },
 
@@ -164,7 +168,8 @@
     },
 
     "SocialNetworkSection":{
-      "header": "Seguici sulle nostre reti"
+      "header": "Seguici sulle nostre reti",
+      "button": "Contattaci"
     },
 
     "PartnersPage":{

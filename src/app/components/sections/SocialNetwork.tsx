@@ -1,9 +1,19 @@
+"use client"
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Swal from 'sweetalert2';
 
+const popUp = () =>{
+  Swal.fire({
+    title: 'Contacto',
+    html: '<p>info@ccimendoza.com<br/> Granaderos 30, Ciudad de Mendoza <br/>2617659988</p>', 
+    icon: 'info',
+    confirmButtonText: 'Cerrar'
+  })
+};
 
 
 export default function SocialNetworkSection() {
@@ -48,18 +58,13 @@ export default function SocialNetworkSection() {
               <div className="col-span-2 max-h-12 w-full flex justify-center items-center text-gray-900 hover:text-red-600 transition-colors lg:col-span-1">
                 <FaYoutube size={48} />
               </div>
-            </Link>
-            
+            </Link>            
           </div>
-          <div className="flex justify-center mt-12">
-            <button type="button" className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">            
-            Contactanos
-            </button>
-            Mail: info@ccimendoza.com<br/>
-            Granaderos 30, Ciudad de Mendoza<br/>
-            2615588923
+
+          <div className="flex justify-center mt-8">
+            <button type="button" onClick={popUp} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </div>
-          
+
         </div>
       </div>
     );
