@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/types/app/[locale]/report/page.tsx", "src/app/[locale]/calendario/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/types/app/[locale]/report/page.tsx", "src/app/[locale]/calendario/page.jsx", "src/app/[locale]/sign-up/page.jsx", "src/app/[locale]/login/page.tsx"],
   "exclude": ["node_modules"]
 }

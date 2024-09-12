@@ -5,12 +5,13 @@ export default function Example() {
     return (
       <>
 
-        <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        <div className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gray-50">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
               Login / Register
             </h2>
+            <h3 className="text-center text-gray-400">Si posee una cuenta ingrese. En caso de no tener cuenta registrese.</h3>
           </div>
   
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">

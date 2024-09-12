@@ -28,9 +28,9 @@ const t = useTranslations('FooterSection');
           {t('address')}: Granaderos 30, Ciudad de Mendoza <br/>
           N° +549-261888775 
           
-            <p className="text-xs font-bold mt-2">
+            <span className="text-xs font-bold mt-2">
               Created by <Link className="font-bold" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>
-            </p>
+            </span>
         </p>
         
       </div>
