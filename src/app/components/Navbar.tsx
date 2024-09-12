@@ -62,8 +62,8 @@ const Navbar: React.FC = () => {
               {t('partners')}
             </Link>
 
-            <Link href="/es/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              LogIn/LogOut
+            <Link href="/es/sign-in" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+              LogIn
             </Link>
 
             {/* Dropdown language */}

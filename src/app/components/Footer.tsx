@@ -26,7 +26,7 @@ const t = useTranslations('FooterSection');
           CCI Mendoza<br/>       
           Mail: info@ccimendoza.com <br/>
           {t('address')}: Granaderos 30, Ciudad de Mendoza <br/>
-          N° +549-261888775 
+          N° +549-261888775<br/> 
           
             <span className="text-xs font-bold mt-2">
               Created by <Link className="font-bold" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>

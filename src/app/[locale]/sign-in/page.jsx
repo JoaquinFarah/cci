@@ -3,6 +3,7 @@ import { useState } from 'react';
 import {useSignInWithEmailAndPassword} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebase/config'
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
@@ -26,7 +27,9 @@ const SignIn = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="bg-gray-800 p-10 rounded-lg shadow-xl w-96">
-        <h3 className="text-white text-lg mb-5 text-center">Si posee una cuenta inicie sesion. En caso de que no tenga una, registrese.</h3>
+        <h3 className="text-white text-lg mb-5 text-center">Inicio de sesion</h3>
+        <form action="#" method="POST" className="space-y-6">
+        
         <input 
           type="email" 
           placeholder="Email" 
@@ -44,13 +47,16 @@ const SignIn = () => {
         <button onClick={handleSignIn} className="w-full p-3 bg-indigo-600 rounded text-white hover:bg-indigo-500">
           Iniciar sesion
         </button>
-
+        </form>
+        
         <div className="h-0.5 bg-gray-400 mt-3"></div>
-
-        <div className="h-auto mt-3 flex items-center justify-center">
-            <button onClick={handleSignIn} className="w-auto p-3 bg-green-600 rounded text-white hover:bg-green-700">
+        <h3 className="text-white mt-1 text-lg text-center">No tiene cuenta? Registrese!</h3>
+        <div className="h-auto mt-1 flex items-center justify-center">                        
+            <Link href="/es/sign-up" className="text-white">
+            <button className="w-auto mt-1 p-3 bg-green-600 rounded text-white hover:bg-green-700">
             Crear cuenta
             </button>
+            </Link>
         </div>
       </div>
     </div>
