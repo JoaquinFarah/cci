@@ -20,15 +20,17 @@ const t = useTranslations('FooterSection');
           priority
         />
       </Link>
-      <p className="text-xs font-bold mt-20">
-          Created by <Link className="font-bold" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>
-        </p>
+      
       <div className="flex flex-col items-center justify-center gap-1 cursor-default select-none">
         <p className="text-xs font-semibold"> 
           CCI Mendoza<br/>       
           Mail: info@ccimendoza.com <br/>
-          {t('address')}: Granaderos 30, Ciudad de Mendoza<br/>
+          {t('address')}: Granaderos 30, Ciudad de Mendoza <br/>
           N° +549-261888775 
+          
+            <p className="text-xs font-bold mt-2">
+              Created by <Link className="font-bold" href="https://www.linkedin.com/in/joaquin-farah-695a15213/" target="_blank">Joaquin Farah</Link>
+            </p>
         </p>
         
       </div>
