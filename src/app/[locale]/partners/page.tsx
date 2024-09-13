@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
-
+import { redirect } from 'next/navigation'
+import { createClient } from '../../../../utils/supabase/server'
 
 
 const data = [
