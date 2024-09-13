@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from 'react';
 import { useTranslations } from 'next-intl';
+
 
 
 const data = [
@@ -124,7 +123,7 @@ const data = [
 ]
 
 export default function PartnersPage() {
-    const t = useTranslations('PartnersPage');
+    const t = useTranslations('PartnersPage'); 
     return (
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -164,4 +163,5 @@ export default function PartnersPage() {
       </div>
     )
   }
+  
   
