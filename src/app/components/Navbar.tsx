@@ -8,6 +8,7 @@ import { useTranslations } from 'next-intl';
 import { logout } from '../[locale]/logout/actions';
 
 
+
 const Navbar: React.FC = () => {
   // State for dropdown visibility
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -16,6 +17,7 @@ const Navbar: React.FC = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+
 
   const t = useTranslations('Navbar');
 
@@ -67,10 +69,9 @@ const Navbar: React.FC = () => {
             <Link href="/es/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               LogIn
             </Link>
-
-            <Link href="/es/private" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              private
-            </Link>
+            <form action={logout}>
+                    <button type="submit" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">LogOut</button>
+            </form> 
 
             {/* Dropdown language */}
             <div className="relative">
@@ -84,11 +85,6 @@ const Navbar: React.FC = () => {
                 <LocalSwitcher />
               </div>
             </div>
-
-            <form action={logout}>
-                    <button type="submit" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2.5 py-2.5 text-center me-1 ml-1">LogOut</button>
-            </form> 
-
 
           </div>
         </div>
