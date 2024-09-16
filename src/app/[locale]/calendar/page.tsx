@@ -6,10 +6,11 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import multiMonthPlugin from '@fullcalendar/multimonth';
 import dayjs from 'dayjs';
+import { redirect } from 'next/navigation';
+import { createClient } from '../../../../utils/supabase/server';
 
 
-function Calendar() {
-
+export default function Calendar() {
   const events = [
     
     { title: 'TEST Event 1', 
@@ -105,4 +106,3 @@ function Calendar() {
   )
 }
 
-export default Calendar

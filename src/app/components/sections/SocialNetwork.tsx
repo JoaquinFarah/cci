@@ -9,7 +9,8 @@ import Swal from 'sweetalert2';
 const popUp = () =>{
   Swal.fire({
     title: 'Contacto',
-    html: '<p>info@ccimendoza.com<br/> Granaderos 30, Ciudad de Mendoza <br/>2617659988</p>', 
+    html: `
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a><br/> Granaderos 30, Ciudad de Mendoza <br/>2617659988` ,
     icon: 'info',
     confirmButtonText: 'Cerrar'
   })

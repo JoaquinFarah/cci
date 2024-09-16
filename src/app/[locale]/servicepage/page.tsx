@@ -9,22 +9,19 @@ import Swal from 'sweetalert2';
 const askService = () => {
   Swal.fire({
     title: 'Solicitud de servicio',
-    html: '<p>Por favor complete el formulario para solicitar un servicio</p>',
+    html: `Escribanos a:
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a> </br> indicandonos su nombre, n° de socio y el servicio solicitado.</br>
+    </br>No es socio? <a href="/es/login"><u>Registrese</u></a>`,
     icon: 'info',
-    confirmButtonText: 'Solicitar'
+    confirmButtonText: 'Cerrar'
+    // closeButtonText: 'true'
+    // showDenyButton: 'true'
+    // denyButtonText: 'Registrarse', 
+    // denyButtonColor: '#32B723',
+    // denyButtonLink: '/es/login'
+    
   })
 }
-
-// const input = () => { 
-//   const { value: email } = Swal.fire({
-//   title: "Input email address",
-//   input: "email",
-//   inputLabel: "Your email address",
-//   inputPlaceholder: "Enter your email address"
-// });
-// if (email) {
-//   Swal.fire(`Entered email: ${email}`);
-// }};
 
 
 export default function ServicePage({ params: { locale } }) {
