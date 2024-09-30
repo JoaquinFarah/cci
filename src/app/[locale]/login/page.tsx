@@ -1,15 +1,27 @@
+"use server"
 import Image from "next/image"
 import { login, signup } from './actions'
+import { logout } from '../logout/actions';
+import { createClient } from '../../../../utils/supabase/server';
 
 
-export default function Example() {
+export default async function LoginPage() {
+
+  const supabase = createClient()
+
+  const { data, error } = await supabase.auth.getUser()
+  if (error || !data?.user) {
+        
+
+  }
+
     return (
       <>
 
         <div className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gray-50">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">            
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-              Inicio de sesion / Registro 
+              Inicio de sesion / Registro <br/> {data.user.email}
             </h2>            
             <h3 className="text-center text-gray-400">Si posee una cuenta ingrese. En caso de no tener cuenta registrese.</h3>
           </div>  
@@ -42,7 +54,13 @@ export default function Example() {
                   Registrarse
                 </button>
 
-                
+                <button
+                  formAction={logout}
+                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Cerrar Sesión
+                </button>
+
               </div>
             </form>
           </div>

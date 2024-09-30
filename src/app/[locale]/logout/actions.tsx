@@ -12,7 +12,7 @@ import { redirect } from "next/navigation"
     const { error } = await supabase.auth.signOut()
   
     if (error) {
-      redirect('/error')
+      redirect('/es/error')
     }
   
     revalidatePath('/', 'layout')
