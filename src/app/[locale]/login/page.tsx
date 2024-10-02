@@ -40,13 +40,13 @@ export default async function LoginPage() {
               />
             </div>
 
-            <div className="mb-5">
+            <div className="">
               <label
                 htmlFor="password"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
                 Password
-              </label>
+              </label>              
               <input
                 type="password"
                 id="password"
@@ -54,8 +54,13 @@ export default async function LoginPage() {
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required
               />
+              <div className="text-sm">
+                  <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                    ¿Ha olvidado su contraseña?
+                  </a>
+              </div>
             </div>
-
+            
             <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
               <button
                 formAction={login}
