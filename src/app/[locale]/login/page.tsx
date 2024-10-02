@@ -1,8 +1,9 @@
 "use server"
-import Image from "next/image"
 import { login, signup } from './actions'
 import { logout } from '../logout/actions';
 import { createClient } from '../../../../utils/supabase/server';
+
+
 
 export default async function LoginPage() {
   const supabase = createClient();
@@ -53,12 +54,14 @@ export default async function LoginPage() {
                 name="password"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required
+                placeholder="************"
               />
-              <div className="text-sm">
-                  <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+              <form className="text-sm">
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpgXRsflHTZwMPTjrjjMFDjVqMlmGlgbcVDqncZSRsqPtMrnCGvMJNPgSzVJdwzpZfBPTr" target="_blank" className="font-semibold text-indigo-600 hover:text-indigo-500">
                     ¿Ha olvidado su contraseña?
                   </a>
-              </div>
+              </form>
+              
             </div>
             
             <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-8 xl:col-span-1">
@@ -86,6 +89,7 @@ export default async function LoginPage() {
               Cerrar Sesión
             </button>
           </form>
+          
         </div>
       </div>
     </>
