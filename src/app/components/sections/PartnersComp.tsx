@@ -81,7 +81,7 @@ const clientsData = [
       web: "www.asyc.com"      
   },
   {
-    id: '051602',
+    id: '051603',
     name: 'Victoria Cervi',
     company: 'Tekno',
     category: 'Pinturas',
@@ -97,7 +97,7 @@ const clientsData = [
 
 ];
 
-export default function OtherPartnersPage() {
+export default function PartnersComp() {
 
   const [selectedClient, setSelectedClient] = useState(null);
 

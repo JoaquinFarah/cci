@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
-import OtherPartnersPage from '../otherpartners/page';
-
+import PartnersComp from '@/app/components/sections/PartnersComp';
 
 const clientsData = [
     {
@@ -112,9 +111,8 @@ export default async function PartnersPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hola {data.user.email} bienvenido </h2>
-            <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
-            <OtherPartnersPage/>
-
+            <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
+            <PartnersComp/>
 
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
               {clientsData.map((clientsData) => (
