@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 
 
-
 const posts = [
     {
       id: 1,      
