@@ -5,15 +5,29 @@ import { useTranslations } from 'next-intl';
 
 const callouts = [
     {
-      name: 'Economic news',
-      description: 'Milei y el cepo al dolar',
-      imageSrc: 'https://about.fb.com/wp-content/uploads/2024/02/Facebook-News-Update_US_AU_Header.jpg?w=1920',
-      imageAlt: 'Economic news',
-      href: '/',
+      name: 'Italia',
+      description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Lacre--e1716562755197.jpg',
+      imageAlt: 'Botella',
+      href: 'https://www.infocampo.com.ar/lacrado-en-botellas-el-ritual-de-conservar-y-distinguir-al-vino-al-que-le-llego-la-hora-de-su-mecanizacion/',
     },
     {
-      name: 'Tension altamar',
-      description: 'Se ahogan',
+      name: 'Importaciones',
+      description: '“Estamos esperando alguna normativa que motorice la importación de tecnologías vitivinícolas”',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Enologia-vino-e1716397655720.jpg',
+      imageAlt: 'Cilindros de Acero',
+      href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
+    },
+    {
+      name: 'Mendoza',
+      description: 'Cambios para los comercios de Mendoza',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQWAy4Tmruo_iSKJpZ2ctHgj7vLFSsx4a8w&s',
+      imageAlt: 'Mendoza news',
+      href: '#',
+    },
+    {
+      name: 'Tragedia en el Mar',
+      description: 'La guardia costera italiana limita las posibilidades de hallar supervivientes del naufragio en Sicilia: "Creemos que están dentro del barco"',
       imageSrc: 'https://estaticos-cdn.prensaiberica.es/clip/2a329234-77e4-46be-b947-7faed8a2ae08_16-9-discover-aspect-ratio_default_0.jpg',
       imageAlt: 'World news',
       href: 'https://www.elperiodico.com/es/internacional/20240820/italia-busqueda-multimillonario-britanico-mike-lynch-naufragio-sicilia-107172497',
@@ -61,7 +75,7 @@ const callouts = [
                       {callout.name}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  <p className="text-base font-semibold text-gray-900 mb-6">{callout.description}</p>
                 </div>
               ))}
             </div>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
@@ -112,8 +112,7 @@ export default async function PartnersPage() {
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hola {data.user.email} bienvenido </h2>
             <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
-            <PartnersComp/>
-
+              <PartnersComp/>
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
               {clientsData.map((clientsData) => (
                 <div key={clientsData.name} className="group relative">                  
@@ -131,14 +130,12 @@ export default async function PartnersPage() {
                       <span className="text-blue-400">Provincia:</span> {clientsData.province} <br/>
                       <span className="text-blue-400">Pais:</span> {clientsData.country} <br/>
                       <span className="text-blue-400">Web:</span> {clientsData.web} <br/>
-
                     </div>
                   </h3>
                   
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </div>

@@ -6,13 +6,12 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import multiMonthPlugin from '@fullcalendar/multimonth';
 import dayjs from 'dayjs';
-import { redirect } from 'next/navigation';
-import { createClient } from '../../../../utils/supabase/server';
+
 
 
 export default function Calendar() {
-  const events = [
-    
+  
+    const events = [    
     { title: 'TEST Event 1', 
         start: dayjs('2024-8-12T12:00:00').toDate(),
         end: dayjs('2024-8-14T12:00:00').toDate(),
@@ -32,32 +31,43 @@ export default function Calendar() {
     { title: 'TEST Event 4', 
         start: dayjs('2024-10-17T10:00:00').toDate(),
         end: dayjs('2024-10-17T02:00:00').toDate(),
-        color: 'purple' },
+        color: 'purple'        
+    },
 
     { title: 'TEST Event 5', 
         start: dayjs('2024-4-12T12:00:00').toDate(),
         end: dayjs('2024-4-13T12:00:00').toDate(),
-        color: 'yellow' },
+        color: 'yellow' 
+    },
 
     { title: 'TEST Event 6', 
         start: dayjs('2024-3-12T12:00:00').toDate(),
         end: dayjs('2024-3-14T12:00:00').toDate(),
-        color: 'blue' },
+        color: 'blue' 
+    },
 
     { title: 'TEST Event 8', 
         start: dayjs('2024-9-02T06:00:00').toDate(),
         end: dayjs('2024-9-02T10:00:00').toDate(),
-        color: 'red', },
+        color: 'red' 
+    },
 
     { title: 'TEST Event 9', 
         start: dayjs('2024-9-02T06:00:00').toDate(),
         end: dayjs('2024-9-02T15:00:00').toDate(),
         color: 'blue',
-        url:'https://www.linkedin.com' },
+        url:'https://www.linkedin.com' 
+    },
 
+    { title: 'TEST Event 10', 
+        start: dayjs('2024-7-02T06:00:00').toDate(),
+        end: dayjs('2024-7-04T15:00:00').toDate(),
+        color: 'blue',
+        url:'https://www.linkedin.com' 
+    },
 
-
-  ];
+       
+];
 
   return (
     <div className="">
