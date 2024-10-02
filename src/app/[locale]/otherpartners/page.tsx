@@ -98,6 +98,7 @@ const clientsData = [
 ];
 
 export default function OtherPartnersPage() {
+
   const [selectedClient, setSelectedClient] = useState(null);
 
   // Manejador de selección de cliente
@@ -110,11 +111,11 @@ export default function OtherPartnersPage() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-1">
+          {/* <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Bienvenido, selecciona un cliente
           </h2>
-          <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
+          <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div> */}
 
           {/* Dropdown para seleccionar cliente */}
           <div className="mb-6">
@@ -122,7 +123,7 @@ export default function OtherPartnersPage() {
               htmlFor="client-select"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              Seleccione un cliente:
+              Seleccione un Socio:
             </label>
             <select
               id="client-select"
@@ -130,7 +131,7 @@ export default function OtherPartnersPage() {
               onChange={handleClientSelect}
               defaultValue=""
             >
-              <option value="">Seleccione un cliente</option>
+              <option value="">Lista de socios</option>
               {clientsData.map((client) => (
                 <option key={client.id} value={client.id}>
                   {client.name}
@@ -166,3 +167,5 @@ export default function OtherPartnersPage() {
     </div>
   );
 }
+
+
