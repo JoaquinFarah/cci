@@ -19,8 +19,8 @@ const callouts = [
       href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
     },
     {
-      name: 'Mendoza',
-      description: 'Cambios para los comercios de Mendoza',
+      name: 'Sitevinitech',
+      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
       imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQWAy4Tmruo_iSKJpZ2ctHgj7vLFSsx4a8w&s',
       imageAlt: 'Mendoza news',
       href: '#',
