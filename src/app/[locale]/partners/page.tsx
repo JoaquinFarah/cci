@@ -5,6 +5,7 @@ import { createClient } from '../../../../utils/supabase/server';
 
 const clientsData = [
     {
+        id: '139900',
         name: 'Juan Perez',
         company: 'ACME',
         category: 'Explosivos',
@@ -13,9 +14,11 @@ const clientsData = [
         address: 'Calle Falsa 123',
         city: 'Godoy Cruz',
         province: 'Mendoza',
-        country: 'Argentina',        
+        country: 'Argentina',  
+        web: "www.acme.com"              
     },
     {
+        id: '105601',
         name: 'Esteban Quito',
         company: 'ATOMO',
         category: 'Supermercados',
@@ -24,9 +27,11 @@ const clientsData = [
         address: 'Calle larga 234',
         city: 'Las Heras',
         province: 'Mendoza',
-        country: 'Argentina',        
+        country: 'Argentina', 
+        web: "www.atomo.com"       
     },
-    {
+    {   
+        id: '124452',
         name: 'Gabriel Pereira',
         company: 'DRTV',
         category: 'Television',
@@ -35,9 +40,11 @@ const clientsData = [
         address: 'Calle Soleada 923',
         city: 'Dorrego',
         province: 'Mendoza',
-        country: 'Argentina',        
+        country: 'Argentina',
+        web: "www.directv.com"        
     },
     {
+        id: '091487',
         name: 'Joaquin Farah',
         company: 'Bright Innovations',
         category: 'Programacion',
@@ -46,9 +53,11 @@ const clientsData = [
         address: 'Perito Moreno 2554',
         city: 'Godoy Cruz',
         province: 'Mendoza',
-        country: 'Argentina',        
+        country: 'Argentina', 
+        web: "www.brightinnovations.com"       
     },
     {
+        id: '011102',
         name: 'Jorge Mendoza',
         company: 'La Continental',
         category: 'Pasteleria',
@@ -57,64 +66,36 @@ const clientsData = [
         address: 'Hudson 44',
         city: 'Guaymallen',
         province: 'Mendoza',
-        country: 'Argentina',        
+        country: 'Argentina', 
+        web: "www.lacontinental.com"       
     },
     {
-        name: 'Gabriel Pereira',
-        company: 'DRTV',
-        category: 'Television',
-        phone: '261448877',
-        mail: 'gapereira@directv.com',
-        address: 'Calle Soleada 923',
-        city: 'Dorrego',
-        province: 'Mendoza',
-        country: 'Argentina',        
-    },
-    {
-        name: 'Esteban Quito',
-        company: 'ATOMO',
-        category: 'Supermercados',
-        phone: '261448877',
-        mail: 'estebanquito@gmail.com',
-        address: 'Calle larga 234',
-        city: 'Las Heras',
-        province: 'Mendoza',
-        country: 'Argentina',        
-    },
-    {
-      name: 'Gabriel Pereira',
-      company: 'DRTV',
-      category: 'Television',
+      id: '051602',
+      name: 'Jorge Ariel Plus',
+      company: 'JAMASP',
+      category: 'Papeleria',
       phone: '261448877',
-      mail: 'gapereira@directv.com',
-      address: 'Calle Soleada 923',
-      city: 'Dorrego',
+      mail: 'jamas@gmail.com',
+      address: 'Las Heras 44',
+      city: 'Ciudad',
       province: 'Mendoza',
-      country: 'Argentina',        
+      country: 'Argentina',  
+      web: "www.asyc.com"      
   },
   {
-    name: 'Gabriel Pereira',
-    company: 'DRTV',
-    category: 'Television',
-    phone: '261448877',
-    mail: 'gapereira@directv.com',
-    address: 'Calle Soleada 923',
-    city: 'Dorrego',
+    id: '051602',
+    name: 'Victoria Cervi',
+    company: 'Tekno',
+    category: 'Pinturas',
+    phone: '261678954',
+    mail: 'virtoriacervi@tekno.com',
+    address: 'Colon 224',
+    city: 'Ciudad',
     province: 'Mendoza',
-    country: 'Argentina',        
+    country: 'Argentina',  
+    web: "www.tekno.com"      
 },
-{
-  name: 'Gabriel Pereira',
-  company: 'DRTV',
-  category: 'Television',
-  phone: '261448877',
-  mail: 'gapereira@directv.com',
-  address: 'Calle Soleada 923',
-  city: 'Dorrego',
-  province: 'Mendoza',
-  country: 'Argentina',        
-},
-
+    
 
 ];
 
@@ -146,6 +127,7 @@ export default async function PartnersPage() {
                   <h3 className=" text-base font-semibold text-gray-900 border-2 px-2 py-2 border-rose-500 rounded-md hover:drop-shadow-lg transition-all">
                     <div>
                       <span className="absolute inset-0" />
+                      <span className="text-blue-400">ID:</span> {clientsData.id} <br/>                      
                       <span className="text-blue-400">Nombre:</span> {clientsData.name} <br/>
                       <span className="text-blue-400">Empresa:</span> {clientsData.company} <br/>
                       <span className="text-blue-400">Rubro:</span> {clientsData.category} <br/>
@@ -155,6 +137,8 @@ export default async function PartnersPage() {
                       <span className="text-blue-400">Localidad:</span> {clientsData.city} <br/>
                       <span className="text-blue-400">Provincia:</span> {clientsData.province} <br/>
                       <span className="text-blue-400">Pais:</span> {clientsData.country} <br/>
+                      <span className="text-blue-400">Web:</span> {clientsData.web} <br/>
+
                     </div>
                   </h3>
                   
