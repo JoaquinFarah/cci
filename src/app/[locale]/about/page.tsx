@@ -178,14 +178,14 @@ export default function AboutPage() {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center mt-20 mb-4">
+      {/* <div className="flex justify-center mt-20 mb-4">
         <Image
           src={"/organigrama.jpg"}
           alt={"img1"}
           width={600}
           height={600}
           />  
-      </div>   
+      </div>    */}
     </div>
   )
 }
