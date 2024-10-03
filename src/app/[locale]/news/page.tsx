@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslations } from 'next-intl';
 
 
@@ -20,10 +20,9 @@ const callouts = [
     {
       name: 'Sitevinitech',
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQWAy4Tmruo_iSKJpZ2ctHgj7vLFSsx4a8w&s',
+      imageSrc: '/merchant.jpeg',
       imageAlt: 'Mendoza news',
-      href: '#',
-      // usar la pagina del blog como plantilla, ver si es viable
+      href: '#',      
     },
     {
       name: 'Tragedia en el Mar',

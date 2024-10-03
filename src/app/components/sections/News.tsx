@@ -25,27 +25,49 @@ const askMail = () =>{
 };
 
 
-const posts = [
-    {
-      id: 1,      
-      href: '/es/news',
-      imageUrl:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdQr1lkzMWyBSS3BW8e44omV7OtyhbPDa_A&s',
-    },
-    {
-        id: 2,      
-        href: '/es/news',
-        imageUrl:
-            'https://www.fundacionkonex.org/custom/web/data/imagenes/repositorio/2010/6/1/818/2016031505482167d16d00201083a2b118dd5128dd6f59.jpg',
-    },
-    {
-        id: 3,      
-        href: '/es/news',
-        imageUrl:
-            'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
-    },
+const callout = [
+    // {
+    //   id: 1,      
+    //   href: '/es/news',
+    //   imageUrl:
+    //       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdQr1lkzMWyBSS3BW8e44omV7OtyhbPDa_A&s',
+    // },
+    // {
+    //     id: 2,      
+    //     href: '/es/news',
+    //     imageUrl:
+    //         'https://www.fundacionkonex.org/custom/web/data/imagenes/repositorio/2010/6/1/818/2016031505482167d16d00201083a2b118dd5128dd6f59.jpg',
+    // },
+    // {
+    //     id: 3,      
+    //     href: '/es/news',
+    //     imageUrl:
+    //         'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
+    // },
   
     // More posts...
+
+    {
+      name: 'Italia',
+      description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Lacre--e1716562755197.jpg',
+      imageAlt: 'Botella',
+      href: 'https://www.infocampo.com.ar/lacrado-en-botellas-el-ritual-de-conservar-y-distinguir-al-vino-al-que-le-llego-la-hora-de-su-mecanizacion/',
+    },
+    {
+      name: 'Importaciones',
+      description: '“Estamos esperando alguna normativa que motorice la importación de tecnologías vitivinícolas”',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Enologia-vino-e1716397655720.jpg',
+      imageAlt: 'Cilindros de Acero',
+      href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
+    },
+    {
+      name: 'Sitevinitech',
+      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
+      imageSrc: '/traje.jpg',
+      imageAlt: 'Mendoza news',
+      href: '#',      
+    },
   ]
   
   export default function NewsSection() {
@@ -59,7 +81,9 @@ const posts = [
               {t('header1')}
             </p>
           </div>
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-2 sm:pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+
+
+          {/* <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-2 sm:pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
                 <div className="flex items-center gap-x-4 text-xs">
@@ -91,7 +115,30 @@ const posts = [
                 </div>
               </article>
             ))}
-          </div>
+          </div> */}
+            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-2 lg:space-y-0">
+              {callout.map((callout) => (
+                <div key={callout.name} className="group relative rounded-lg px-1 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80">
+                  <div className="relative mt-5 h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                    <img
+                      alt={callout.imageAlt}
+                      src={callout.imageSrc}
+                      className="h-full w-full object-cover object-center"
+                    />
+                  </div>
+                  <h3 className="mt-4 text-sm text-gray-500 px-4">
+                    <a href={callout.href}>
+                      <span className="absolute inset-0" />
+                      {callout.name}
+                    </a>
+                  </h3>
+                  <p className="text-base font-semibold text-gray-900 mb-6 text-left px-4">{callout.description}</p>
+                </div>
+              ))}
+            </div>
+
+
+
           <div className="flex justify-center mt-12">
             <button type="button" onClick={askMail} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
           </div>
