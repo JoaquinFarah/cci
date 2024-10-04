@@ -20,8 +20,8 @@ const callouts = [
     {
       name: 'Sitevinitech',
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/merchant.jpeg',
-      imageAlt: 'Mendoza news',
+      imageSrc: '/exposj.jpeg',
+      imageAlt: 'sitevinitech',
       href: '#',      
     },
     {
@@ -60,53 +60,11 @@ const callouts = [
       href: 'https://enolife.com.ar/es/la-camara-de-comercio-italiana-en-mendoza-ofrece-beneficios-para-viajar-a-la-feria-simei-milan/',
     },
     {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
-    }, {
-      name: '',
-      description: '',
-      imageSrc: '',
-      imageAlt: '',
-      href: '',
+      name: 'Sitevinitech',
+      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
+      imageSrc: '/marble.jpeg',
+      imageAlt: 'sitevinitech',
+      href: '#',
     },
 
     
