@@ -64,7 +64,7 @@ const callout = [
     {
       name: 'Sitevinitech',
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/exposj.jpeg',
+      imageSrc: '/sitevinitech.jpeg',
       imageAlt: 'Mendoza news',
       href: '#',      
     },
