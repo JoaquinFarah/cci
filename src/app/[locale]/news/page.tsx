@@ -81,7 +81,7 @@ const callouts = [
       href: '#',
     },
     {
-      name: 'Ferias',
+      name: 'Ferias',      
       description: 'MACFRUT 2024: La Feria Internacional de Frutas y Verduras',
       imageSrc: 'https://cdn-italiani-media.italiani.it/site-rionegro/sites/96/2024/01/macfrut24-1000x411.jpg',
       imageAlt: 'mcf',
@@ -90,7 +90,7 @@ const callouts = [
     {
       name: 'Gastronomia',
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
-      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYgjzR5ATAwskr_RRLSidnDcFvdaLPN7YZ-w&s',
+      imageSrc: '/Logo.jpg',
       imageAlt: 'mdita',
       href: '#',
     },
