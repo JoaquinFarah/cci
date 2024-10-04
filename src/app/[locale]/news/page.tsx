@@ -20,7 +20,7 @@ const callouts = [
     {
       name: 'Sitevinitech',
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/exposj.jpeg',
+      imageSrc: '/sitevinitech.jpeg',
       imageAlt: 'sitevinitech',
       href: '#',      
     },
@@ -60,12 +60,48 @@ const callouts = [
       href: 'https://enolife.com.ar/es/la-camara-de-comercio-italiana-en-mendoza-ofrece-beneficios-para-viajar-a-la-feria-simei-milan/',
     },
     {
-      name: 'Sitevinitech',
-      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/marble.jpeg',
-      imageAlt: 'sitevinitech',
+      name: 'San Juan',
+      description: 'La Cámara de Comercio Italiana en la Expo San Juan Minera 2024: Promoviendo el Made in Italy en el Sector Minero Argentino',
+      imageSrc: '/exposj.jpeg',
+      imageAlt: 'expo',
       href: '#',
     },
+    {
+      name: 'UNCuyo',
+      description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
+      imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
+      imageAlt: 'unc',
+      href: '#',
+    },
+    {
+      name: 'Difusion',
+      description: 'La CCI en Radio La Red',
+      imageSrc: '/radio.jpg',
+      imageAlt: 'lared',
+      href: '#',
+    },
+    {
+      name: 'Ferias',
+      description: 'MACFRUT 2024: La Feria Internacional de Frutas y Verduras',
+      imageSrc: 'https://cdn-italiani-media.italiani.it/site-rionegro/sites/96/2024/01/macfrut24-1000x411.jpg',
+      imageAlt: 'mcf',
+      href: '#',
+    },
+    {
+      name: 'Gastronomia',
+      description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYgjzR5ATAwskr_RRLSidnDcFvdaLPN7YZ-w&s',
+      imageAlt: 'mdita',
+      href: '#',
+    },
+    {
+      name: 'Internacionales',
+      description: 'Recepción de la comitiva de la Scuola Enologica Cerletti en Mendoza',
+      imageSrc: '/instconegliano.jpeg',
+      imageAlt: 'inst',
+      href: '#',
+    },
+
 
     
     
@@ -80,8 +116,6 @@ const callouts = [
     //   imageAlt: '',
     //   href: '',
     // },
-    
-   
     
   ]
   
