@@ -61,7 +61,7 @@ export default function minas() {
         </div>
       </div>   
       <div className="">
-        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+        <div className="relative w-full" style={{ paddingBottom: '90%' }}>
           <Image
             src="/exposj.jpeg"
             alt="Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining"
@@ -70,7 +70,7 @@ export default function minas() {
             className="rounded-lg"
           />
         </div>  
-        <p className="text-xs text-center text-gray-500 mt-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
+        <p className="text-xs text-center text-gray-500 mt-2 mb-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
       </div>               
     </div>
   )

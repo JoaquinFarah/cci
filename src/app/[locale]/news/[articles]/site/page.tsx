@@ -20,8 +20,8 @@ export default function sitevinitech() {
               objectFit="cover"
               className="rounded-lg"
             />
-            
-          </div>          
+          </div> 
+          <p className="text-xs text-gray-500">De izquierda a derecha: Silvia Cordioli, Luciano Cicchitti, Oliverio Gabrielli, Guadalupe de Rosas y Leandro Castrillo. </p>         
 
           <p>
             Durante la feria, la Cámara representó varias empresas italianas, entre las cuales destacaron LASI, Cucuzza Inox, y CET Electronics. Además, compartimos nuestro espacio con otras compañías internacionales de renombre, como SucoPack, Maselli Latam, EyesTrading, y CIC. Esta colaboración resultó ser una experiencia enriquecedora, donde cada una de las empresas demostró su capacidad de innovación y excelencia en sus productos y servicios.
@@ -53,7 +53,14 @@ export default function sitevinitech() {
             Italia y el futuro de la vitivinicultura argentina
           </p>
 
-          <div className="relative w-full h-96 md:h-96">
+          <p>
+            El éxito de la participación de las empresas italianas en SITEVINITECH reafirma el compromiso de Italia con la industria vitivinícola argentina. Silvia Cordioli destacó la importancia de este mercado: "Creemos en Argentina y en su industria vitivinícola. Trabajamos a nivel global y reconocemos el valor de empresas de gran calibre y productos de excelencia como el Malbec".
+          </p>
+
+          <p>
+            Agradecemos a todos los que visitaron nuestro stand y contribuyeron al éxito de esta edición de SITEVINITECH. Invitamos a quienes deseen saber más sobre las empresas expositoras a visitar el Catálogo Virtual de la feria, donde encontrarán información detallada sobre las innovaciones presentadas. Pueden acceder al catálogo a través del siguiente enlace: Catálogo de Expositores SITEVINITECH.
+          </p>
+          <div className="relative w-full" style={{ paddingBottom: '70%' }}>
             <Image
               src="/pedrooliverio.jpg"
               alt="pedro y oliverio"
@@ -62,15 +69,7 @@ export default function sitevinitech() {
               className="rounded-lg"
             />
           </div>
-          <p className="text-xs text-gray-500">De izquierda a derecha: Silvia Cordioli, Luciano Cicchitti, Oliverio Gabrielli, Guadalupe de Rosas y Leandro Castrillo. </p>
-
-          <p>
-            El éxito de la participación de las empresas italianas en SITEVINITECH reafirma el compromiso de Italia con la industria vitivinícola argentina. Silvia Cordioli destacó la importancia de este mercado: "Creemos en Argentina y en su industria vitivinícola. Trabajamos a nivel global y reconocemos el valor de empresas de gran calibre y productos de excelencia como el Malbec".
-          </p>
-
-          <p>
-            Agradecemos a todos los que visitaron nuestro stand y contribuyeron al éxito de esta edición de SITEVINITECH. Invitamos a quienes deseen saber más sobre las empresas expositoras a visitar el Catálogo Virtual de la feria, donde encontrarán información detallada sobre las innovaciones presentadas. Pueden acceder al catálogo a través del siguiente enlace: Catálogo de Expositores SITEVINITECH.
-          </p>
+          <p className="text-xs text-gray-500">Pedro Baziuk (izquierda), director de la Cámara y Oliverio Gabrielli (derecha), encargado del área comercial. </p>
         </div>
       </div>    
     </div>
