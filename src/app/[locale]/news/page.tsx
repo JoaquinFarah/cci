@@ -22,7 +22,7 @@ const callouts = [
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
       imageSrc: '/sitevinitech.jpeg',
       imageAlt: 'sitevinitech',
-      href: '/es/news/articles/site',      
+      href: '/es/news/articles/sitevinitech2024',      
     },
     {
       name: 'Tragedia en el Mar',
@@ -64,7 +64,7 @@ const callouts = [
       description: 'La Cámara de Comercio Italiana en la Expo San Juan Minera 2024: Promoviendo el Made in Italy en el Sector Minero Argentino',
       imageSrc: '/exposj.jpeg',
       imageAlt: 'expo',
-      href: '/es/news/articles/minas',
+      href: '/es/news/articles/minassj2024',
     },
     {
       name: 'UNCuyo',
