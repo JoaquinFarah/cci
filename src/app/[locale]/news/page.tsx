@@ -85,21 +85,21 @@ const callouts = [
       description: 'MACFRUT 2024: La Feria Internacional de Frutas y Verduras',
       imageSrc: 'https://cdn-italiani-media.italiani.it/site-rionegro/sites/96/2024/01/macfrut24-1000x411.jpg',
       imageAlt: 'mcf',
-      href: '#',
+      href: '/es/news/articles/macfrut2024',
     },
     {
       name: 'Gastronomia',
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
       imageSrc: '/Logo.jpg',
       imageAlt: 'mdita',
-      href: '#',
+      href: '/es/news/articles/ospitalita',
     },
     {
       name: 'Internacionales',
       description: 'Recepción de la comitiva de la Scuola Enologica Cerletti en Mendoza',
       imageSrc: '/instconegliano.jpeg',
       imageAlt: 'inst',
-      href: '#',
+      href: 'scuolacerletti',
     },
 
 

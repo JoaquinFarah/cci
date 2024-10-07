@@ -58,7 +58,7 @@ export default function sitevinitech() {
           </p>
 
           <p>
-            Agradecemos a todos los que visitaron nuestro stand y contribuyeron al éxito de esta edición de SITEVINITECH. Invitamos a quienes deseen saber más sobre las empresas expositoras a visitar el Catálogo Virtual de la feria, donde encontrarán información detallada sobre las innovaciones presentadas. Pueden acceder al catálogo a través del siguiente enlace: Catálogo de Expositores SITEVINITECH.
+            Agradecemos a todos los que visitaron nuestro stand y contribuyeron al éxito de esta edición de SITEVINITECH. Invitamos a quienes deseen saber más sobre las empresas expositoras a visitar el Catálogo Virtual de la feria, donde encontrarán información detallada sobre las innovaciones presentadas. Pueden acceder al catálogo a través del siguiente enlace:<a className="underline text-blue-700" target="_blank" href="https://sitevinitech.com.ar/catalogo-de-expositores/">Catálogo de Expositores SITEVINITECH.</a>
           </p>
           <div className="relative w-full" style={{ paddingBottom: '70%' }}>
             <Image
