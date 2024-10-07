@@ -71,14 +71,14 @@ const callouts = [
       description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
       imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
       imageAlt: 'unc',
-      href: '#',
+      href: '/es/news/articles/uncuyo',
     },
     {
       name: 'Difusion',
       description: 'La CCI en Radio La Red',
       imageSrc: '/radio.jpg',
       imageAlt: 'lared',
-      href: '#',
+      href: '/es/news/articles/radio',
     },
     {
       name: 'Ferias',      
