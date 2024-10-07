@@ -54,21 +54,24 @@ export default function minas() {
           <p>
           Queremos extender nuestro más sincero agradecimiento a PANORAMA MINERO, organizador del evento, por brindarnos esta plataforma para exhibir el potencial del "Made in Italy" en el sector minero. También agradecemos a todos los visitantes y colaboradores que nos acompañaron en este importante evento.
           </p>
+
           <p>
           La CCI seguirá trabajando para fortalecer las relaciones comerciales entre Italia y Argentina, generando nuevas oportunidades para las empresas en futuros eventos y exposiciones.
           </p>
         </div>
-      </div> 
-      <div className="relative w-auto h-96 ">
-            <Image
-              src="/exposj.jpeg"
-              alt="sitevinitech"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>  
-          <p className="text-xs text-gray-500">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>           
+      </div>   
+      <div className="">
+        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+          <Image
+            src="/exposj.jpeg"
+            alt="Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining"
+            layout="fill"
+            objectFit="contain"
+            className="rounded-lg"
+          />
+        </div>  
+        <p className="text-xs text-center text-gray-500 mt-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
+      </div>               
     </div>
   )
 }
