@@ -5,6 +5,7 @@ export default function minas() {
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <h3 className="text-gray-400 mb-1">Mendoza, miércoles 28 de agosto. </h3>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza</h2>
         <div className="min-h-0.5 bg-gray-200 mb-4"></div>
         <div className="space-y-6">

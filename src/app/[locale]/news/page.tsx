@@ -92,14 +92,14 @@ const callouts = [
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
       imageSrc: '/Logo.jpg',
       imageAlt: 'mdita',
-      href: '/es/news/articles/ospitalita',
+      href: '/es/news/articles/ospitalita2024',
     },
     {
       name: 'Internacionales',
       description: 'Recepción de la comitiva de la Scuola Enologica Cerletti en Mendoza',
       imageSrc: '/instconegliano.jpeg',
       imageAlt: 'inst',
-      href: 'scuolacerletti',
+      href: '/es/news/articles/scuolacerletti',
     },
 
 

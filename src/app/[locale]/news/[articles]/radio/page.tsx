@@ -5,6 +5,7 @@ export default function minas() {
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <h3 className="text-gray-400 mb-1">Mendoza, lunes 23 de septiembre. </h3>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La CCI en Radio La Red</h2>
         <div className="min-h-0.5 bg-gray-200 mb-4"></div>
         <div className="space-y-6">
@@ -39,7 +40,7 @@ export default function minas() {
             className="rounded-lg"
           />
         </div>  
-        <p className="text-xs text-center text-gray-500 mt-2 mb-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
+        <p className="text-xs text-center text-gray-500 mt-2 mb-2">De izquierda a derecha: Oliverio Gabrielli, Pedro Baziuk.</p>
       </div>               
     </div>
   )
