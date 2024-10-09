@@ -42,7 +42,7 @@ export default async function ReportsPage() {
                 {/* {t('report2')} */}
                 Reporte 2
               </p>
-              <div className="h-1 bg-black"></div>
+              <div className="h-1 bg-gradient-to-r from-green-800 via-white to-red-800"></div>
             </div>  
 
             <div className="bg-white p-6 rounded-lg text-start hover:shadow-2xl transition-all">              

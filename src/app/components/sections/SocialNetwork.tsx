@@ -10,7 +10,7 @@ const popUp = () =>{
   Swal.fire({
     title: 'Contacto',
     html: `
-    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a><br/> Granaderos 30, Ciudad de Mendoza <br/>2617659988` ,
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a><br/> Andrade 30, Ciudad de Mendoza <br/>2617659988` ,
     icon: 'info',
     confirmButtonText: 'Cerrar'
   })

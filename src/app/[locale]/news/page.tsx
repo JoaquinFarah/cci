@@ -23,21 +23,7 @@ const callouts = [
       imageSrc: '/sitevinitech.jpeg',
       imageAlt: 'sitevinitech',
       href: '/es/news/articles/sitevinitech2024',      
-    },
-    {
-      name: 'Tragedia en el Mar',
-      description: 'La guardia costera italiana limita las posibilidades de hallar supervivientes del naufragio en Sicilia: "Creemos que están dentro del barco"',
-      imageSrc: 'https://estaticos-cdn.prensaiberica.es/clip/2a329234-77e4-46be-b947-7faed8a2ae08_16-9-discover-aspect-ratio_default_0.jpg',
-      imageAlt: 'World news',
-      href: 'https://www.elperiodico.com/es/internacional/20240820/italia-busqueda-multimillonario-britanico-mike-lynch-naufragio-sicilia-107172497',
     },    
-    {
-      name: 'Global news',
-      description: 'El las relaciones internacionales en Europa',
-      imageSrc: 'https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/media-assets/image/20240224_DE_US.jpg',
-      imageAlt: 'World news',
-      href: '#',
-    },
     {
       name: 'Ferias',
       description: 'CCI invita a productores frutihortícolas y exportadores a participar online en la Macfrut 2024 de Italia',

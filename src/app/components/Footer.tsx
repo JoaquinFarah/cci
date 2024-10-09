@@ -25,7 +25,7 @@ const t = useTranslations('FooterSection');
         <p className="text-xs font-semibold"> 
           CCI Mendoza<br/>       
           Mail: info@ccimendoza.com <br/>
-          {t('address')}: Granaderos 30, Ciudad de Mendoza <br/>
+          {t('address')}: Andrade 30, Ciudad de Mendoza <br/>
           N° +549-261888775<br/> 
           
             <span className="text-xs font-bold mt-2">

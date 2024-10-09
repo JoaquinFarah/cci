@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 const askMail = () =>{
   Swal.fire({
     title: 'Newsletter',
-    text: 'Ingrese su mail para asociarse',    
+    text: 'Ingrese su mail para subscribirse ',    
     input: 'email',
     inputPlaceholder: "ejemplo@mail.com",
     showCancelButton: true,

@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
             </Link>
 
             <Link href="/es/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              login/logout
+              login
             </Link>
 
             

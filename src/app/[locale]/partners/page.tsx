@@ -113,7 +113,9 @@ export default async function PartnersPage() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hola {data.user.email} bienvenido </h2>
             <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
               <PartnersComp/>
-            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
+              {/* From here you have the partners grid */}
+
+            {/* <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
               {clientsData.map((clientsData) => (
                 <div key={clientsData.name} className="group relative">                  
                   <h3 className=" text-base font-semibold text-gray-900 border-2 px-2 py-2 border-rose-500 rounded-md hover:drop-shadow-lg transition-all">
@@ -131,12 +133,44 @@ export default async function PartnersPage() {
                       <span className="text-blue-400">Pais:</span> {clientsData.country} <br/>
                       <span className="text-blue-400">Web:</span> {clientsData.web} <br/>
                     </div>
-                  </h3>
-                  
+                  </h3>                  
                 </div>
               ))}
-            </div>
+            </div> */}
+
+<p>------------convertir los botones de la base de datos en una tabla o algo asi</p>
+          <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1">Nuestras bases de datos</p>
+          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Base de datos Argentina</button>
           </div>
+          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Base de datos Italiana</button>
+          </div>
+
+          <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
+          <p>Solicitar servicio, evento o asesoramiento</p>
+          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Solicitar</button>
+          </div>
+          <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Agendar turno para espacio radial</p>
+          <p>Si esta interesado en figurar en nuestro bloque radial que se emite en radio La Red 94.1 agende su turno llenando el siguiente formulario</p>
+          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Agendar</button>
+          </div>
+          <p>-------------Oliverio creara formulario de google y me enviara el link para agregarlo</p>
+          
+          <p>--------------Al apretar el boton que aparezca popup  "comuniquese con nuestro encargado comercial oliverio gabrielli oliverio.gabrielli@ccimendoza.com cel 2615413215</p>
+          
+          <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Sponsors</p>
+          <p>Para convertirse en sponsor</p>
+          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Convertirse en sponsor</button>
+          </div>
+          <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p>
+
+
+
+          </div>          
         </div>
       </div>
     )

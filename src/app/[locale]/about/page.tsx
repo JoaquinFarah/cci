@@ -163,7 +163,7 @@ export default function AboutPage() {
             {t('descriptiontitle34')}<br/>                      
           </p>
         </div>
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-8 xl:col-span-1">
+        {/* <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-8 xl:col-span-1">
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-2 bg-gradient-to-r from-white to-cyan-100 rounded-full shadow-lg ">
@@ -176,7 +176,7 @@ export default function AboutPage() {
               </div>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
       {/* <div className="flex justify-center mt-20 mb-4">
         <Image
