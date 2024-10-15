@@ -1,10 +1,12 @@
 "use server"
 import React from 'react';
+import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
 import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
+import { ServicePopUp } from '@/app/components/sections/ServiceRequestPopUp';
 
 
 const clientsData = [
@@ -104,6 +106,23 @@ const clientsData = [
 ];
 
 
+type FileData = {
+  name: string;
+  url: string;
+};
+
+// array de datos de ejemplo
+const files: FileData[] = [
+  { name: "Vitnicultura", url: "/files/documento1.pdf" },
+  { name: "Empresas de servicios", url: "/files/documento2.pdf" },
+  { name: "Enotecas", url: "/files/documento3.pdf" },
+  { name: "Agrimensura", url: "/files/documento4.pdf" },
+  { name: "Empresas Mendocinas", url: "/files/documento5.pdf" },
+  { name: "Empresas Italianas", url: "/files/documento6.pdf" },
+  { name: "PYMES", url: "/files/documento7.pdf" },
+];
+
+
 export default async function PartnersPage() {  
   const supabase = createClient()
   const { data, error } = await supabase.auth.getUser()
@@ -143,20 +162,41 @@ export default async function PartnersPage() {
               ))}
             </div> */}
 
-<p>------------convertir los botones de la base de datos en una tabla o algo asi</p>
+
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1">Nuestras bases de datos</p>
-          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Base de datos Argentina</button>
-          </div>
-          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Base de datos Italiana</button>
+
+
+          <div className="container mx-auto p-4">
+            <table className="w-full border-collapse border border-gray-300">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 px-4 py-2">Empresas</th>
+                  <th className="border border-gray-300 px-4 py-2">Enlace de Descarga</th>
+                </tr>
+              </thead>
+              <tbody>
+                {files.map((file, index) => (
+                  <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                    <td className="border border-gray-300 px-4 py-2">{file.name}</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      <Link 
+                        href={file.url} 
+                        className="text-blue-600 hover:text-blue-800 underline"
+                        download
+                      >
+                        Descargar
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
 
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
           <p>Solicitar servicio, evento o asesoramiento</p>
-          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Solicitar</button>
-          </div>
+          <ServicePopUp/>
+
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Agendar turno para espacio radial</p>
           <p>Si esta interesado en figurar en nuestro bloque radial que se emite en radio La Red 94.1 agende su turno llenando el siguiente formulario</p>
           <RadioPopUp/>
