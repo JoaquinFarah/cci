@@ -3,7 +3,8 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
-import Swal from 'sweetalert2';
+import { ServicePopUp } from '@/app/components/sections/SponsorRequestPopup';
+import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
 
 
 const clientsData = [
@@ -109,18 +110,6 @@ export default async function PartnersPage() {
   if (error || !data?.user) {
     redirect('/es/login')
   }
-
-  const handleEventClick = () => {
-    Swal.fire({
-      title: 'Solicitudes',
-      html: 'Aca va el mail de quien va a recibir las solicitudes o el formulario',
-      icon: 'info',
-      confirmButtonText: 'Cerrar',
-      confirmButtonColor: 'red',
-      backdrop: true,      
-    });
-  };
-  
   
     return (
       <div className="bg-white">
@@ -170,20 +159,16 @@ export default async function PartnersPage() {
           </div>
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Agendar turno para espacio radial</p>
           <p>Si esta interesado en figurar en nuestro bloque radial que se emite en radio La Red 94.1 agende su turno llenando el siguiente formulario</p>
-          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Agendar</button>
-          </div>
-          <p>-------------Oliverio creara formulario de google y me enviara el link para agregarlo</p>
+          <RadioPopUp/>
+          {/* <p>-------------Oliverio creara formulario de google y me enviara el link para agregarlo</p>
           
-          <p>--------------Al apretar el boton que aparezca popup  "comuniquese con nuestro encargado comercial oliverio gabrielli oliverio.gabrielli@ccimendoza.com cel 2615413215</p>
+          <p>--------------Al apretar el boton que aparezca popup  "comuniquese con nuestro encargado comercial oliverio gabrielli oliverio.gabrielli@ccimendoza.com cel 2615413215</p> */}
           
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Sponsors</p>
           <p>Para convertirse en sponsor</p>
-          <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Convertirse en sponsor</button>
-          </div>
-          <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p>
-
+          
+          {/* <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p> */}
+          <ServicePopUp/>
 
 
           </div>          
