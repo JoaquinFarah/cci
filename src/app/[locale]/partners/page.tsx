@@ -3,7 +3,7 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
-import { ServicePopUp } from '@/app/components/sections/SponsorRequestPopup';
+import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
 
 
@@ -168,7 +168,7 @@ export default async function PartnersPage() {
           <p>Para convertirse en sponsor</p>
           
           {/* <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p> */}
-          <ServicePopUp/>
+          <SponsorPopUp/>
 
 
           </div>          
