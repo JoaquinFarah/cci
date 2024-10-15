@@ -25,28 +25,7 @@ const askMail = () =>{
 };
 
 
-const callout = [
-    // {
-    //   id: 1,      
-    //   href: '/es/news',
-    //   imageUrl:
-    //       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdQr1lkzMWyBSS3BW8e44omV7OtyhbPDa_A&s',
-    // },
-    // {
-    //     id: 2,      
-    //     href: '/es/news',
-    //     imageUrl:
-    //         'https://www.fundacionkonex.org/custom/web/data/imagenes/repositorio/2010/6/1/818/2016031505482167d16d00201083a2b118dd5128dd6f59.jpg',
-    // },
-    // {
-    //     id: 3,      
-    //     href: '/es/news',
-    //     imageUrl:
-    //         'https://otslist.boletinoficial.gob.ar/static/app/css/logo-bora.png',
-    // },
-  
-    // More posts...
-
+const callout = [   
     {
       name: 'Italia',
       description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
@@ -66,7 +45,7 @@ const callout = [
       description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
       imageSrc: '/sitevinitech.jpeg',
       imageAlt: 'Mendoza news',
-      href: '#',      
+      href: '/es/news/articles/sitevinitech2024',      
     },
   ]
   

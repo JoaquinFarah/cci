@@ -180,7 +180,7 @@ export default async function PartnersPage() {
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Sponsors</p>
           <p>Para convertirse en sponsor</p>
           <div className="flex justify-start px-4 sm:px-6 lg:px-1">
-            <button type="button" onClick={handleEventClick} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Convertirse en sponsor</button>
+            <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Convertirse en sponsor</button>
           </div>
           <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p>
 
