@@ -113,15 +113,15 @@ type FileData = {
 
 // array de datos de ejemplo
 const files: FileData[] = [
-  { name: "Vitnicultura", url: "/files/documento1.pdf" },
+  { name: "Vitnicultura", url: "/files/documento1.docx" },
   { name: "Empresas de servicios", url: "/files/documento2.pdf" },
   { name: "Enotecas", url: "/files/documento3.pdf" },
-  { name: "Agrimensura", url: "/files/documento4.pdf" },
+  // { name: "Agrimensura", url: "/files/documento4.pdf" },
   { name: "Empresas Mendocinas", url: "/files/documento5.pdf" },
   { name: "Empresas Italianas", url: "/files/documento6.pdf" },
-  { name: "PYMES", url: "/files/documento7.pdf" },
+  // { name: "PYMES", url: "/files/documento7.pdf" },
 ];
-
+//Estos archivos los podemos subir a una cuenta google y desde ahi aportar el enlace
 
 export default async function PartnersPage() {  
   const supabase = createClient()
