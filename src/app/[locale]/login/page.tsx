@@ -4,7 +4,6 @@ import { logout } from '../logout/actions';
 import { createClient } from '../../../../utils/supabase/server';
 
 
-
 export default async function LoginPage() {
   const supabase = createClient();
   const { data, error } = await supabase.auth.getUser();
@@ -70,14 +69,13 @@ export default async function LoginPage() {
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Ingresar
-              </button>
+              </button>           
 
-              <button
-                // formAction={signup}
-                className="flex w-full justify-center rounded-md bg-green-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Registrarse
-              </button>
+              <form>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5MFqeKQvScQZpxmZ0ugIknLIPuRwpjd2YNSj1Y3VDpe37Bw/viewform" target="_blank" 
+                  className="flex w-full justify-center rounded-md bg-green-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Registrarse
+                </a>
+              </form>
             </div>
           </form>
           
@@ -88,8 +86,7 @@ export default async function LoginPage() {
             >
               Cerrar Sesión
             </button>
-          </form>
-          
+          </form>          
         </div>
       </div>
     </>
