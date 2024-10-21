@@ -6,7 +6,8 @@ import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
 import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
-import { ServicePopUp } from '@/app/components/sections/ServiceRequestPopUp';
+import { ServicePopUp } from '@/app/components/sections/ServiceRequesPopUp';
+
 
 
 const clientsData = [
