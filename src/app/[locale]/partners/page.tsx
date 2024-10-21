@@ -113,7 +113,7 @@ type FileData = {
 
 // array de datos de ejemplo
 const files: FileData[] = [
-  { name: "Vitnicultura", url: "/files/documento1.docx" },
+  { name: "Vitivinicultura", url: "/files/documento1.docx" },
   { name: "Empresas de servicios", url: "/files/documento2.pdf" },
   { name: "Enotecas", url: "/files/documento3.pdf" },
   // { name: "Agrimensura", url: "/files/documento4.pdf" },

@@ -5,7 +5,8 @@ import Swal from 'sweetalert2';
 const radio = () =>{
     Swal.fire({
       title: 'Agende su espacio en nuestra sección radial',
-      html: `En este lugar va un link a formulario de google<br/><br/>
+      html: `Haga click
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScmi_2CWRM8LPgtQimsZ6u3O94mWmshQAG81u4l41Blc-aafA/viewform" target="_blank" autofocus><u>AQUI</u></a><br/>ó<br/>
       Comuniquese con nuestro encargado comercial Oliverio Gabrielli<br/>
       Mail: oliverio.gabrielli@ccimendoza.com <br/>
       Cel: 2615413215` ,

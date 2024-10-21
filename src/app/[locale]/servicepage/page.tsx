@@ -11,7 +11,7 @@ const askService = () => {
     title: 'Solicitud de servicio',
     html: `Escribanos a:
     <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a> </br> indicandonos su nombre, n° de socio y el servicio solicitado.</br>
-    </br>No es socio? <a href="/es/login"><u>Registrese</u></a>`,
+    </br>No es socio? <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5MFqeKQvScQZpxmZ0ugIknLIPuRwpjd2YNSj1Y3VDpe37Bw/viewform" target="_blank" autofocus><u>Registrese</u></a>`,
     icon: 'info',
     confirmButtonText: 'Cerrar'
     // closeButtonText: 'true'
