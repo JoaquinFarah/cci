@@ -6,8 +6,7 @@ import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
 import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
-import { ServicePopUp } from '@/app/components/sections/ServiceRequesPopUp';
-
+import { AskServicePopUp } from '@/app/components/sections/AskServicePopup';
 
 
 const clientsData = [
@@ -196,7 +195,7 @@ export default async function PartnersPage() {
 
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
           <p>Solicitar servicio, evento o asesoramiento</p>
-          <ServicePopUp/> 
+          <AskServicePopUp/> 
           {/* intercambiar el pop up de esta pagina con el popup de la pagina de srvicios */}
 
 
