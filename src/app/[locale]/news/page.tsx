@@ -4,104 +4,91 @@ import { useTranslations } from 'next-intl';
 
 const callouts = [
     {
-      name: 'Italia',
-      description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
-      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Lacre--e1716562755197.jpg',
-      imageAlt: 'Botella',
-      href: 'https://www.infocampo.com.ar/lacrado-en-botellas-el-ritual-de-conservar-y-distinguir-al-vino-al-que-le-llego-la-hora-de-su-mecanizacion/',
-    },
-    {
-      name: 'Importaciones',
-      description: '“Estamos esperando alguna normativa que motorice la importación de tecnologías vitivinícolas”',
-      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Enologia-vino-e1716397655720.jpg',
-      imageAlt: 'Cilindros de Acero',
-      href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
-    },
-    {
-      name: 'Sitevinitech',
-      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/sitevinitech.jpeg',
-      imageAlt: 'sitevinitech',
-      href: '/es/news/articles/sitevinitech2024',      
-    },    
-    {
-      name: 'Ferias',
-      description: 'CCI invita a productores frutihortícolas y exportadores a participar online en la Macfrut 2024 de Italia',
-      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/04/Macfrut-2024-1024x440.jpg',
-      imageAlt: 'Expo',
-      href: 'https://enolife.com.ar/es/cci-invita-a-productores-frutihorticolas-y-exportadores-a-participar-online-en-la-macfrut-2024-de-italia/',
-    },
-    {
-      name: 'Ferias',
-      description: 'Simei 2024: destilados, cerveza y aceite de oliva tendrán su lugar junto al vino y toda la tecnología',
-      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/06/Imagen2-10-1024x440.jpg',
-      imageAlt: 'simei',
-      href: 'https://enolife.com.ar/es/simei-2024-destilados-cerveza-y-aceite-de-oliva-tendran-su-lugar-junto-al-vino-y-toda-la-tecnologia/',
-    },
-    {
-      name: 'Ferias',
-      description: 'La Cámara de Comercio Italiana en Mendoza ofrece beneficios para viajar a la Feria Simei Milán',
-      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/06/immagine_elenco_simei_2022_dettagli_1600px-1024x440.jpg',
-      imageAlt: 'embotelladora',
-      href: 'https://enolife.com.ar/es/la-camara-de-comercio-italiana-en-mendoza-ofrece-beneficios-para-viajar-a-la-feria-simei-milan/',
-    },
-    {
-      name: 'San Juan',
-      description: 'La Cámara de Comercio Italiana en la Expo San Juan Minera 2024: Promoviendo el Made in Italy en el Sector Minero Argentino',
-      imageSrc: '/exposj.jpeg',
-      imageAlt: 'expo',
-      href: '/es/news/articles/minassj2024',
-    },
-    {
-      name: 'UNCuyo',
-      description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
-      imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
-      imageAlt: 'unc',
-      href: '/es/news/articles/uncuyo',
-    },
-    {
-      name: 'Difusion',
-      description: 'La CCI en Radio La Red',
-      imageSrc: '/radio.jpg',
-      imageAlt: 'lared',
-      href: '/es/news/articles/radio',
-    },
-    {
-      name: 'Ferias',      
-      description: 'MACFRUT 2024: La Feria Internacional de Frutas y Verduras',
-      imageSrc: 'https://cdn-italiani-media.italiani.it/site-rionegro/sites/96/2024/01/macfrut24-1000x411.jpg',
-      imageAlt: 'mcf',
-      href: '/es/news/articles/macfrut2024',
-    },
-    {
-      name: 'Gastronomia',
+      name: '01/10/2024',
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
       imageSrc: '/Logo.jpg',
       imageAlt: 'mdita',
       href: '/es/news/articles/ospitalita2024',
     },
     {
-      name: 'Internacionales',
+      name: '23/09/2024.',
+      description: 'La CCI en Radio La Red',
+      imageSrc: '/radio.jpg',
+      imageAlt: 'lared',
+      href: '/es/news/articles/radio',
+    },  
+    {
+      name: '28/08/2024',
+      description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
+      imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
+      imageAlt: 'unc',
+      href: '/es/news/articles/uncuyo',
+    },
+    {
+      name: '25/06/2024',
+      description: 'La Cámara de Comercio Italiana en Mendoza ofrece beneficios para viajar a la Feria Simei Milán',
+      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/06/immagine_elenco_simei_2022_dettagli_1600px-1024x440.jpg',
+      imageAlt: 'embotelladora',
+      href: 'https://enolife.com.ar/es/la-camara-de-comercio-italiana-en-mendoza-ofrece-beneficios-para-viajar-a-la-feria-simei-milan/',
+    },    
+    {
+      name: '18/06/2024',
+      description: 'Simei 2024: destilados, cerveza y aceite de oliva tendrán su lugar junto al vino y toda la tecnología',
+      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/06/Imagen2-10-1024x440.jpg',
+      imageAlt: 'simei',
+      href: 'https://enolife.com.ar/es/simei-2024-destilados-cerveza-y-aceite-de-oliva-tendran-su-lugar-junto-al-vino-y-toda-la-tecnologia/',
+    },
+    {
+      name: '14/06/2024',
+      description: 'La Cámara de Comercio Italiana en la Expo San Juan Minera 2024: Promoviendo el Made in Italy en el Sector Minero Argentino',
+      imageSrc: '/exposj.jpeg',
+      imageAlt: 'expo',
+      href: '/es/news/articles/minassj2024',
+    },
+    {
+      name: '26/05/2024',
+      description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Lacre--e1716562755197.jpg',
+      imageAlt: 'Botella',
+      href: 'https://www.infocampo.com.ar/lacrado-en-botellas-el-ritual-de-conservar-y-distinguir-al-vino-al-que-le-llego-la-hora-de-su-mecanizacion/',
+    },
+    {
+      name: '24/05/2024',
+      description: '“Estamos esperando alguna normativa que motorice la importación de tecnologías vitivinícolas”',
+      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Enologia-vino-e1716397655720.jpg',
+      imageAlt: 'Cilindros de Acero',
+      href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
+    },
+    {
+      name: '24/05/2024',
+      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
+      imageSrc: '/sitevinitech.jpeg',
+      imageAlt: 'sitevinitech',
+      href: '/es/news/articles/sitevinitech2024',      
+    },    
+    {
+      name: '30/04/2024',
+      description: 'CCI invita a productores frutihortícolas y exportadores a participar online en la Macfrut 2024 de Italia',
+      imageSrc: 'https://enolife.com.ar/es/wp-content/uploads/2024/04/Macfrut-2024-1024x440.jpg',
+      imageAlt: 'Expo',
+      href: 'https://enolife.com.ar/es/cci-invita-a-productores-frutihorticolas-y-exportadores-a-participar-online-en-la-macfrut-2024-de-italia/',
+    },
+    {
+      name: '19/04/2024',
       description: 'Recepción de la comitiva de la Scuola Enologica Cerletti en Mendoza',
       imageSrc: '/instconegliano.jpeg',
       imageAlt: 'inst',
       href: '/es/news/articles/scuolacerletti',
+    },    
+    {
+      name: '19/02/2024',      
+      description: 'MACFRUT 2024: La Feria Internacional de Frutas y Verduras',
+      imageSrc: 'https://cdn-italiani-media.italiani.it/site-rionegro/sites/96/2024/01/macfrut24-1000x411.jpg',
+      imageAlt: 'mcf',
+      href: '/es/news/articles/macfrut2024',
     },
-
-
     
     
-    
-    
-    
-    
-    // {
-    //   name: '',
-    //   description: '',
-    //   imageSrc: '',
-    //   imageAlt: '',
-    //   href: '',
-    // },
     
   ]
   
