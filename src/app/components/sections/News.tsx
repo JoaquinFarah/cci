@@ -27,25 +27,25 @@ const askMail = () =>{
 
 const callout = [   
     {
-      name: 'Italia',
-      description: 'Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización',
-      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Lacre--e1716562755197.jpg',
-      imageAlt: 'Botella',
-      href: 'https://www.infocampo.com.ar/lacrado-en-botellas-el-ritual-de-conservar-y-distinguir-al-vino-al-que-le-llego-la-hora-de-su-mecanizacion/',
+      name: '01/10/2024',
+      description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
+      imageSrc: '/Logo.jpg',
+      imageAlt: 'mdita',
+      href: '/es/news/articles/ospitalita2024',
     },
     {
-      name: 'Importaciones',
-      description: '“Estamos esperando alguna normativa que motorice la importación de tecnologías vitivinícolas”',
-      imageSrc: 'https://www.infocampo.com.ar/wp-content/uploads/2024/05/Enologia-vino-e1716397655720.jpg',
-      imageAlt: 'Cilindros de Acero',
-      href: 'https://www.infocampo.com.ar/estamos-esperando-alguna-normativa-que-motorice-la-importacion-de-tecnologias-vitivinicolas/',
-    },
+      name: '23/09/2024.',
+      description: 'La CCI en Radio La Red',
+      imageSrc: '/radio.jpg',
+      imageAlt: 'lared',
+      href: '/es/news/articles/radio',
+    },  
     {
-      name: 'Sitevinitech',
-      description: 'Exitosa participación de la CCI en SITEVINITECH 2024',
-      imageSrc: '/sitevinitech.jpeg',
-      imageAlt: 'Mendoza news',
-      href: '/es/news/articles/sitevinitech2024',      
+      name: '28/08/2024',
+      description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
+      imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
+      imageAlt: 'unc',
+      href: '/es/news/articles/uncuyo',
     },
   ]
   
