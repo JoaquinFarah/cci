@@ -13,12 +13,13 @@ interface ImageData {
 
 const images: ImageData[] = [
   { src: '/banderaitalia.jpg', alt: 'bandera' },
-  { src: '/buque.jpg', alt: 'boat' },
-  //  { src: '/bolsa1.jpg', alt: 'bank' },
+  { src: '/Nos renovamos.jpg', alt: 'renew' },
+  { src: '/SIMEI.jpg', alt: 'simei' },
+  { src: '/Bigalia 2.jpg', alt: 'bigalia' }, 
+  // { src: '/buque.jpg', alt: 'boat' },
+  // { src: '/bolsa1.jpg', alt: 'bank' },
   // { src: '/hombresnegocio1.jpg', alt: 'coliseum' },
-  // { src: '/coliseo1.png', alt: 'coliseum' },
-
-  { src: '/hombresnegocio.jpg', alt: 'work' },
+  
 ];
 
 const CarouselSection = () => {
@@ -36,7 +37,7 @@ const CarouselSection = () => {
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index} className="h-auto mt-2">
+          <SwiperSlide key={index} className="h-auto mt-10">
             <Image
               src={image.src}
               alt={image.alt}
