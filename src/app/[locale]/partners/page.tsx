@@ -196,7 +196,9 @@ export default async function PartnersPage() {
 
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
           <p>Solicitar servicio, evento o asesoramiento</p>
-          <ServicePopUp/>
+          <ServicePopUp/> 
+          {/* intercambiar el pop up de esta pagina con el popup de la pagina de srvicios */}
+
 
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Agendar turno para espacio radial</p>
           <p>Si esta interesado en figurar en nuestro bloque radial que se emite en radio La Red 94.1 agende su turno llenando el siguiente formulario</p>

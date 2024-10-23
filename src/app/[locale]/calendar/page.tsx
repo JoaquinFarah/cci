@@ -120,9 +120,7 @@ const events = [
           eventClick={handleEventClick}
         />        
       </div>
-      <p className="mt-10">Espacio para poner descripciones de los eventos, imagenes o mas info
-        
-      </p>
+      {/* <p className="mt-10">Espacio para poner descripciones de los eventos, imagenes o mas info</p> */}
     </div>
   )
 }
