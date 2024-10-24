@@ -3,7 +3,6 @@ import {getMessages} from 'next-intl/server';
 import {unstable_setRequestLocale} from 'next-intl/server'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SessionProvider from '../SessionProvider';
 
 
 const locales = ['es', 'it'];

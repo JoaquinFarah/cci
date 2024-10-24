@@ -85,7 +85,7 @@ const events = [
     };
   }, []);
 
-  const handleEventClick = (clickInfo) => {
+  const handleEventClick = (clickInfo:any) => {
     Swal.fire({
       title: clickInfo.event.title,
       html: `<div class="justified-text">${clickInfo.event.extendedProps.description || ''}</div>`,

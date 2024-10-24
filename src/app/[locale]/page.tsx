@@ -1,5 +1,4 @@
 import {useTranslations} from 'next-intl';
-import {unstable_setRequestLocale} from 'next-intl/server';
 import CarouselSection from '../components/sections/Carousel';
 import NewsSection from '../components/sections/News';
 import ServiceSection from '../components/sections/Service';
@@ -8,8 +7,8 @@ import SocialMediaSection from '../components/sections/SocialNetwork';
 
 
 
-export default function HomePage({params: {locale}}) {
-  unstable_setRequestLocale(locale);
+export default function HomePage() {
+  
   const t = useTranslations('HomePage');
   return (
     <main className="bg-gradient-to-r from-green-500 via-white to-red-500">
