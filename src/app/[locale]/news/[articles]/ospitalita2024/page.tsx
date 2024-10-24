@@ -53,19 +53,7 @@ export default function minas() {
           Puede inscribirse a la misma utilizando el siguiente enlace: <a className="underline text-blue-700" href="https://forms.gle/DfeaZ3onYD1RVZ3N6">https://forms.gle/DfeaZ3onYD1RVZ3N6</a>
           </p>
         </div>
-      </div>   
-      {/* <div className="">
-        <div className="relative w-full" style={{ paddingBottom: '90%' }}>
-          <Image
-            src="/exposj.jpeg"
-            alt="Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining"
-            layout="fill"
-            objectFit="contain"
-            className="rounded-lg"
-          />
-        </div>  
-        <p className="text-xs text-center text-gray-500 mt-2 mb-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
-      </div>                */}
+      </div>
     </div>
   )
 }
