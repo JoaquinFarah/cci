@@ -18,7 +18,7 @@ export default function minas() {
           </p>
 
           <p>
-          Tras la reunión, la delegación visitó el Consulado de Italia en Mendoza, donde fueron recibidos cálidamente por el cónsul Giuseppe D'Agosto. Este encuentro reafirmó el compromiso de continuar estrechando los vínculos entre ambas naciones a través de la educación y el sector vitivinícola.
+          Tras la reunión, la delegación visitó el Consulado de Italia en Mendoza, donde fueron recibidos cálidamente por el cónsul Giuseppe D´Agosto. Este encuentro reafirmó el compromiso de continuar estrechando los vínculos entre ambas naciones a través de la educación y el sector vitivinícola.
           </p>
 
           <p>
