@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 export default function minas() {
   return (
@@ -18,7 +18,7 @@ export default function minas() {
           </p>
 
           <p>
-          El evento inaugural, que tuvo lugar el 28 de agosto, fue presidido por la rectora de la UNCuyo, Esther Sánchez, y el decano de la Facultad de Ciencias Económicas, Miguel González Gaviola. Durante sus discursos, ambos destacaron la relevancia del diálogo entre la universidad y la comunidad para enfrentar los desafíos económicos de la región. La rectora subrayó el compromiso de la universidad en su vinculación con la sociedad mendocina, mientras que el decano calificó las jornadas como una "rendición de cuentas" de las actividades de investigación y extensión de la facultad. 
+          El evento inaugural, que tuvo lugar el 28 de agosto, fue presidido por la rectora de la UNCuyo, Esther Sánchez, y el decano de la Facultad de Ciencias Económicas, Miguel González Gaviola. Durante sus discursos, ambos destacaron la relevancia del diálogo entre la universidad y la comunidad para enfrentar los desafíos económicos de la región. La rectora subrayó el compromiso de la universidad en su vinculación con la sociedad mendocina, mientras que el decano calificó las jornadas como una `rendición de cuentas` de las actividades de investigación y extensión de la facultad. 
           </p>
 
           <p>
@@ -30,11 +30,11 @@ export default function minas() {
           </p>
 
           <p>
-          Uno de los momentos más esperados de las jornadas fue el panel titulado <span className="font-bold">"Perspectiva Económica Argentina: Estabilización y Crecimiento"</span>, que tuvo lugar el 29 de agosto. En este espacio, patrocinado por la Cámara de Comercio Italiana de Mendoza, los economistas Ricardo Arriazu y Marcelo Capello ofrecieron un análisis detallado sobre los desafíos de la economía argentina. Arriazu abordó las claves para estabilizar la inflación y el tipo de cambio, mientras que Capello presentó sus estrategias para un ajuste fiscal que promueva el crecimiento sostenible.
+          Uno de los momentos más esperados de las jornadas fue el panel titulado <span className="font-bold">`Perspectiva Económica Argentina: Estabilización y Crecimiento`</span>, que tuvo lugar el 29 de agosto. En este espacio, patrocinado por la Cámara de Comercio Italiana de Mendoza, los economistas Ricardo Arriazu y Marcelo Capello ofrecieron un análisis detallado sobre los desafíos de la economía argentina. Arriazu abordó las claves para estabilizar la inflación y el tipo de cambio, mientras que Capello presentó sus estrategias para un ajuste fiscal que promueva el crecimiento sostenible.
           </p>
 
           <p>
-          El viernes 30 de agosto, el segundo panel destacado, titulado <span className="font-bold">"Nuevo Contexto Económico: Los Desafíos para la Economía Nacional y Provincial"</span>, estuvo a cargo de Martín Rapetti y Rodolfo Vargas Arizu, quienes analizaron el impacto de las políticas macroeconómicas en las regiones, con un enfoque especial en Mendoza. Este panel ofreció una visión crítica sobre cómo la provincia puede enfrentar los desafíos económicos y aprovechar las oportunidades en un contexto de incertidumbre nacional.
+          El viernes 30 de agosto, el segundo panel destacado, titulado <span className="font-bold">`Nuevo Contexto Económico: Los Desafíos para la Economía Nacional y Provincial`</span>, estuvo a cargo de Martín Rapetti y Rodolfo Vargas Arizu, quienes analizaron el impacto de las políticas macroeconómicas en las regiones, con un enfoque especial en Mendoza. Este panel ofreció una visión crítica sobre cómo la provincia puede enfrentar los desafíos económicos y aprovechar las oportunidades en un contexto de incertidumbre nacional.
           </p>
 
           <p className="font-bold text-xl">
@@ -42,7 +42,7 @@ export default function minas() {
           </p>
 
           <p>
-          Las jornadas culminaron con el panel <span className="font-bold">"El Futuro del Mercado de Capitales: Nuevas Oportunidades ante un Cambio de Paradigma"</span>, donde los expertos Víctor Fayad, Gonzalo Pascual Merlo y Claudio Zuchovicki exploraron las nuevas tendencias en el mercado de capitales. Durante este panel se discutieron las oportunidades emergentes en inversiones y cómo los cambios en la economía global están transformando las reglas del juego en este sector clave.
+          Las jornadas culminaron con el panel <span className="font-bold">`El Futuro del Mercado de Capitales: Nuevas Oportunidades ante un Cambio de Paradigma`</span>, donde los expertos Víctor Fayad, Gonzalo Pascual Merlo y Claudio Zuchovicki exploraron las nuevas tendencias en el mercado de capitales. Durante este panel se discutieron las oportunidades emergentes en inversiones y cómo los cambios en la economía global están transformando las reglas del juego en este sector clave.
           </p>
 
           <p className="font-bold text-xl">
@@ -61,19 +61,7 @@ export default function minas() {
           Además de las enriquecedoras disertaciones, las jornadas ofrecieron un espacio de networking de alto nivel, donde empresarios, académicos y estudiantes pudieron establecer conexiones estratégicas. Este tipo de interacciones son esenciales para el desarrollo de nuevos proyectos y colaboraciones que contribuyan al crecimiento económico de la provincia y el país.
           </p>
         </div>
-      </div>   
-      {/* <div className="">
-        <div className="relative w-full" style={{ paddingBottom: '90%' }}>
-          <Image
-            src="/exposj.jpeg"
-            alt="Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining"
-            layout="fill"
-            objectFit="contain"
-            className="rounded-lg"
-          />
-        </div>  
-        <p className="text-xs text-center text-gray-500 mt-2 mb-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
-      </div>                */}
+      </div>
     </div>
   )
 }
