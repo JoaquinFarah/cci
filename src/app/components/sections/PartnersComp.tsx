@@ -1,382 +1,41 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 
-const clientsData = [
-    {
-        id: '139900',
-        name: 'Juan Perez',
-        company: 'ACME',
-        category: 'Explosivos',
-        phone: '261448877',
-        mail: 'juanperez@acme.com',
-        address: 'Calle Falsa 123',
-        city: 'Godoy Cruz',
-        province: 'Mendoza',
-        country: 'Argentina',  
-        web: "www.acme.com"              
-    },
-    {
-        id: '105601',
-        name: 'Esteban Quito',
-        company: 'ATOMO',
-        category: 'Supermercados',
-        phone: '261448877',
-        mail: 'estebanquito@gmail.com',
-        address: 'Calle larga 234',
-        city: 'Las Heras',
-        province: 'Mendoza',
-        country: 'Argentina', 
-        web: "www.atomo.com"       
-    },
-    {   
-        id: '124452',
-        name: 'Gabriel Pereira',
-        company: 'DRTV',
-        category: 'Television',
-        phone: '261448877',
-        mail: 'gapereira@directv.com',
-        address: 'Calle Soleada 923',
-        city: 'Dorrego',
-        province: 'Mendoza',
-        country: 'Argentina',
-        web: "www.directv.com"        
-    },
-    {
-        id: '091487',
-        name: 'Joaquin Farah',
-        company: 'Bright Innovations',
-        category: 'Programacion',
-        phone: '261448877',
-        mail: 'joaquinefarah@gmail.com',
-        address: 'Perito Moreno 2554',
-        city: 'Godoy Cruz',
-        province: 'Mendoza',
-        country: 'Argentina', 
-        web: "www.brightinnovations.com"       
-    },
-    {
-        id: '011102',
-        name: 'Jorge Mendoza',
-        company: 'La Continental',
-        category: 'Pasteleria',
-        phone: '261448877',
-        mail: 'jmendoza@hotmail.com',
-        address: 'Hudson 44',
-        city: 'Guaymallen',
-        province: 'Mendoza',
-        country: 'Argentina', 
-        web: "www.lacontinental.com"       
-    },
-    {
-      id: '051602',
-      name: 'Jorge Ariel Plus',
-      company: 'JAMASP',
-      category: 'Papeleria',
-      phone: '261448877',
-      mail: 'jamas@gmail.com',
-      address: 'Las Heras 44',
-      city: 'Ciudad',
-      province: 'Mendoza',
-      country: 'Argentina',  
-      web: "www.asyc.com"      
-  },
+// Tipo de cliente
+type Client = {
+  id: string;
+  name: string;
+  company: string;
+  category: string;
+  phone: string;
+  mail: string;
+  address: string;
+  city: string;
+  province: string;
+  country: string;
+  web: string;
+};
+
+const clientsData: Client[] = [
   {
-    id: '051603',
-    name: 'Victoria Cervi',
-    company: 'Tekno',
-    category: 'Pinturas',
-    phone: '261678954',
-    mail: 'virtoriacervi@tekno.com',
-    address: 'Colon 224',
-    city: 'Ciudad',
+    id: '139900',
+    name: 'Juan Perez',
+    company: 'ACME',
+    category: 'Explosivos',
+    phone: '261448877',
+    mail: 'juanperez@acme.com',
+    address: 'Calle Falsa 123',
+    city: 'Godoy Cruz',
     province: 'Mendoza',
-    country: 'Argentina',  
-    web: "www.tekno.com"      
-},
-{
-  id: '139900',
-  name: 'Juan Perez',
-  company: 'ACME',
-  category: 'Explosivos',
-  phone: '261448877',
-  mail: 'juanperez@acme.com',
-  address: 'Calle Falsa 123',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina',  
-  web: "www.acme.com"              
-},
-{
-  id: '105601',
-  name: 'Esteban Quito',
-  company: 'ATOMO',
-  category: 'Supermercados',
-  phone: '261448877',
-  mail: 'estebanquito@gmail.com',
-  address: 'Calle larga 234',
-  city: 'Las Heras',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.atomo.com"       
-},
-{   
-  id: '124452',
-  name: 'Gabriel Pereira',
-  company: 'DRTV',
-  category: 'Television',
-  phone: '261448877',
-  mail: 'gapereira@directv.com',
-  address: 'Calle Soleada 923',
-  city: 'Dorrego',
-  province: 'Mendoza',
-  country: 'Argentina',
-  web: "www.directv.com"        
-},
-{
-  id: '091487',
-  name: 'Joaquin Farah',
-  company: 'Bright Innovations',
-  category: 'Programacion',
-  phone: '261448877',
-  mail: 'joaquinefarah@gmail.com',
-  address: 'Perito Moreno 2554',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.brightinnovations.com"       
-},
-{
-  id: '011102',
-  name: 'Jorge Mendoza',
-  company: 'La Continental',
-  category: 'Pasteleria',
-  phone: '261448877',
-  mail: 'jmendoza@hotmail.com',
-  address: 'Hudson 44',
-  city: 'Guaymallen',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.lacontinental.com"       
-},
-{
-id: '051602',
-name: 'Jorge Ariel Plus',
-company: 'JAMASP',
-category: 'Papeleria',
-phone: '261448877',
-mail: 'jamas@gmail.com',
-address: 'Las Heras 44',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.asyc.com"      
-},
-{
-id: '051603',
-name: 'Victoria Cervi',
-company: 'Tekno',
-category: 'Pinturas',
-phone: '261678954',
-mail: 'virtoriacervi@tekno.com',
-address: 'Colon 224',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.tekno.com"      
-},
-{
-  id: '139900',
-  name: 'Juan Perez',
-  company: 'ACME',
-  category: 'Explosivos',
-  phone: '261448877',
-  mail: 'juanperez@acme.com',
-  address: 'Calle Falsa 123',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina',  
-  web: "www.acme.com"              
-},
-{
-  id: '105601',
-  name: 'Esteban Quito',
-  company: 'ATOMO',
-  category: 'Supermercados',
-  phone: '261448877',
-  mail: 'estebanquito@gmail.com',
-  address: 'Calle larga 234',
-  city: 'Las Heras',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.atomo.com"       
-},
-{   
-  id: '124452',
-  name: 'Gabriel Pereira',
-  company: 'DRTV',
-  category: 'Television',
-  phone: '261448877',
-  mail: 'gapereira@directv.com',
-  address: 'Calle Soleada 923',
-  city: 'Dorrego',
-  province: 'Mendoza',
-  country: 'Argentina',
-  web: "www.directv.com"        
-},
-{
-  id: '091487',
-  name: 'Joaquin Farah',
-  company: 'Bright Innovations',
-  category: 'Programacion',
-  phone: '261448877',
-  mail: 'joaquinefarah@gmail.com',
-  address: 'Perito Moreno 2554',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.brightinnovations.com"       
-},
-{
-  id: '011102',
-  name: 'Jorge Mendoza',
-  company: 'La Continental',
-  category: 'Pasteleria',
-  phone: '261448877',
-  mail: 'jmendoza@hotmail.com',
-  address: 'Hudson 44',
-  city: 'Guaymallen',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.lacontinental.com"       
-},
-{
-id: '051602',
-name: 'Jorge Ariel Plus',
-company: 'JAMASP',
-category: 'Papeleria',
-phone: '261448877',
-mail: 'jamas@gmail.com',
-address: 'Las Heras 44',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.asyc.com"      
-},
-{
-id: '051603',
-name: 'Victoria Cervi',
-company: 'Tekno',
-category: 'Pinturas',
-phone: '261678954',
-mail: 'virtoriacervi@tekno.com',
-address: 'Colon 224',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.tekno.com"      
-},
-{
-  id: '139900',
-  name: 'Juan Perez',
-  company: 'ACME',
-  category: 'Explosivos',
-  phone: '261448877',
-  mail: 'juanperez@acme.com',
-  address: 'Calle Falsa 123',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina',  
-  web: "www.acme.com"              
-},
-{
-  id: '105601',
-  name: 'Esteban Quito',
-  company: 'ATOMO',
-  category: 'Supermercados',
-  phone: '261448877',
-  mail: 'estebanquito@gmail.com',
-  address: 'Calle larga 234',
-  city: 'Las Heras',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.atomo.com"       
-},
-{   
-  id: '124452',
-  name: 'Gabriel Pereira',
-  company: 'DRTV',
-  category: 'Television',
-  phone: '261448877',
-  mail: 'gapereira@directv.com',
-  address: 'Calle Soleada 923',
-  city: 'Dorrego',
-  province: 'Mendoza',
-  country: 'Argentina',
-  web: "www.directv.com"        
-},
-{
-  id: '091487',
-  name: 'Joaquin Farah',
-  company: 'Bright Innovations',
-  category: 'Programacion',
-  phone: '261448877',
-  mail: 'joaquinefarah@gmail.com',
-  address: 'Perito Moreno 2554',
-  city: 'Godoy Cruz',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.brightinnovations.com"       
-},
-{
-  id: '011102',
-  name: 'Jorge Mendoza',
-  company: 'La Continental',
-  category: 'Pasteleria',
-  phone: '261448877',
-  mail: 'jmendoza@hotmail.com',
-  address: 'Hudson 44',
-  city: 'Guaymallen',
-  province: 'Mendoza',
-  country: 'Argentina', 
-  web: "www.lacontinental.com"       
-},
-{
-id: '051602',
-name: 'Jorge Ariel Plus',
-company: 'JAMASP',
-category: 'Papeleria',
-phone: '261448877',
-mail: 'jamas@gmail.com',
-address: 'Las Heras 44',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.asyc.com"      
-},
-{
-id: '051603',
-name: 'Victoria Cervi',
-company: 'Tekno',
-category: 'Pinturas',
-phone: '261678954',
-mail: 'virtoriacervi@tekno.com',
-address: 'Colon 224',
-city: 'Ciudad',
-province: 'Mendoza',
-country: 'Argentina',  
-web: "www.tekno.com"      
-},
-
-
-
+    country: 'Argentina',
+    web: 'www.acme.com',
+  },
 ];
 
 export default function PartnersComp() {
+  const [selectedClient, setSelectedClient] = useState<Client | null>(null);
 
-  const [selectedClient, setSelectedClient] = useState(null);
-
-  // Manejador de selección de cliente
-  const handleClientSelect = (event:any) => {
+  const handleClientSelect = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const clientId = event.target.value;
     const client = clientsData.find((client) => client.id === clientId);
     setSelectedClient(client || null);
@@ -386,12 +45,6 @@ export default function PartnersComp() {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-1">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-1">
-          {/* <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Bienvenido, selecciona un cliente
-          </h2>
-          <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div> */}
-
-          {/* Dropdown para seleccionar cliente */}
           <div className="mb-6">
             <label
               htmlFor="client-select"
@@ -414,7 +67,6 @@ export default function PartnersComp() {
             </select>
           </div>
 
-          {/* Mostrar tarjeta del cliente seleccionado */}
           {selectedClient && (
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-1 lg:gap-x-6 lg:space-y-0">
               <div className="group relative">
@@ -441,5 +93,4 @@ export default function PartnersComp() {
     </div>
   );
 }
-
 
