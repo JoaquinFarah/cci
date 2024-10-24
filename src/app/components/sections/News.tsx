@@ -2,6 +2,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Swal from 'sweetalert2';
+import Image from 'next/image';
 
 const askMail = () =>{
   Swal.fire({
@@ -31,6 +32,8 @@ const callout = [
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
       imageSrc: '/Logo.jpg',
       imageAlt: 'mdita',
+      width: 1000,
+      height: 1000,
       href: '/es/news/articles/ospitalita2024',
     },
     {
@@ -38,13 +41,17 @@ const callout = [
       description: 'La CCI en Radio La Red',
       imageSrc: '/radio.jpg',
       imageAlt: 'lared',
+      width: 1000,
+      height: 1000,
       href: '/es/news/articles/radio',
     },  
     {
       name: '28/08/2024',
       description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
-      imageSrc: 'https://educacion.uncuyo.edu.ar/cache/escudo_uncuyo_546_966.jpg',
+      imageSrc: '/uncuyo.jpg',
       imageAlt: 'unc',
+      width: 1000,
+      height: 1000,
       href: '/es/news/articles/uncuyo',
     },
   ]
@@ -61,47 +68,15 @@ const callout = [
             </p>
           </div>
 
-
-          {/* <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-2 sm:pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {posts.map((post) => (
-              <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-                <div className="flex items-center gap-x-4 text-xs">
-                  <p className="text-gray-500">
-                    {t('date1')}
-                  </p>
-                  <p className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
-                    {t('category1')}
-                  </p>
-                </div>
-                <div className="group relative">
-                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                    <a href={post.href}>
-                      <span className="absolute inset-0" />
-                      {t('title1')}
-                    </a>
-                  </h3>
-                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{t('description1')}</p>
-                </div>
-                <div className="relative mt-8 flex items-center gap-x-4">
-                  <img alt="" src={post.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
-                  <div className="text-sm leading-6">
-                    <p className="font-semibold text-gray-900">                      
-                        <span className="absolute inset-0" />
-                        {t('author1')}                      
-                    </p>
-                    <p className="text-gray-600">{t('media1')}</p>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div> */}
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-2 lg:space-y-0">
               {callout.map((callout) => (
                 <div key={callout.name} className="group relative rounded-lg px-1 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80">
                   <div className="relative mt-5 h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                    <img
+                    <Image
                       alt={callout.imageAlt}
                       src={callout.imageSrc}
+                      width={callout.width}
+                      height={callout.height}
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
@@ -115,8 +90,6 @@ const callout = [
                 </div>
               ))}
             </div>
-
-
 
           <div className="flex justify-center mt-12">
             <button type="button" onClick={askMail} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
