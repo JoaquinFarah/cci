@@ -10,7 +10,7 @@ export default function minas() {
         <div className="min-h-0.5 bg-gray-200 mb-4"></div>
         <div className="space-y-6">
           <p>
-          Del 21 al 23 de mayo de 2024, la Cámara de Comercio Italiana de Mendoza (CCI) tuvo el honor de participar en la Expo San Juan Minera, uno de los eventos más importantes del sector minero en Argentina y América Latina. Esta feria, que se llevó a cabo en el Predio Cepas Sanjuaninas, ofreció una plataforma excepcional para fortalecer los lazos comerciales entre Italia y el sector minero argentino, y promover productos de alta calidad bajo el sello "Made in Italy".
+          Del 21 al 23 de mayo de 2024, la Cámara de Comercio Italiana de Mendoza (CCI) tuvo el honor de participar en la Expo San Juan Minera, uno de los eventos más importantes del sector minero en Argentina y América Latina. Esta feria, que se llevó a cabo en el Predio Cepas Sanjuaninas, ofreció una plataforma excepcional para fortalecer los lazos comerciales entre Italia y el sector minero argentino, y promover productos de alta calidad bajo el sello `Made in Italy`.
           </p>
 
           <p>
@@ -53,7 +53,7 @@ export default function minas() {
           </p>
 
           <p>
-          Queremos extender nuestro más sincero agradecimiento a PANORAMA MINERO, organizador del evento, por brindarnos esta plataforma para exhibir el potencial del "Made in Italy" en el sector minero. También agradecemos a todos los visitantes y colaboradores que nos acompañaron en este importante evento.
+          Queremos extender nuestro más sincero agradecimiento a PANORAMA MINERO, organizador del evento, por brindarnos esta plataforma para exhibir el potencial del `Made in Italy` en el sector minero. También agradecemos a todos los visitantes y colaboradores que nos acompañaron en este importante evento.
           </p>
 
           <p>

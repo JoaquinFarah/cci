@@ -70,19 +70,7 @@ export default function minas() {
           Para más información y registro, visita el sitio web oficial de MACFRUT: <a className="underline text-blue-700" href="https://www.macfrut.com/">https://www.macfrut.com/</a>
           </p>
         </div>
-      </div>   
-      {/* <div className="">
-        <div className="relative w-full" style={{ paddingBottom: '90%' }}>
-          <Image
-            src="/exposj.jpeg"
-            alt="Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining"
-            layout="fill"
-            objectFit="contain"
-            className="rounded-lg"
-          />
-        </div>  
-        <p className="text-xs text-center text-gray-500 mt-2 mb-2">Pedro Baziuk y Oliverio Gabrielli, junto con los representantes de Green Mining.</p>
-      </div>                */}
+      </div>      
     </div>
   )
 }
