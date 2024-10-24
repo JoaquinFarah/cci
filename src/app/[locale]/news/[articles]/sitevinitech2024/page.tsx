@@ -55,7 +55,7 @@ export default function sitevinitech() {
           </p>
 
           <p>
-            El éxito de la participación de las empresas italianas en SITEVINITECH reafirma el compromiso de Italia con la industria vitivinícola argentina. Silvia Cordioli destacó la importancia de este mercado: "Creemos en Argentina y en su industria vitivinícola. Trabajamos a nivel global y reconocemos el valor de empresas de gran calibre y productos de excelencia como el Malbec".
+            El éxito de la participación de las empresas italianas en SITEVINITECH reafirma el compromiso de Italia con la industria vitivinícola argentina. Silvia Cordioli destacó la importancia de este mercado: `Creemos en Argentina y en su industria vitivinícola. Trabajamos a nivel global y reconocemos el valor de empresas de gran calibre y productos de excelencia como el Malbec`.
           </p>
 
           <p>
