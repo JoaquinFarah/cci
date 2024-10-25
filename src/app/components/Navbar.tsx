@@ -1,24 +1,10 @@
 "use client";
-
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import LocalSwitcher from './local-switcher';
-import { useTranslations } from 'next-intl';
-import { logout } from '../[locale]/logout/actions';
-
 
 
 const Navbar: React.FC = () => {
-  // State for dropdown visibility
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  // Function for dropdown switch
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
-
-  const t = useTranslations('Navbar');
 
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
@@ -42,54 +28,32 @@ const Navbar: React.FC = () => {
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-3">
             <Link href="/es/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('about')}
+            Quiénes somos
             </Link>
 
             <Link href="/es/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('services')}
+            Servicios
             </Link>
 
             <Link href="/es/news" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('news')}
+            Noticias
             </Link>
 
             <Link href="/es/calendar" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('calendar')}
+            Calendario
             </Link>
 
             <Link href="/es/reports" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('reports')}
+            Informes
             </Link>            
 
             <Link href="/es/partners" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-              {t('partners')}
+            Socios
             </Link>
 
             <Link href="/es/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               login
             </Link>
-
-            
-            {/* <Link href="/es/login" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">
-              LogIn
-            </Link> */}
-
-            {/* <form action={logout}>
-                    <button type="submit" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">LogOut</button>
-            </form>  */}
-
-            {/* Dropdown language */}
-            <div className="relative">
-              <div className="flex items-center space-x-0 focus:outline-none ">
-                <Image
-                  src="/language-icon.png"
-                  alt="Change Language"
-                  width={24}
-                  height={24}
-                />
-                <LocalSwitcher />
-              </div>
-            </div>
 
           </div>
         </div>
