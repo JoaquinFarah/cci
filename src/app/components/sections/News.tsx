@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import { useTranslations } from 'next-intl';
 import Swal from 'sweetalert2';
 import Image from 'next/image';
 
@@ -57,7 +56,7 @@ const callout = [
   ]
   
   export default function NewsSection() {
-    const t = useTranslations('NewsSection');
+    
     return (
       <div className="bg-white py-24 sm:py-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
