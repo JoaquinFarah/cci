@@ -3,7 +3,6 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 import Swal from 'sweetalert2';
 
 const popUp = () =>{
@@ -18,7 +17,7 @@ const popUp = () =>{
 
 
 export default function SocialNetworkSection() {
-  const t = useTranslations('SocialNetworkSection');
+  
     return (
       <div className="bg-white py-24 sm:py-10">
         <Image
@@ -32,7 +31,7 @@ export default function SocialNetworkSection() {
             />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">        
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 mt-1">          
-            {t('header')}
+          Seguinos en nuestras redes
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <Link href="https://www.facebook.com/ccitalrosario" >
@@ -63,7 +62,7 @@ export default function SocialNetworkSection() {
           </div>
 
           <div className="flex justify-center mt-8">
-            <button type="button" onClick={popUp} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={popUp} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Contactanos</button>
           </div>
 
         </div>
