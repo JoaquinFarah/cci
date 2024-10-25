@@ -50,28 +50,6 @@
     "NewsSection":{
       "header": "Últimas Noticias",
       "header1": "Mantengase al día con lo mas importante",
-      
-      "date1": "26/05/2024",
-      "title1": "Lacrado en botellas, el ritual de conservar y distinguir al vino al que le llegó la hora de su mecanización",
-      "description1": "La firma italiana Sincera Sistemí formó parte de la reciente Sitevinitech, en Mendoza. La maquinaria cuenta con capacidad de operar 400 botellas por hora.",
-      "author1": "INFOCAMPO",
-      "media1": "INFOCAMPO",
-      "category1": "Italia",
-      
-      "date2": "Fecha de la noticia 2",
-      "title2": "Ministro de economia se pronuncia sobre el dolar",
-      "description2": "Esta es una breve descripcion de la 2da noticia en la que el Ministro de Economia habla sobre la libreacion de la restriccion a la compra de dolares ",
-      "author2": "Autor de la noticia 2",
-      "media2": "Origen de la noticia 2",
-      "category2": "categoria ej: Economia",
-
-      "date3": "Fecha de la noticia 3",
-      "title3": "El Futuro de los empleados de comercio",
-      "description3": "Esta es una breve descripcion de la 3ra noticia en la que el jefe de gabinete en Mendoza hablo sobre el futuro del centro de empleados de comercio",
-      "author3": "Autor de la noticia 3",
-      "media3": "Origen de la noticia 3",
-      "category3": "Categoria ej: Comercio",
-
       "button": "Asociate a nuestro Newsletter"
 
     },

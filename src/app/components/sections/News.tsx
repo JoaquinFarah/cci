@@ -62,9 +62,9 @@ const callout = [
       <div className="bg-white py-24 sm:py-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('header')} </h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Últimas Noticias</h2>
             <p className="mt-1 text-lg leading-8 text-gray-600">
-              {t('header1')}
+            Mantengase al día con lo mas importante
             </p>
           </div>
 
@@ -92,7 +92,7 @@ const callout = [
             </div>
 
           <div className="flex justify-center mt-12">
-            <button type="button" onClick={askMail} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">{t('button')}</button>
+            <button type="button" onClick={askMail} className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Asociate a nuestro Newsletter</button>
           </div>
           
         </div>
