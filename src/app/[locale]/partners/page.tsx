@@ -115,11 +115,10 @@ type FileData = {
 const files: FileData[] = [
   { name: "Vitivinicultura", url: "/files/documento1.docx" },
   { name: "Empresas de servicios", url: "/files/documento2.pdf" },
-  { name: "Enotecas", url: "/files/documento3.pdf" },
-  // { name: "Agrimensura", url: "/files/documento4.pdf" },
+  { name: "Enotecas", url: "/files/documento3.pdf" },  
   { name: "Empresas Mendocinas", url: "/files/documento5.pdf" },
   { name: "Empresas Italianas", url: "/files/documento6.pdf" },
-  // { name: "PYMES", url: "/files/documento7.pdf" },
+  
 ];
 //Estos archivos los podemos subir a una cuenta google y desde ahi aportar el enlace
 
@@ -196,22 +195,14 @@ export default async function PartnersPage() {
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
           <p>Solicitar servicio, evento o asesoramiento</p>
           <AskServicePopUp/> 
-          {/* intercambiar el pop up de esta pagina con el popup de la pagina de srvicios */}
-
-
+          
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Agendar turno para espacio radial</p>
           <p>Si esta interesado en figurar en nuestro bloque radial que se emite en radio La Red 94.1 agende su turno llenando el siguiente formulario</p>
           <RadioPopUp/>
-          {/* <p>-------------Oliverio creara formulario de google y me enviara el link para agregarlo</p>
-          
-          <p>--------------Al apretar el boton que aparezca popup  "comuniquese con nuestro encargado comercial oliverio gabrielli oliverio.gabrielli@ccimendoza.com cel 2615413215</p> */}
-          
+                    
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Sponsors</p>
-          <p>Para convertirse en sponsor</p>
-          
-          {/* <p>----------------El boton sponsor debe abrir el mail de pedro y el cel o sera un formulario</p> */}
+          <p>Para convertirse en sponsor</p>        
           <SponsorPopUp/>
-
 
           </div>          
         </div>
