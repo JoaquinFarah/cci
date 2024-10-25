@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+
 
 const Footer = () => {
-const t = useTranslations('FooterSection');
 
   return (
     <footer className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 bg-gradient-to-r from-green-500 via-white to-red-500">
-    {/* <footer className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 bg-gray-100"> */}
-      
+          
       <Link href="/">  
         <Image
           src="/Logo_CCI.jpeg"
@@ -25,7 +23,7 @@ const t = useTranslations('FooterSection');
         <p className="text-xs font-semibold"> 
           CCI Mendoza<br/>       
           Mail: info@ccimendoza.com <br/>
-          {t('address')}: Andrade 30, Ciudad de Mendoza <br/>
+          Dirección: Andrade 30, Ciudad de Mendoza <br/>
           N° +549-261888775<br/> 
           
             <span className="text-xs font-bold mt-2">
