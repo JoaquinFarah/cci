@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
+
 
 const people = [
   {
@@ -126,42 +126,52 @@ const people = [
   },
   
 
-
-
-  // More people...
 ]
 
 export default function AboutPage() {
-  const t = useTranslations('AboutPage');
+ 
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-32 gap-y-20 px-6 lg:px-1 xl:grid-cols-1">
         <div className="max-w-7xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('header')}</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">¿Quiénes somos?</h2>
           <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
-            {t('description')}<br/>
-            {t('description1')}<br/>
-            {t('description2')}<br/>
-            {t('description3')}<br/>
-            {t('description4')}<br/>            
+          La Cámara de Comercio Italiana en Mendoza es una asociación de derecho privado, con estructura electiva y compuesta por empresarios, dirigentes, comerciantes y profesionales. 
+          
+          Fue fundada el 17 de abril de 1989 y reconocida oficialmente por el Gobierno Italiano por Decreto del Ministerio de Comercio Exterior el 17 de mayo de 1999.
+
+          Tiene como objetivo principal el desarrollo de las relaciones empresarias, comerciales, industriales, tecnológicas, formativas y culturales entre Argentina e Italia, como así también con todos los países donde tienen sede las Cámaras de Comercio Italianas en el mundo.
+
+          Para ello la CCI Mendoza brinda asistencia, información económica, comercial y tecnológica, activa contactos, organiza misiones, participa en ferias y otros eventos y potenciando toda acción a favor del crecimiento y desarrollo regional.
+
+          Es miembro activo de `Assocamerestero` (Asociación de Cámaras de Comercio Italianas en el mundo), con sede en Roma.           
           </p>
-          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title')}</h2>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">Misión</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
-            {t('descriptiontitle')}<br/>                       
+          Estimular y promover el comercio y las inversiones entre Argentina, Italia y el resto del mundo.                       
           </p>
-          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title1')}</h2>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">Visión</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
-            {t('descriptiontitle1')}<br/>                       
+          CCI Mendoza es una organización capaz de gestionar e impulsar servicios empresariales, en diferentes sectores económicos, entre empresas y emprendedores argentinos, italianos y el resto del mundo, difundiendo, apoyando y utilizando las conferencias binacionales firmadas entre Italia y Argentina.                       
           </p>
-          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title3')}</h2>
+          <h2 className="text-3xl mt-10 font-bold tracking-tight text-gray-900 sm:text-4xl">Principios y Valores</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 text-pretty">
-            {t('descriptiontitle3')}<br/>  
-            {t('descriptiontitle31')}<br/> 
-            {t('descriptiontitle32')}<br/> 
-            {t('descriptiontitle33')}<br/> 
-            {t('descriptiontitle34')}<br/>                      
+          • Desarrollar contactos con organizaciones, entidades, asociaciones y operadores económicos de los países de interés de las partes para permitir el desarrollo de las relaciones económicas y comerciales.
           </p>
+          <p className="text-lg leading-8 text-gray-600 text-pretty">
+          • Desarrollar acciones de información, formación y consultoría a través de: revistas, boletines, bases de datos especializadas , webs, congresos, asociaciones, ferias y misiones económicas y comerciales.
+          </p>
+          <p className="text-lg leading-8 text-gray-600 text-pretty">
+          • Organizar cursos de difusión de la cultura económica.
+          </p>
+          <p className="text-lg leading-8 text-gray-600 text-pretty">
+          • Intervenir si las partes así lo deciden, como árbitro imparcial para resolver disputas entre operadores de diferentes países.
+          </p>
+          <p className="text-lg leading-8 text-gray-600 text-pretty">
+          • Establecer contactos permanentes de colaboración con organismos e instituciones argentinos e italianos.
+          </p>                   
+          
         </div>
         {/* <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-8 xl:col-span-1">
           {people.map((person) => (
