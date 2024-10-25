@@ -1,5 +1,5 @@
 "use server"
-import { login, signup } from './actions'
+import { login } from './actions'
 import { logout } from '../logout/actions';
 import { createClient } from '../../../../utils/supabase/server';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const callouts = [
@@ -117,12 +116,12 @@ const callouts = [
   ]
   
   export default function NewsPage() {
-    const t = useTranslations('NewsPage');
+    
     return (
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('title')} </h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Noticias</h2>
             <div className="min-h-0.5 bg-gray-200 mb-4"></div>
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-2 lg:space-y-0">
               {callouts.map((callout) => (
