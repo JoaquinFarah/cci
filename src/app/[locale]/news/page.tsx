@@ -9,7 +9,7 @@ const callouts = [
       imageAlt: 'mdita',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/ospitalita2024',
+      href: '/es/news/ospitalita2024',
     },
     {
       name: '23/09/2024.',
@@ -18,7 +18,7 @@ const callouts = [
       imageAlt: 'lared',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/radio',
+      href: '/es/news/radio',
     },  
     {
       name: '28/08/2024',
@@ -27,7 +27,7 @@ const callouts = [
       imageAlt: 'unc',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/uncuyo',
+      href: '/es/news/uncuyo',
     },
     {
       name: '25/06/2024',
@@ -54,7 +54,7 @@ const callouts = [
       imageAlt: 'expo',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/minassj2024',
+      href: '/es/news/minassj2024',
     },
     {
       name: '26/05/2024',
@@ -81,7 +81,7 @@ const callouts = [
       imageAlt: 'sitevinitech',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/sitevinitech2024',      
+      href: '/es/news/sitevinitech2024',      
     },    
     {
       name: '30/04/2024',
@@ -99,7 +99,7 @@ const callouts = [
       imageAlt: 'inst',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/scuolacerletti',
+      href: '/es/news/scuolacerletti',
     },    
     {
       name: '19/02/2024',      
@@ -108,9 +108,8 @@ const callouts = [
       imageAlt: 'mcf',
       width: 1000,
       height: 1000,
-      href: '/es/news/articles/macfrut2024',
-    },
-    
+      href: '/es/news/macfrut2024',
+    },    
     
     
   ]

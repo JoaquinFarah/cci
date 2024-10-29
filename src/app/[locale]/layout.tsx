@@ -1,36 +1,53 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
-import {unstable_setRequestLocale} from 'next-intl/server'; 
+// import Navbar from '../components/Navbar';
+// import Footer from '../components/Footer';
+
+
+// export default async function LocaleLayout({
+//   children,
+//   params: {locale}
+// }: {
+//   children: React.ReactNode;
+//   params: {locale: string};
+// }) { 
+  
+ 
+//   return (
+//     <html lang={locale}>
+//       <body>
+//           <Navbar />                    
+//               {children}              
+//           <Footer/>
+//       </body>
+//     </html>
+//   );
+// }
+
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-
-const locales = ['es', 'it'];
  
-export function generateStaticParams() {
-  return locales.map((locale) => ({locale}));
-}
+const inter = Inter({ subsets: ["latin"] });
 
+export const metadata: Metadata = {
+  title: "CCI",
+  description: "CCI MAIN WEB",
+};
 
-export default async function LocaleLayout({
+export default async function Layout({
   children,
-  params: {locale}
-}: {
+}: Readonly<{
   children: React.ReactNode;
-  params: {locale: string};
-}) { unstable_setRequestLocale(locale);
-  const messages = await getMessages();
- 
+}>) {
+    
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-          <Navbar /> 
-                   
-              {children}
-              
-          <Footer/>
-        </NextIntlClientProvider>
+    <html>
+      <body className={inter.className}>   
+        <Navbar/>              
+            {children}          
+        <Footer/>
       </body>
     </html>
   );

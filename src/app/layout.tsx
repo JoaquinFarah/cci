@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
  
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,15 +17,13 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
-  const messages = await getMessages();
-  
+    
   return (
-    <html lang="es">
-      <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>         
+    <html>
+      <body className={inter.className}>   
+        <Navbar/>              
             {children}          
-        </NextIntlClientProvider>
+        {/* <Footer/> */}
       </body>
     </html>
   );

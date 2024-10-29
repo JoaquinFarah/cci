@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function minas() {
+export default function macfrut() {
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">

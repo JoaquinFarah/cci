@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           
           {/* Logo leftside */}
           <div className="flex items-center flex-grow">
-            <Link href="/">
+            <Link href="/es">
               <Image                    
                 src="/Logo_CCI.jpeg"
                 alt="CCI"

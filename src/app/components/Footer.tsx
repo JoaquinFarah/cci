@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 bg-gradient-to-r from-green-500 via-white to-red-500">
           
-      <Link href="/">  
+      <Link href="/es">  
         <Image
           src="/Logo_CCI.jpeg"
           alt="Logo"

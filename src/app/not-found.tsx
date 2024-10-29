@@ -15,7 +15,7 @@ export default function NotFound() {
           width={0}
           height={0}
           sizes="100vw"
-          className="mt-5 justify-center h-auto w-36 drop-shadow-2xl rounded-lg"
+          className="mt-36 justify-center h-auto w-36 drop-shadow-2xl rounded-lg"
           priority
         />
       </Link>
