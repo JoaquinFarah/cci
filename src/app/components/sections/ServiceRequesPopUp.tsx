@@ -6,7 +6,7 @@ const services = () =>{
     Swal.fire({
       title: 'Solicitud de servicio',
       html: `Para recibir el mejor asesoramiento haga click 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5MFqeKQvScQZpxmZ0ugIknLIPuRwpjd2YNSj1Y3VDpe37Bw/viewform" target="_blank" autofocus><u>AQUI</u></a></br></br>No es socio? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFIbVYx0fyH8RVm_8cK07Dzt3qgTBY29vmQmM-WP4lcx_IWg/viewform" target="_blank" autofocus><u>Registrese</u></a>` ,
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5MFqeKQvScQZpxmZ0ugIknLIPuRwpjd2YNSj1Y3VDpe37Bw/viewform" target="_blank" autofocus><u>AQUI</u></a></br></br>No es socio? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmp6WsVsE0ejvwvDYGvWtjVfk50LJWB474Rmi7QDUqnKHauA/viewform" target="_blank" autofocus><u>Registrese</u></a>` ,
       icon: 'info',
       confirmButtonText: 'Cerrar'
     })
