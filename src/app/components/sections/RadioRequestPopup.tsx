@@ -6,7 +6,7 @@ const radio = () =>{
     Swal.fire({
       title: 'Agende su espacio en nuestra sección radial',
       html: `Haga click
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScmi_2CWRM8LPgtQimsZ6u3O94mWmshQAG81u4l41Blc-aafA/viewform" target="_blank" autofocus><u>AQUI</u></a><br/>ó<br/>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScpQGndfz8vROQ2lEGQ0Fweb9Sp_TTtGuxBGqUgFD3F03f7Mw/viewform?usp=sf_link" target="_blank" autofocus><u>AQUI</u></a><br/>ó<br/>
       Comuniquese con nuestro encargado comercial Oliverio Gabrielli<br/>
       Mail: oliverio.gabrielli@ccimendoza.com <br/>
       Cel: 2615413215` ,

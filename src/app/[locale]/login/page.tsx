@@ -72,7 +72,7 @@ export default async function LoginPage() {
               </button>           
 
               <form>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmp6WsVsE0ejvwvDYGvWtjVfk50LJWB474Rmi7QDUqnKHauA/viewform" target="_blank" 
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9wlSre-Itnu2L_qWVj18VjSsemJgq8Yt9x6T0qmq2Vhs-tQ/viewform?usp=sf_link" target="_blank" 
                   className="flex w-full justify-center rounded-md bg-green-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Registrarse
                 </a>
               </form>

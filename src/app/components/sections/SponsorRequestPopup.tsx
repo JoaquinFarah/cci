@@ -6,7 +6,7 @@ const sponsor = () =>{
     Swal.fire({
       title: 'Conviertase en parte de nuestros Sponsors',
       html: `Sea parte de nuestros sponsors asociados haciendo click 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_jHtqclEdP7PVnQsrC5k-0bFMttC02N1D--6N1xqVboj76g/viewform" target="_blank" autofocus><u>AQUI</u></a>` ,
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSds5h8OhmWbgCMtaxDvuo4AVzpV03mvcdJbMI3JCm2h0sXRDQ/viewform?usp=sf_link" target="_blank" autofocus><u>AQUI</u></a>` ,
       icon: 'success',
       confirmButtonText: 'Cerrar'
     })
