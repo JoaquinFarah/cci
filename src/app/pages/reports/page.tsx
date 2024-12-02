@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
@@ -9,7 +10,7 @@ export default async function ReportsPage() {
 
   const { data, error } = await supabase.auth.getUser()
   if (error || !data?.user) {
-    redirect('/es/login')
+    redirect('/pages/login')
   }
 
 

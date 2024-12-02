@@ -8,7 +8,7 @@ export default function NotFound() {
   return (
     
     <div> 
-      <Link href="/" className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 ">  
+      <Link href="/pages" className="mx-auto flex w-full flex-1 flex-wrap items-center justify-around p-4 gap-5 md:gap-0 ">  
         <Image
           src={Logo}
           alt="Logo"

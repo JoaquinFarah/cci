@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function ErrorPage() {
     return (
       <div>        
-        <Link href="/es">
+        <Link href="/pages">
         <Image 
           className="mx-auto"
           src="/404-error.png" 

@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           
           {/* Logo leftside */}
           <div className="flex items-center flex-grow">
-            <Link href="/es">
+            <Link href="/pages">
               <Image                    
                 src="/Logo_CCI.jpeg"
                 alt="CCI"
@@ -27,31 +27,31 @@ const Navbar: React.FC = () => {
           
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-3">
-            <Link href="/es/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Quiénes somos
             </Link>
 
-            <Link href="/es/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Servicios
             </Link>
 
-            <Link href="/es/news" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/news" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Noticias
             </Link>
 
-            <Link href="/es/calendar" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/calendar" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Calendario
             </Link>
 
-            <Link href="/es/reports" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/reports" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Informes
             </Link>            
 
-            <Link href="/es/partners" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/partners" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
             Socios
             </Link>
 
-            <Link href="/es/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/login" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
               login
             </Link>
 

@@ -1,4 +1,4 @@
-"use server"
+
 import React from 'react';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
@@ -126,7 +126,7 @@ export default async function PartnersPage() {
   const supabase = createClient()
   const { data, error } = await supabase.auth.getUser()
   if (error || !data?.user) {
-    redirect('/es/login')
+    redirect('/pages/login')
   }
   
     return (
