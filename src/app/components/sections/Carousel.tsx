@@ -15,7 +15,7 @@ const images: ImageData[] = [
   { src: '/banderaitalia.jpg', alt: 'bandera' },
   { src: '/Nos renovamos.jpg', alt: 'renew' },
   { src: '/SIMEI.jpg', alt: 'simei' },
-  { src: '/Bigalia 2.jpg', alt: 'bigalia' },
+  
 ];
 
 const CarouselSection = () => {

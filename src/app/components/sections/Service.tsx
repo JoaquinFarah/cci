@@ -11,7 +11,7 @@ const ServiceSection: React.FC = () => {
         <div className="min-h-0.5 bg-gray-200 mb-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">                    
           
-            <Link href="/es/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Servicio Informático
               </h3>
@@ -20,7 +20,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </Link>   
 
-            <Link href="/es/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Análisis de Mercado Personalizado
               </h3>
@@ -29,7 +29,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </Link>  
 
-            <Link href="/es/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Informes Normativos Específicos
               </h3>
@@ -38,7 +38,7 @@ const ServiceSection: React.FC = () => {
               </p>
             </Link>    
 
-            <Link href="/es/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">             
+            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">             
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Información sobre Ferias y Eventos
               </h3>

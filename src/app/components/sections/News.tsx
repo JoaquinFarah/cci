@@ -33,7 +33,7 @@ const callout = [
       imageAlt: 'mdita',
       width: 1000,
       height: 1000,
-      href: '/es/news/ospitalita2024',
+      href: '/pages/news/ospitalita2024',
     },
     {
       name: '23/09/2024.',
@@ -42,7 +42,7 @@ const callout = [
       imageAlt: 'lared',
       width: 1000,
       height: 1000,
-      href: '/es/news/radio',
+      href: '/pages/news/radio',
     },  
     {
       name: '28/08/2024',
@@ -51,7 +51,7 @@ const callout = [
       imageAlt: 'unc',
       width: 1000,
       height: 1000,
-      href: '/es/news/uncuyo',
+      href: '/pages/news/uncuyo',
     },
   ]
   
