@@ -17,7 +17,7 @@ export default function Home() {
       <SponsorSection />  
       <Footer/>      
     </div>
-     {/* <p>mi cuenta github - gmail: clientesyservicioscci/ supabase: CCImendoza2024!</p> */}
+    
   </main>    
     
   );
