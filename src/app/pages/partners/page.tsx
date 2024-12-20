@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { createClient } from '../../../../utils/supabase/server';
 import PartnersComp from '@/app/components/sections/PartnersComp';
+import DatabaseComp from '@/app/components/sections/DatabaseComp';
 import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
 import { AskServicePopUp } from '@/app/components/sections/AskServicePopup';
@@ -136,33 +137,12 @@ export default async function PartnersPage() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hola {data.user.email} bienvenido </h2>
             <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
               <PartnersComp/>
+              <DatabaseComp/>
               {/* From here you have the partners grid */}
 
-            {/* <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
-              {clientsData.map((clientsData) => (
-                <div key={clientsData.name} className="group relative">                  
-                  <h3 className=" text-base font-semibold text-gray-900 border-2 px-2 py-2 border-rose-500 rounded-md hover:drop-shadow-lg transition-all">
-                    <div>
-                      <span className="absolute inset-0" />
-                      <span className="text-blue-400">ID:</span> {clientsData.id} <br/>                      
-                      <span className="text-blue-400">Nombre:</span> {clientsData.name} <br/>
-                      <span className="text-blue-400">Empresa:</span> {clientsData.company} <br/>
-                      <span className="text-blue-400">Rubro:</span> {clientsData.category} <br/>
-                      <span className="text-blue-400">Telefono:</span> {clientsData.phone} <br/>
-                      <span className="text-blue-400">Email:</span> {clientsData.mail} <br/>
-                      <span className="text-blue-400">Direccion:</span> {clientsData.address} <br/>
-                      <span className="text-blue-400">Localidad:</span> {clientsData.city} <br/>
-                      <span className="text-blue-400">Provincia:</span> {clientsData.province} <br/>
-                      <span className="text-blue-400">Pais:</span> {clientsData.country} <br/>
-                      <span className="text-blue-400">Web:</span> {clientsData.web} <br/>
-                    </div>
-                  </h3>                  
-                </div>
-              ))}
-            </div> */}
 
 
-          <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1">Nuestras bases de datos</p>
+          {/* <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1">Nuestras bases de datos</p>
 
 
           <div className="container mx-auto p-4">
@@ -190,7 +170,7 @@ export default async function PartnersPage() {
                 ))}
               </tbody>
             </table>
-          </div>
+          </div> */}
 
           <p className="font-bold text-xl mb-2 px-4 sm:px-6 lg:px-1 mt-5">Solicitudes</p>
           <p>Solicitar servicio, evento o asesoramiento</p>

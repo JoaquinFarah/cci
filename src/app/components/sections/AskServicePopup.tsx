@@ -6,7 +6,7 @@ const askService = () =>{
     Swal.fire({
         title: 'Solicitud de servicio',
         html: `Escribanos a:
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>info@ccimendoza.com</u></a> </br> indicandonos su nombre, n° de socio y el servicio solicitado para recibir el mejor asesoramiento.`,
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjDvbDTQTTRwkgvfMPlVsfbkHssVDmZXXGGWnHmHqzmfNvGZXQFbHFXbgdkWWcGLWKGlq" target="_blank" autofocus><u>oliverio.gabrielli@ccimendoza.com</u></a> </br> indicandonos su nombre, n° de socio y el servicio solicitado para recibir el mejor asesoramiento. <br/><br/> Ó comuníquese de manera directa con nuestro operador al número 2615413215`,
         icon: 'success',
         confirmButtonText: 'Cerrar'
     })
