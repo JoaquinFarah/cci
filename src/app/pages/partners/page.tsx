@@ -8,6 +8,7 @@ import DatabaseComp from '@/app/components/sections/DatabaseComp';
 import { SponsorPopUp } from '@/app/components/sections/SponsorRequestPopup';
 import { RadioPopUp } from '@/app/components/sections/RadioRequestPopup';
 import { AskServicePopUp } from '@/app/components/sections/AskServicePopup';
+import { DatabasePopUp } from '@/app/components/sections/DatabaseRequestPopUp';
 
 
 const clientsData = [
@@ -138,6 +139,7 @@ export default async function PartnersPage() {
             <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
               <PartnersComp/>
               <DatabaseComp/>
+              <DatabasePopUp/>
               {/* From here you have the partners grid */}
 
 

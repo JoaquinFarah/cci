@@ -48,7 +48,7 @@ export default function DatabaseComp() {
               onChange={handleClientSelect}
               defaultValue=""
             >
-              <option value="">Seleccione un socio</option>
+              <option value="">Seleccione una base de datos</option>
               {clientsData.map((client) => (
                 <option key={client.id} value={client.id}>
                   {client.name}
