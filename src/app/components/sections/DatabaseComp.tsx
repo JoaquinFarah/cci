@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 
-// Tipo de cliente
+
 type Client = {
   id: string;
   name: string;
