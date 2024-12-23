@@ -13,7 +13,7 @@ export default function ServicePage() {
         <div className="min-h-0.5 flex bg-gray-200 mb-4 mt-4"></div>                            
         <div className="text-lg text-gray-700"> 
 
-          <span className="font-bold uppercase">1. Servicio Informatico</span><br />          
+          <span className="font-bold uppercase">1. Servicio Informativo</span><br />          
           <span className="font-semibold">1.a. Primera orientación al mercado</span><br />          
           • Análisis de mercado por país/sector.<br />
           • Dossiers informativos sobre normativas (aduaneras, fiscales, incentivos).<br />
