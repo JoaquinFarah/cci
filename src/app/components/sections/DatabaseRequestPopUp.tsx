@@ -6,7 +6,7 @@ const database = () =>{
     Swal.fire({
       title: 'Solicite nuestras bases de datos',
       html: `Haga click
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScpQGndfz8vROQ2lEGQ0Fweb9Sp_TTtGuxBGqUgFD3F03f7Mw/viewform?usp=sf_link" target="_blank" autofocus><u>AQUI</u></a>. Recuerde indicarnos la base de datos deseada.`,
+    <a href="https://forms.gle/zVvYhzJjiFjsPHGBA" target="_blank" autofocus><u>AQUI</u></a>. Recuerde indicarnos la base de datos deseada.`,
       icon: 'success',
       confirmButtonText: 'Cerrar'
     })
