@@ -2,6 +2,25 @@ import React from 'react';
 import Image from 'next/image';
 
 const callouts = [
+    
+    {
+      name: '26/11/2024',      
+      description: 'Silvestre Airoldi en Simei: «Italia confía en la recuperación argentina y nos ofrece representaciones»',
+      imageSrc: '/silvestre.jpeg',
+      imageAlt: 'silvestre',
+      width: 1000,
+      height: 1000,
+      href: 'https://enolife.com.ar/es/silvestre-airoldi-en-simei-italia-confia-en-la-recuperacion-argentina-y-nos-ofrece-representaciones/',
+    }, 
+    {
+      name: '18/11/2024',      
+      description: 'Simei 2024 Milán cerró con 33.000 visitantes, un crecimiento del 10% respecto a 2022',
+      imageSrc: '/simeimilan.jpg',
+      imageAlt: 'milan',
+      width: 1000,
+      height: 1000,
+      href: 'https://enolife.com.ar/es/simei-2024-milan-cerro-con-33-000-visitantes-un-crecimiento-del-10-respecto-a-2022/',
+    },    
     {
       name: '01/10/2024',
       description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
@@ -109,9 +128,7 @@ const callouts = [
       width: 1000,
       height: 1000,
       href: '/pages/news/macfrut2024',
-    },    
-    
-    
+    }, 
   ]
   
   export default function NewsPage() {
