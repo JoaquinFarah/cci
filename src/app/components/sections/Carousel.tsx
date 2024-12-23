@@ -14,7 +14,7 @@ interface ImageData {
 const images: ImageData[] = [
   { src: '/banderaitalia.jpg', alt: 'bandera' },
   { src: '/Nos renovamos.jpg', alt: 'renew' },
-  { src: '/SIMEI.jpg', alt: 'simei' },
+  { src: '/SIMEI2.png', alt: 'simei' },
   
 ];
 
