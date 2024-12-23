@@ -26,33 +26,33 @@ const askMail = () =>{
 
 
 const callout = [   
-    {
-      name: '01/10/2024',
-      description: 'Ospitalità Italiana: Un reconocimiento a la excelencia en la gastronomía',
-      imageSrc: '/Logo.jpg',
-      imageAlt: 'mdita',
-      width: 1000,
-      height: 1000,
-      href: '/pages/news/ospitalita2024',
-    },
-    {
-      name: '23/09/2024.',
-      description: 'La CCI en Radio La Red',
-      imageSrc: '/radio.jpg',
-      imageAlt: 'lared',
-      width: 1000,
-      height: 1000,
-      href: '/pages/news/radio',
-    },  
-    {
-      name: '28/08/2024',
-      description: 'Éxito rotundo en las Jornadas de Ciencias Económicas de la UNCuyo con participación de la Cámara de Comercio Italiana de Mendoza',
-      imageSrc: '/uncuyo.jpg',
-      imageAlt: 'unc',
-      width: 1000,
-      height: 1000,
-      href: '/pages/news/uncuyo',
-    },
+  {
+    name: '18/11/2024',      
+    description: 'La CCI presente en la feria SIMEI, con excelentes resultados',
+    imageSrc: '/simei2.png',
+    imageAlt: 'simei2',
+    width: 1000,
+    height: 1000,
+    href: '/pages/news/cciensimei',
+  }, 
+  {
+    name: '26/11/2024',      
+    description: 'Silvestre Airoldi en Simei: «Italia confía en la recuperación argentina y nos ofrece representaciones»',
+    imageSrc: '/silvestre.jpeg',
+    imageAlt: 'silvestre',
+    width: 1000,
+    height: 1000,
+    href: 'https://enolife.com.ar/es/silvestre-airoldi-en-simei-italia-confia-en-la-recuperacion-argentina-y-nos-ofrece-representaciones/',
+  }, 
+  {
+    name: '18/11/2024',      
+    description: 'Simei 2024 Milán cerró con 33.000 visitantes, un crecimiento del 10% respecto a 2022',
+    imageSrc: '/simeimilan.jpg',
+    imageAlt: 'milan',
+    width: 1000,
+    height: 1000,
+    href: 'https://enolife.com.ar/es/simei-2024-milan-cerro-con-33-000-visitantes-un-crecimiento-del-10-respecto-a-2022/',
+  },    
   ]
   
   export default function NewsSection() {
