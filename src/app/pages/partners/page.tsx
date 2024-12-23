@@ -138,8 +138,8 @@ export default async function PartnersPage() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hola {data.user.email} bienvenido </h2>
             <div className="min-h-0.5 bg-gray-200 mb-4 mt-4"></div>            
               <PartnersComp/>
-              <DatabaseComp/>
-              <DatabasePopUp/>
+              {/* <DatabaseComp/>
+              <DatabasePopUp/> */}
               {/* From here you have the partners grid */}
 
 
