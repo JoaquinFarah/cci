@@ -5,7 +5,7 @@ const callouts = [
     {
       name: '18/11/2024',      
       description: 'La CCI presente en la feria SIMEI, con excelentes resultados',
-      imageSrc: '/simei2.png',
+      imageSrc: '/silvestreyoliverio.jpg',
       imageAlt: 'simei2',
       width: 1000,
       height: 1000,
