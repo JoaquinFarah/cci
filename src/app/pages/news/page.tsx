@@ -2,7 +2,15 @@ import React from 'react';
 import Image from 'next/image';
 
 const callouts = [
-    
+    {
+      name: '18/11/2024',      
+      description: 'La CCI presente en la feria SIMEI, con excelentes resultados',
+      imageSrc: '/simei2.png',
+      imageAlt: 'simei2',
+      width: 1000,
+      height: 1000,
+      href: '/pages/news/cciensimei',
+    }, 
     {
       name: '26/11/2024',      
       description: 'Silvestre Airoldi en Simei: «Italia confía en la recuperación argentina y nos ofrece representaciones»',
