@@ -13,8 +13,9 @@ export default function ServicePage() {
         <div className="min-h-0.5 flex bg-gray-200 mb-4 mt-4"></div>                            
         <div className="text-lg text-gray-700"> 
 
-          <span className="font-bold uppercase">1. Las Rutas de San Martín y Garibaldi: Explorando Nuevos Horizontes 
-          Puntos Clave:  </span>
+          <span className="font-bold uppercase text-xl">1. Las Rutas de San Martín y Garibaldi: Explorando Nuevos Horizontes</span>
+          <br /> 
+          <span className="font-semibold text-xl">Puntos Clave:</span> 
           <br />          
           • Identificación de socios estratégicos para una presencia sólida en el mercado.
           <br />
@@ -27,7 +28,7 @@ export default function ServicePage() {
           <br />         
           Un paquete esencial para empresas que deseen establecer bases sólidas para su entrada en el mercado argentino.   
           </p>
-          <div className="font-semibold mt-5">Servicios incluidos: </div>
+          <div className="font-semibold mt-5 text-xl">Servicios incluidos:</div>
           <p>
           - Identificación y selección de distribuidores en Italia relevantes para el sector correspondiente.  
           <br />
@@ -35,7 +36,7 @@ export default function ServicePage() {
           <br/>
           - Análisis exhaustivo de la confiabilidad y solidez de dos distribuidores elegidos por el cliente.
           </p>
-          <div className="font-semibold mt-5">Target: </div>
+          <div className="font-semibold mt-5 text-xl">Target:</div>
           <p>
           Pymes interesadas en desarrollar relaciones comerciales con distribuidores confiables y consolidados. 
           </p>
@@ -45,10 +46,10 @@ export default function ServicePage() {
           <ServicePopUp/>
           </span>
           <br />
-                
-                    
-          <span className="font-bold uppercase">2. Alianzas de los Médici: Construyendo Relaciones Estratégicas </span><br />        
-          <span className="font-semibold">Puntos Clave:  </span><br />          
+
+
+          <span className="font-bold uppercase text-xl">2. Alianzas de los Médici: Construyendo Relaciones Estratégicas </span><br />        
+          <span className="font-semibold text-xl">Puntos Clave:</span><br />          
           • Creación de alianzas de valor para proyectos y oportunidades.
           <br />
           • Desarrollo de sinergias con actores clave para posicionarse en mercados prestigiosos.
@@ -60,7 +61,7 @@ export default function ServicePage() {
           Un paquete orientado a la construcción de alianzas estratégicas con actores clave en los sectores objetivo.  
           <br/>
           <br/>
-          <span className="font-semibold">Servicios incluidos:  </span><br />
+          <span className="font-semibold text-xl">Servicios incluidos:</span><br />
           - Identificación y contacto con socios estratégicos (p. ej., restaurantes, hoteles boutique, minoristas especializados).
           <br />
           - Creación de propuestas de colaboración personalizadas.
@@ -68,7 +69,9 @@ export default function ServicePage() {
           - Apoyo en la gestión de relaciones para fomentar colaboraciones a largo plazo.
           <br />
           <br />
-          <span className="font-semibold">Target:  </span><br />
+          <span className="font-semibold text-xl">Target:</span>
+          <br />
+          Pymes interesadas en posicionar sus productos en puntos de venta exclusivos o desarrollar colaboraciones estratégicas.  
 
 
           <span className="flex justify-center mt-7">
