@@ -11,39 +11,53 @@ const ServiceSection: React.FC = () => {
         <div className="min-h-0.5 bg-gray-200 mb-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">                    
           
-            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="https://ccimendoza.vercel.app/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Servicio Informativo
+              Le Rotte di San Martíne Garibaldi: Esplorare Nuovi Orizzonti
               </h3>
               <p className="text-gray-600">
-              Nuestro servicio está diseñado para ayudar a las empresas a ingresar a nuevos mercados internacionales con información y análisis detallados, facilitando la toma de decisiones estratégicas.
+              Seguendo le rotte dei grandi leader, apriamo la strada per le PMI verso nuovi mercati con sicurezza e visione strategica.
+              </p>
+              
+              <p className="text-gray-600 mt-3">
+              Un pacchetto essenziale per aziende che desiderano stabilire solide basi per il loro ingresso nel mercato argentino. 
               </p>
             </Link>   
 
-            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="https://ccimendoza.vercel.app/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Eventos y Comunicación
+              Alianze dei Medici: Costruire Relazioni Strategiche
               </h3>
               <p className="text-gray-600">
-              Diseñamos experiencias únicas para conectar empresas a través de cenas de gala, eventos de networking y actividades exclusivas. Complementamos estos encuentros con estrategias de comunicación efectivas, que incluyen inserciones en medios, gestión de relaciones públicas y campañas adaptadas para impulsar el lanzamiento de empresas y productos en el mercado.
+              Come i Medici hanno plasmato l’arte e la cultura, costruiamo oggi alleanze strategiche per il successo delle imprese.
+              </p>
+              <p className="text-gray-600 mt-3">
+              Un pacchetto orientato alla costruzione di alleanze strategiche con attori chiave nei settori target.
               </p>
             </Link>  
 
-            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
+            <Link href="https://ccimendoza.vercel.app/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">              
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Contactos Comerciales
+              L´Ingegno di Leonardo: Soluzioni Creative per le PMI
               </h3>
               <p className="text-gray-600">
-              Facilitamos la conexión de empresas con socios estratégicos, importadores, distribuidores y proveedores clave, adaptándonos a sus necesidades con o sin agenda de citas. Organizamos misiones comerciales, talleres con encuentros B2B y brindamos apoyo integral en la participación en ferias internacionales para potenciar su presencia en el mercado.
+              Con la visione e l’ingegno di Leonardo, trasformiamo idee in opportunità di crescita per ogni impresa.
+              </p>
+              
+              <p className="text-gray-600 mt-3">
+              Un pacchetto premium per aziende che cercano un approccio integrato al mercato, combinando strategie di marketing, relazioni strategiche e networking.
               </p>
             </Link>    
 
-            <Link href="/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">             
+            <Link href="https://ccimendoza.vercel.app/pages/servicepage" className="bg-white p-6 hover:scale-105 rounded-lg text-center hover:shadow-2xl transition-all border-4 border-indigo-500/100">             
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Asistencia y Consultoría
+              La Strategia di Cavour: Pianificare il Successo
               </h3>
               <p className="text-gray-600">
-              Brindamos apoyo integral para el desarrollo y expansión de empresas, ofreciendo servicios que abarcan asistencia legal, fiscal y aduanera, creación de estructuras comerciales, estrategias de entrada al mercado y transferencia de tecnología. Además, facilitamos representación empresarial, promoción en nuestros canales y soporte operativo en cada etapa del proceso de establecimiento, adaptándonos a las necesidades específicas de su negocio.
+              Con la lungimiranza di Cavour, guidiamo le PMI verso scelte strategiche e vittorie imprenditoriali.
+              </p>
+              <p className="text-gray-600 mt-3">
+              Un pacchetto progettato per accompagnare le PMI in tutte le fasi del loro percorso di internazionalizzazione.
               </p>
             </Link>  
 
