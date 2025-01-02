@@ -13,25 +13,64 @@ export default function ServicePage() {
         <div className="min-h-0.5 flex bg-gray-200 mb-4 mt-4"></div>                            
         <div className="text-lg text-gray-700"> 
 
-          <span className="font-bold uppercase">1. Servicio Informativo</span><br />          
-          <span className="font-semibold">1.a. Primera orientación al mercado</span><br />          
-          • Análisis de mercado por país/sector.<br />
-          • Dossiers informativos sobre normativas (aduaneras, fiscales, incentivos).<br />
-          • Información sobre ferias y eventos.<br />
-          <span className="font-semibold">1.b. Seminario informativo/presentación de país</span>
+          <span className="font-bold uppercase">1. Las Rutas de San Martín y Garibaldi: Explorando Nuevos Horizontes 
+          Puntos Clave:  </span>
+          <br />          
+          • Identificación de socios estratégicos para una presencia sólida en el mercado.
+          <br />
+          • Creación de conexiones confiables para garantizar éxitos a largo plazo.
+          <br />
+          <br />
+          <p>
+          <span className="font-style: italic">{`"Siguiendo las rutas de grandes líderes, abrimos el camino para las pymes hacia nuevos mercados con seguridad y visión estratégica"`}</span>
+          <br />
+          <br />         
+          Un paquete esencial para empresas que deseen establecer bases sólidas para su entrada en el mercado argentino.   
+          </p>
+          <div className="font-semibold mt-5">Servicios incluidos: </div>
+          <p>
+          - Identificación y selección de distribuidores en Italia relevantes para el sector correspondiente.  
+          <br />
+          - Organización de reuniones estratégicas con los distribuidores preseleccionados.
+          <br/>
+          - Análisis exhaustivo de la confiabilidad y solidez de dos distribuidores elegidos por el cliente.
+          </p>
+          <div className="font-semibold mt-5">Target: </div>
+          <p>
+          Pymes interesadas en desarrollar relaciones comerciales con distribuidores confiables y consolidados. 
+          </p>
+
+          
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>
           <br />
+                
                     
-          <span className="font-bold uppercase">2. EVENTOS Y COMUNICACIÓN</span><br />        
-          <span className="font-semibold">2.a. Eventos</span><br />          
-          • Cenas de gala / eventos de networking.<br />
-          • Eventos autónomos.<br />
-          <span className="font-semibold">2.b. Comunicación</span><br />
-          • Inserciones publicitarias en revistas y medios electrónicos.<br />
-          • Conferencias de prensa, relaciones con los medios.<br />
-          • Campañas en medios (lanzamiento de empresas, productos).<br />
+          <span className="font-bold uppercase">2. Alianzas de los Médici: Construyendo Relaciones Estratégicas </span><br />        
+          <span className="font-semibold">Puntos Clave:  </span><br />          
+          • Creación de alianzas de valor para proyectos y oportunidades.
+          <br />
+          • Desarrollo de sinergias con actores clave para posicionarse en mercados prestigiosos.
+          <br/>
+          <br/>
+          <span className="font-style: italic">{`"Así como los Médici moldearon el arte y la cultura, hoy construimos alianzas estratégicas para el éxito de las empresas."`}</span>
+          <br/>
+          <br/>
+          Un paquete orientado a la construcción de alianzas estratégicas con actores clave en los sectores objetivo.  
+          <br/>
+          <br/>
+          <span className="font-semibold">Servicios incluidos:  </span><br />
+          - Identificación y contacto con socios estratégicos (p. ej., restaurantes, hoteles boutique, minoristas especializados).
+          <br />
+          - Creación de propuestas de colaboración personalizadas.
+          <br />
+          - Apoyo en la gestión de relaciones para fomentar colaboraciones a largo plazo.
+          <br />
+          <br />
+          <span className="font-semibold">Target:  </span><br />
+
+
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>
