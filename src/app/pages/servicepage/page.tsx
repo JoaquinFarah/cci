@@ -40,13 +40,11 @@ export default function ServicePage() {
           <p>
           Pymes interesadas en desarrollar relaciones comerciales con distribuidores confiables y consolidados. 
           </p>
-
           
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>
           <br />
-
 
           <span className="font-bold uppercase text-xl">2. Alianzas de los Médici: Construyendo Relaciones Estratégicas </span><br />        
           <span className="font-semibold text-xl">Puntos Clave:</span><br />          
@@ -73,37 +71,72 @@ export default function ServicePage() {
           <br />
           Pymes interesadas en posicionar sus productos en puntos de venta exclusivos o desarrollar colaboraciones estratégicas.  
 
-
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>
           <br />          
 
-          <span className="font-bold uppercase">3. CONTACTOS COMERCIALES</span><br />
-          • Identificación y selección de socios/contrapartes (importadores, distribuidores, proveedores y socios estratégicos) con/sin agenda de citas.<br />
-          • Organización de misiones entrantes y salientes: talleres con encuentros B2B.<br />
-          • Participación en ferias.<br />
+          <span className="font-bold uppercase text-xl">3. El Ingenio de Leonardo: Soluciones Creativas para las Pymes </span><br />
+          <span className="font-semibold text-xl">Puntos Clave:</span><br />
+          • Innovación estratégica para enfrentar los desafíos del mercado.
+          <br />
+          • Soluciones personalizadas para posicionar a las pymes con excelencia y creatividad.
+          <br />
+          <br />
+          <span className="font-style: italic">{`"Con la visión y el ingenio de Leonardo, transformamos ideas en oportunidades de crecimiento para cada empresa."`}</span>
+          <br/>
+          <br/>
+          Un paquete premium para empresas que buscan un enfoque integrado al mercado, combinando estrategias de marketing, relaciones estratégicas y networking. 
+          <br/>
+          <br/>
+          <span className="font-semibold text-xl">Servicios incluidos:</span><br />
+          - Desarrollo de una estrategia de marketing local, incluidas análisis de mercado, focus groups y campañas digitales.
+          <br />
+          - Identificación de distribuidores y socios estratégicos relevantes.
+          <br />
+          - Organización de reuniones estratégicas con los principales actores del mercado.
+          <br />
+          - Creación y gestión de eventos experienciales para promover la marca y reforzar su posicionamiento.
+          <br />
+          - Apoyo en la gestión de relaciones para fomentar colaboraciones a largo plazo.
+          <br />
+          <br />
+          <span className="font-semibold text-xl">Target:</span>
+          <br />
+          Pymes que desean un enfoque completo y a medida para conquistar el mercado italiano y europeo.  
+
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>
           <br /> 
 
-          <span className="font-bold uppercase">4. SERVICIOS DE ASISTENCIA Y CONSULTORÍA ESPECIALIZADA</span><br />
-          • Asistencia legal (contratos, registro de marcas y patentes, etc.).<br />
-          • Asistencia administrativa, fiscal y tributaria.<br />
-          • Asistencia aduanera.<br />
-          • Interpretación/traducciones.<br />
-          • Asistencia especializada para desarrollar estrategias de entrada (investigaciones específicas de sub-sectores, productos).<br />
-          • Constitución de estructuras de establecimiento (oficinas de representación, oficinas de proyectos, sucursales y filiales de propiedad).<br />
-          • Apoyo operativo en todas las fases del establecimiento (puesta en marcha, asistencia logística, selección de personal).<br />
-          • Asistencia para transferencia de tecnología, joint ventures, adquisiciones y fusiones.<br />
-          • Servicio de representación de empresas italianas.<br />
-          • Promoción empresarial en los sistemas de comunicación de la Cámara de Comercio.<br />
-          • Información comercial confidencial sobre personas físicas o jurídicas.<br />
-          • Alquiler de oficina en la sede de la cámara.<br />
-          • Recuperación de créditos e IVA.<br />
-          • Arbitraje y conciliación.<br />
-          • Otros servicios a solicitud.<br />  
+          <span className="font-bold uppercase text-xl">4. La Estrategia de Cavour: Planificar el Éxito </span><br />
+          <span className="font-semibold text-xl">Puntos Clave:</span><br />
+          • Herramientas avanzadas para expandir el acceso a mercados internacionales.
+          <br />
+          • Apoyo estratégico para construir un crecimiento sólido y sostenible.
+          <br />
+          <br />
+          <span className="font-style: italic">{`"Con la visión de Cavour, guiamos a las pymes hacia decisiones estratégicas y victorias empresariales."`}</span>
+          <br/>
+          <br/>
+          Un paquete diseñado para acompañar a las pymes en todas las etapas de su proceso de internacionalización.   
+          <br/>
+          <br/>
+          <span className="font-semibold text-xl">Servicios incluidos:</span><br />
+          - Apoyo administrativo, legal y fiscal.
+          <br />
+          - Acceso a espacios equipados para reuniones y videoconferencias.
+          <br />
+          - Promoción de oportunidades empresariales a través de los canales de la Cámara.
+          <br />
+          - Seguimiento continuo para monitorear el progreso y optimizar los resultados.
+          <br />
+          <br />
+          <span className="font-semibold text-xl">Target:</span>
+          <br />
+          PPymes que necesiten un apoyo integral para consolidar su presencia en Italia y Europa.  
+
           <span className="flex justify-center mt-7">
           <ServicePopUp/>
           </span>      
