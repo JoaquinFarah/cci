@@ -46,14 +46,7 @@ const CarouselSection = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-
-        {/* Flechas de Navegación */}
-        {/* <div className="absolute inset-y-0 left-0 flex items-center">
-          <button className="swiper-button-prev text-white text-4xl">&larr;</button>
-        </div>
-        <div className="absolute inset-y-0 right-0 flex items-center">
-          <button className="swiper-button-next text-white text-4xl">&rarr;</button>
-        </div> */}
+        
       </div>
     </section>
   );
